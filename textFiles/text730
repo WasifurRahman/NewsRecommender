@@ -1,0 +1,211 @@
+Skip to main content
+HomeExpert AnalysisAuthorsSlideshowsVideoReportsWhite PapersEventsInterop NETWORKINGSTORAGEWIRELESSDATA CENTERUCNET SECURITYDATA SECURITYCLOUDIOTAPPLICATIONSCAREERS
+External Websites Menu
+Information Week
+Dark Reading
+Interop
+Black Hat
+Information Week Elite 100
+UBM User Menu
+Login to your account
+Register
+Register
+Login in your account
+Digital Subscription
+Contact Us
+About Us
+Advertise With Us
+Expert Analysis
+Authors
+Slideshows
+Video
+Reports
+White Papers
+Events
+Interop
+Search
+Main Sup Menu
+Home
+Expert Analysis
+Authors
+Slideshows
+Video
+Reports
+White Papers
+Events
+Interop
+Follow NWC:
+Facebook
+Twitter
+Linkedin
+Google+
+RSS
+Main menuNETWORKING
+STORAGE
+WIRELESS
+DATA CENTER
+UC
+NET SECURITY
+DATA SECURITY
+CLOUD
+IOT
+APPLICATIONS
+CAREERS
+CLOUD INFRASTRUCTURE
+05/03/20167:00 AM
+Andrew Froehlich
+Slideshow
+Connect Directly
+0 Comments
+Comment Now
+Rating:
+0
+votes
++
+Vote up!
+-
+Vote down!
+Cloud Orchestration: 8 Benefits
+Find out how cloud orchestration tools can help streamline deployment and management of your cloud resources.
+When IaaS cloud computing first picked up steam, the manual tasks of cobbling together things like CPU, memory, OS, storage, network and databases to support an application was simply part of the process. For many just getting started with the cloud, flexibility and scalability benefits trumped ease of deployment and management. Not much thought really went into streamlining the deployment processes because that wasn't a top concern at that time.
+Fast forward to 2016 and you have enterprise IaaS and PaaS multi-cloud deployments that are absolutely massive in scale, and getting bigger by the day. Management of a cloud infrastructure is becoming a tremendous challenge for in-house IT staff.
+This is precisely why cloud orchestration is becoming such a hot trend. Cloud orchestration tools are used to simplify deployment/management and provide added visibility into cloud resources and processes. Orchestration software combines all the possible cloud resources, then provides a mechanism to link and automate the provisioning for various services your organization requires.
+For many organizations, cloud orchestration is rapidly becoming a must have as opposed to a "nice to have." The benefits of orchestration are many, as you'll see in this slideshow. You'll learn about eight benefits of transforming a cloud deployment that uses a combination of manual and independent automated tasks- to one that offers end-to-end process automation. Not only will these benefits save you time and money, they also propel your infrastructure into the next level of preparedness for an oncoming digitization of the business world.
+(Image: Bannosuke/iStockphoto)
+Forces best practices
+One requirement for cloud orchestration is cleaning up current processes so they adhere to best practices. Automation is far easier to achieve when cloud resources are properly organized. So if cloud orchestration is a goal for you, be prepared to do some spring cleaning on current cloud procedures. Some cloud best practices that organizations like to build into their orchestration platforms include creating pre-built deployment templates, baked-in security, and structured IP addressing.
+(Image: PeteLinforth/Pixabay)
+Simplified optimization
+The key difference between standard automation of various systems and full-blown orchestration has to do with the difference between cloud tasks and workflows. While automation handles individual tasks, orchestration bundles them together into larger, optimized workflows. For example, an orchestrated deployment of an application might include automated provisioning of multiple servers, storage, databases and networking.
+(Image: sidmay/iStockphoto)
+Unified automation
+Most cloud administrators have at least a portion of their processes automated. But its one thing to have random automation scripts floating around. Its another to have a fully unified automation platform. By centralizing automation processes under one umbrella, it makes it easier to change and expand automated services at a faster rate and at a lower cost.
+(Image: Peggy_Marco/Pixabay)
+Improved visibility and control
+When left unchecked, VM sprawl can spiral out of control, wasting money, resources and severely complicating a cloud platform from a management perspective. Cloud orchestration provides plenty of tools to automatically monitor, alert and modify/spin down VM instances to significantly reduce the number of man hours needed to manage your cloud.
+(Image: geralt/Pixabay)
+Self-service portal
+Developers and infrastructure administrators both share a love for the self-service portal. This gives developers the freedom to pick and choose the cloud services they want from an easy to use web portal while removing the need to include infrastructure admins in the deployment process.
+(Image: geralt/Pixabay)
+Automated chargeback calculations
+If you do choose to offer a self-service portal for different departments within your organization, metering and chargeback tools can be incredibly useful for keeping close track of the amount of cloud resources used.
+(Image: webandi/Pixabay)
+Long-term cost savings
+One of the biggest advantages of orchestrating your cloud infrastructure is the long-term cost savings. Not only will optimization tools help reduce and improve your cloud-service footprint, it also reduces infrastructure staffing needs due to automation and self-service processes.
+(Image: Meditations/Pixabay)
+Facilitates business agility
+Businesses are experiencing a shift into a purely digital world. And because of this, IT shops must design and manage their computing resources so they can pivot towards new opportunities at a moments notice. Leveraging cloud service providers and implementing cloud orchestration is one of the best ways to be agile.
+(Image: geralt/Pixabay)
+COMMENT
+EMAIL THIS
+PRINT
+RSS
+MORE INSIGHTS
+Webcasts
+DDoS Attacks & Their Threats to Your Business
+Risk Data as a Strategy
+MORE WEBCASTS
+White Papers
+Network Computing Tech Digest: SDN
+Features & Benefits with NetSupport DNA
+MORE WHITE PAPERS
+Reports
+[KuppingerCole Report] PAM Life Cycle Support
+[Forrester Report] Improve Cybersecurity with DevOps
+MORE REPORTS
+Log in or Register to post comments
+SUBSCRIBE TO NEWSLETTERS
+SLIDESHOWS
+Cloud Orchestration: 8 Benefits
+0 Comment
+Read
+Post a Comment
+0
+Interop 2016 Photo Gallery
+0
+8 Cool Ways To Leverage Wireless Tech
+MORE SLIDESHOWS
+CARTOON
+CARTOON ARCHIVE
+Live Events
+Gain Valuable Knowledge to Advance Your Career at GTEC
+Networking Track at Interop Las Vegas
+Interop Las Vegas Cloud Connect Track
+MORE UBM TECH LIVE EVENTS
+Webinars
+File Sharing can be Risky to your Business - Is Your Company at Risk?
+DDoS Attacks & Their Threats to Your Business
+Risk Data as a Strategy
+WEBINARS ARCHIVES
+WHITE PAPERS
+Network Computing Tech Digest: SDN
+3-D Secure: The Force for CNP Fraud Prevention Awakens
+Features & Benefits with NetSupport DNA
+10 Tips for Protecting Data in the Cloud
+Tips about TIPs (Threat Intelligence Platforms)
+MORE WHITE PAPERS
+CURRENT ISSUE
+Practical SDN: Migration Strategies to Leap the Learning Curve
+DOWNLOAD THIS ISSUE!
+BACK ISSUES
+MUST READS
+VIDEO
+Understanding OpenStack: Capabilities & Challenges
+0 Comment
+Learn SDN And OpenFlow Fundamentals
+0 Comment
+Wireless Gets Serious
+0 Comment
+Stop Thinking About SDN!
+1 Comment
+Balancing Real-World Storage Needs
+0 Comment
+ALL VIDEOS
+REPORTS
+[KuppingerCole Report] PAM Life Cycle Support
+DOWNLOAD NOW!
+MORE REPORTS
+TWITTER FEED
+Tweets about "from:networkcomputin OR @networkcomputin OR #networkcomputin"
+ABOUT US
+CONTACT US
+CUSTOMER SUPPORT
+REPRINTS
+TWITTER
+FACEBOOK
+LINKEDIN
+GOOGLE+
+RSS
+TECHNOLOGY PORTFOLIO
+Black Hat
+Cloud Connect
+Dark Reading
+Enterprise Connect
+Fusion
+GDC
+GTEC
+Gamasutra
+HDI
+ICMI
+InformationWeek
+Interop
+Network Computing
+No Jitter
+Tower & Small Cell Summit
+COMMUNITIES SERVED
+Enterprise IT
+Enterprise Communications
+Game Developers
+Information Security
+IT Services & Support
+WORKING WITH US
+Advertising Contacts
+Event Calendar
+Tech Marketing
+Solutions
+Contact Us
+Licensing
+Terms of Service
+Privacy Statement
+Copyright
+UBM, All rights reserved

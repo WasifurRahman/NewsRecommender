@@ -1,0 +1,39 @@
+Linux FoundationLog in
+LF Sites
+Linux.comLinux.com Video
+Share
+Follow us on TwitterAdd us on FacebookAdd us on LinkedInFollow us on Identica.ca
+HomeTrainingEventsCollaborative Projects
+Search this site:
+About UsMembersBoard MembersLeadershipFAQBylawsCareersStay Connected to the Linux FoundationContact UsAbout LinuxLinux Foundation Trademark PolicySupportIndividual SupporterCorporate MembershipDonateNews & MediaAnnouncementsNewsBlogsVideosInfographicsOur FeedsLinux Weather ForecastProgramsEnd User ProgramsLinux Credit CardLinux.comOpenPrintingFOSSBazaarDeveloper ProgramsNDA ProgramLinux Fellow ProgramTravel FundRequest FormSpeaker BureauFunding of Kernel.orgLegal ProgramsOpen ComplianceTemplatesToolsSelf-Asssessment ChecklistDirectory and Rapid Alert SystemTraining and EducationCompliance InquiryLegal Defense FundOSAPAFAQLinux TrademarkTrademark AttributionSublicense AgreementSublicense RequestReport AbuseMore InformationFair UseFAQPatent CommonsLegal SummitLegal DefendersTraining ProgramsRegional ProgramsLinuxCon JapanAdvisory CouncilsEnd User CouncilCurrent Topics of InterestTechnical Advisory BoardCharterMinutesVendor Advisory CouncilCore Infrastructure InitiativeWorkgroupsConsumer ElectronicsLong Term Support InitiativeCarrier GradeDriver BackportLinux RaidLinux Standard Base (LSB)Trademark GuidelinesNetworkingOpenChainOSAPASPDXWorkgroups FAQOpenPrintingDatabaseDocumentationDevelopersDriversFAQForumsFoomaticProjectsPrintersPublicationsLinux FoundationFOSS ComplianceWorkgroup
+The Linux Foundation
+Skip to Navigation
+Print
+Email
+Free Badge Program Signals What Open Source Projects Meet Criteria for Security, Quality and Stability
+By Linux Foundation - May 3, 2016 - 11:34am
+The Linux Foundations Core Infrastructure Initiative announces Curl, GitLab, the Linux kernel, OpenBlox, OpenSSL, Node.js, Zephyr and more achieve security best practices badge
+SAN FRANCISCO, Calif., May 3, 2016
+The Core Infrastructure Initiative (CII), a project managed by The Linux Foundation that enables technology companies, industry stakeholders and esteemed developers to collaboratively identify, fund and improve the security of critical open source projects, today announced the general availability and issuance of its first round of CII Best Practices Badges. Early badge earners include Curl, GitLab, the Linux kernel, OpenBlox, OpenSSL, Node.js and Zephyr.
+This is a free program that seeks to determine security, quality and stability of open source software. The CII Best Practices online app enables developers to quickly determine whether they are following best practices and to receive a badge they can display on GitHub and other online properties when they pass. The app and its criteria are an open source project to which developers can contribute.
+The latest round of badges includes an assessment of OpenSSL, the open source software responsible for most encryption on the Internet, both before the Heartbleed vulnerability and after it received support from CII. Prior to Heartbleed, OpenSSL failed to meet more than one-third of the CII Best Practices Badge criteria. Today it meets 100 percent. This helps demonstrate how far OpenSSL has come with the support of the industry and how the CII Best Practices Badges can signal failing or passing scores. To review the open source projects that have received their badges and other projects in process, please visit: https://bestpractices.coreinfrastructure.org/projects.
+Open source projects often have very good security practices in place but need a way to validate those against industry and community best practices and ensure theyre always improving, said Nicko van Sommeren, chief technology officer at The Linux Foundation. Thanks to the generous contributions by the Core Infrastructure Initiative supporters, were able to provide this program to educate developers on security best practices and provide a directory for developers and CIOs to understand what projects have an understanding and methodology that focuses on security.
+Determining the security of software is an industry-wide challenge for both proprietary and open source software. As the role of open source software has increased in supporting the worlds most critical infrastructure it has become essential to both understand the best practices for security, quality and stability of this code and to be able to validate that criteria.
+The CII Best Practices Badge program addresses this challenge by helping projects determine if they meet open source best practices quickly (generally, in under an hour) and through a trusted source. The program is an open source project designed in collaboration with the community and seeks ongoing input to ensure the most relevant criteria for the badge is included and continually updated.
+The project is spearheaded by David A. Wheeler, an open source and security research expert who works for the Institute for Defense Analyses (IDA) and is also coordinating the CIIs Census Project, and Dan Kohn, a senior adviser on the CII. Wheeler and Kohn are working with open source developers to make the certification process seamless and automated and welcome input and pull requests.
+To learn more about the criteria and to sign up for the badging program, please visit: https://bestpractices.coreinfrastructure.org/. To learn more about CII, including membership, please visit https://www.coreinfrastructure.org/. To apply for a CII grant for research or development to improve the security of critical open source software, please visit: https://applications.coreinfrastructure.org/.
+CII is a multimillion-dollar project that funds and supports critical elements of the global information infrastructure. It is organized by The Linux Foundation and supported by Amazon Web Services, Adobe, Bloomberg, Cisco, Dell, Facebook, Fujitsu, Google, Hitachi, HP, Huawei, IBM, Intel, Microsoft, NetApp, NEC, Qualcomm, RackSpace, salesforce.com, and VMware. Moving beyond funding projects, CII is introducing pre-emptive tools and programs to help the open source ecosystem and the companies who support it deploy secure coding practices. For a full list of CII grantees, please visit: https://www.coreinfrastructure.org/grantshttps://www.coreinfrastructure.....
+About The Linux Foundation
+The Linux Foundation is a nonprofit consortium dedicated to fostering the growth of Linux and collaborative software development. Founded in 2000, the organization sponsors the work of Linux creator Linus Torvalds and promotes, protects and advances the Linux operating system and collaborative software development by marshaling the resources of its members and the open source community. The Linux Foundation provides a neutral forum for collaboration and education by hosting Collaborative Projects, Linux conferences, including LinuxCon and generating original research and content that advances the understanding of Linux and collaborative software development. More information can be found at http://www.linuxfoundation.org.
+###
+The Linux Foundation and Linux Standard Base are trademarks of the Linux Foundation. Linux is a trademark of Linus Torvalds.
+Print
+Email
+Home
+Free Badge Program Signals What Open Source Projects Meet Criteria for Security, Quality and Stability
+Copyright
+2016 Linux Foundation. All rights reserved.
+The Linux Foundation, LSB, Yocto Project, Tizen and IAccessible2 are registered trademarks of The Linux Foundation.
+Linux Standard Base, LSB Certified, MeeGo, and the Linux Foundation Symbol are trademarks of The Linux Foundation.
+Linux is a registered trademark of Linus Torvalds.
+Please see our terms of use, antitrust policy, and privacy policy.

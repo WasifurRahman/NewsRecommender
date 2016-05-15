@@ -1,0 +1,102 @@
+Enterprise Connect: Orlando
+No Jitter Coverage
+Summit Series
+Virtual Events
+Webinars
+Twitter
+Facebook
+Linked In
+Google Plus
+Contact Us
+RSS
+POSTS
+WEBINARS
+WHITEPAPERS
+RESEARCH
+SLIDESHOWS
+VIDEOS
+ABOUT
+SHARE
+ABOUT THE AUTHOR
+Dave Michels is a Principal Analyst at TalkingPointz. His unique perspective on unified communications comes from a career involving telecommunications...
+Read Full Bio
+>>
+SHARE
+Dave Michels
+|
+May 03, 2016 |
+Tweet
+share
+Cisco Places Big Bet on Spark
+Cisco Places Big Bet on Spark
+For future success, UC vendors can either broaden their solutions or change
+existing models and assumptions. Cisco is doing both.
+For future success, UC vendors can either broaden their solutions or change
+existing models and assumptions. Cisco is doing both.
+Gartner opens its 2015 Magic Quadrant for Unified Communications report by stating that it considers "the large enterprise UC market to be mature." I agree, and given the similarities among VoIP, endpoint, instant messaging, unified messaging, and soft/mobile client offerings, I see this as a real challenge in how UC vendors can differentiate themselves.
+Going forward, a UC vendor can either expand its portfolio from UC to broader solutions and/or change existing models and assumptions. Cisco is attempting to do both with Spark, as it capitalizes on the emerging cloudification, workstream messaging, and communications platform as a service (CPaaS) trends. Cisco's vision appears to call for leveraging its installed base and expertise in UC and video into a workstream messaging and platform play while simultaneously redesigning established UC methods and practices.
+Spark is an ambitious undertaking atypical in the industry and particularly among larger companies, which tend to be averse to big such big risks.
+As Aaron Levie, CEO of Box, pointed out in an oft-quoted Tweet, "solving problems people didn't know they had" and "building something no one needs" look identical at first. That's the situation with workstream messaging (see related post, A Modality with No Name). Cisco, along with Unify, Slack, and RingCentral (to name a few) believe the popularity of consumer messaging services will cross over into the enterprise and converge with unified communications. The challenge lies in predicting the how, when, and the key enhancements enterprises will ultimately require: If you build it right, they will come.
+Cisco introduced its freemium enterprise messaging application in 2014, and then formally launched it as Spark at Enterprise Connect 2015. Shortly thereafter it evolved Spark into a broader application including UCaaS and into a CPaaS platform as well (this latter thanks in part to the developer expertise it gained with the May 2015 acquisition of Tropo). UC and CPaaS overlap, but enterprises and analysts alike mostly view them as separate solutions. UC and UCaaS are associated with end-to-end applications hosted on dedicated infrastructure, while CPaaS extends applications and thrives on decentralized APIs and microservices.
+With Spark, Cisco is also revisiting assumptions about UC SIP endpoints. Today most UC clients connect via SIP and/or XMPP, following a state-aware, session-oriented model designed over a decade ago. This model can be problematic for mobile and other users with intermittent IP connections.
+With Spark clients, services such as messaging, room management, search, and even call and meeting signaling is done using REST APIs. This approach enables Spark users to switch between voice and video, change from a call to a conference, or hop between devices and networks seamlessly. This offers improved reliability over UC applications that require constant SIP connections including Cisco Jabber.
+A big difference here is that REST APIs do not attempt to manage state or context, but rather leave that to either/or both ends. Cisco believes stateless APIs are more reliable than the traditional UC model, and should decrease bandwidth and battery consumption. As with other Web services, API-based environments are easily scalable, too.
+APIs have been around for decades, but have only recently moved into the fast lane of application development. While the UC industry is largely promoting comms APIs for communications-enabling other applications, a few vendors have begun re-architecting their solutions with an API approach. APIs combined with microservices can increase the velocity of application development.
+Wait, There's More
+With its recent acquisition of Synata (and other hints), Cisco also appears to be positioning Spark to change the rules and expectations around encrypted, cloud-based search. In a blog post announcing the acquisition, Rowan Trollope, SVP and GM of Cisco's IoT and Collaboration Technology Group, wrote that the Synata team was "working hard to solve the tricky problem of how you search something you can't see... something like highly encrypted data in the cloud." Cisco intends to use Synata technology to bring Spark's room and content search capabilities to a new level.
+With Spark, Cisco has also changed its approach to hosting by embracing DevOps. This is a relatively new concept that stems from the replacement of waterfall development with Agile software development practices. DevOps recognizes the interdependence of application development and IT operations in cloud environments. It extends Agile practices to operations, and enables iterative or even continuous updates. By embracing DevOps, Cisco claims to be able to push out updates on a daily basis. This is considerably different from traditional software releases.
+Spark is an ambitious undertaking, but Cisco is not the only UC company embracing these innovations. Interactive Intelligence uses the DevOps methodology and a microservices architecture with its PureCloud services, and even hosts PureCloud on Amazon's public cloud. BroadSoft recently acquired Transcera, which utilizes an API model for its contact center solution. Unify, RingCentral, and Mitel have integrated their workstream messaging solutions with UC. Zoom offers a freemium approach to video conferencing. And so on.
+What makes Cisco stand out is its simultaneous attempt to change the technical and business models, redefine the concept of collaboration, and blur boundaries between application and platform within a single application -- Spark. It's a big bet that will deliver either huge rewards or fail spectacularly.
+Dave Michels is a contributing editor and analyst at TalkingPointz.
+Follow Dave Michels on Twitter and Google+!
+@DaveMichels
+Dave Michels on Google+
+COMMENTS
+Webinars
+Virtual Events
+From SIP Trunking to Cloud: How to Manage a Hybrid Environment
+May 11, 2016
+Companies are increasingly migrating from premises-based telephony to cloud-based, whether to achieve greater scale, boost flexibility, or cut costs. Even those businesses that are choosing to stay wi...
+Guarantee User Adoption of UC: 3 Steps to Amplify IT's Business Impact
+April 27, 2016
+Today's business conditions are forcing organizations to find dynamic and flexible communications solutions that can unify co-workers and deliver actionable metrics to solve the issues that matter mos...
+Turning Skype for Business into Skype for YOUR Business
+April 13, 2016
+Skype for Business promises simplicity and ROI for your UC deployment. However, success requires much more than just a great product. It requires careful consideration of your existing environment, lo...
+More Webinars
+Microsoft Lync: What is the Impact for Your Enterprise?
+December 10, 2014
+More Virtual Events
+TECHNOLOGY PORTFOLIO
+Black Hat
+Cloud Connect
+Dark Reading
+Enterprise Connect
+Fusion
+GDC
+GTEC
+Gamasutra
+HDI
+ICMI
+InformationWeek
+Interop
+Network Computing
+No Jitter
+Tower & Small Cell Summit
+COMMUNITIES SERVED
+Enterprise IT
+Enterprise Communications
+Game Developers
+Information Security
+IT Services & Support
+WORKING WITH US
+Advertising Contacts
+Event Calendar
+Tech Marketing
+Solutions
+Contact Us
+Licensing
+Terms of Service
+Privacy Statement
+Copyright
+UBM, All rights reserved

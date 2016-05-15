@@ -1,0 +1,102 @@
+Get Gentoo!
+gentoo.org sites
+gentoo.org
+Wiki
+Bugs
+Forums
+Packages
+Planet
+Archives
+Sources
+Infra Status
+Packages
+Toggle navigation
+Home
+Packages
+USE flags
+Architectures
+About
+Home
+Packages
+app-admin
+tripwire
+app-admin/
+tripwire
+Open Source File Integrity Checker and IDS
+http://www.tripwire.org/
+Available Versions
+Version
+amd64
+x86
+alpha
+arm
+hppa
+ia64
+ppc
+ppc64
+sparc
+2.4.3.1:0
+~amd64
+~x86
+?alpha
+?arm
+?hppa
+?ia64
+~ppc
+?ppc64
+?sparc
+2.4.2.2-r4:0
+amd64
+x86
+?alpha
+?arm
+?hppa
+?ia64
+ppc
+?ppc64
+?sparc
+2.4.2.2-r3:0
+amd64
+x86
+?alpha
+?arm
+?hppa
+?ia64
+ppc
+?ppc64
+?sparc
+Package Metadata
+Full description
+Tripwire is a tool that aids system administrators and users in monitoring a designated set of files for any changes. Used with system files on a regular (e.g., daily) basis, Tripwire can notify system administrators of corrupted or tampered files, so damage control measures can be taken in a timely manner.
+USE flags
+Local USE flags
+ssl
+static
+tools
+Global USE flags
+libressl
+License
+GPL-2
+Maintainer(s)
+Chema Alonso
+Changelog
+Inline Changelog cannot be displayed.
+View Git Changelog
+Resources
+Related bugs
+Documentation
+Forums posts
+Git repository browser
+Git log
+Changes feed
+Installed files (via PFL)
+Gentoo Packages Database
+Data currrent as ofTue,
+3 May 2016 12:00
+Questions or comments?
+Please feel free to contact us.
+20012016 Gentoo Foundation, Inc.
+Gentoo is a trademark of the Gentoo Foundation, Inc.
+The contents of this document, unless otherwise expressly stated, are licensed under the
+CC-BY-SA-3.0 license.
+The Gentoo Name and Logo Usage Guidelines apply.

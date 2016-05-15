@@ -1,0 +1,1 @@
+Microsoft Visual Studio+-+-python setup.py install+-+-project file python.pyproj+-+-following extension+-+-Python. http://microsoft.github.io/PTVS/+-+-cd doc+-+-pip+-+-IDE+-+-pydocumentdb+-+-test/crud_tests.py+-+-make.bat+-+-html

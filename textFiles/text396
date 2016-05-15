@@ -1,0 +1,294 @@
+Forward this article to your friends & colleague
+Subject:
+Receiver's email:
+Separate emails by comma
+Your name:
+Your email:
+Message:
+I found an interesting article on SiliconIndia and thought it might be of significance to you as well.
+Incorrect please try again
+Enter the words above:
+Enter the numbers you hear:
+Get another CAPTCHA
+Business
+Technology
+Enterprise
+Gadgets
+Startups
+Finance
+US-Indian
+Career
+Magazines
+Newsletters
+Members
+Blogs
+My Story
+Indian Entrepreneurs
+Gyan
+Advice
+MBA
+MCA
+Engineering
+Training Institutes
+Courses
+Medical Institute
+CEO
+Startup
+Mobile
+CIO
+Women Leadership
+Biz Intelligence
+HR
+SME
+Cloud Computing
+Marketing
+Embedded
+QA/Testing
+IT Manager
+Dot Net
+Java
+Web Developer
+Jobs
+Freshers Jobs
+Companies
+HR Speak
+Forum
+Career News
+Real Estate
+Travel
+Finance
+Gadgets
+Jokes
+Movie Reviews
+Cars
+Magazines
+Home
+News
+Business
+Technology
+Enterprise
+Gadgets
+Startups
+Finance
+US-Indian
+Career
+Magazines
+Newsletters
+Blogs
+Network
+Members
+My Story
+Gyan
+Advice
+Life
+Real Estate
+Travel
+Finance
+Gadgets
+Jokes
+Movie Reviews
+Auto
+Spotlight
+Immigration
+Enterprise
+Enterprise Software
+IT Services
+Mobile
+Enterprise Security
+Cloud Computing
+Big Data
+Networking
+Semiconductor
+Social
+Non Profits
+CIO City
+QA City
+Magazines
+More
+India Edition
+|
+US Edition
+|
+Education
+|
+Realestate |
+si100
+Browse by year:
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+Sign in to your SiliconIndia account
+Email
+Password
+Remember me
+Don't have SiliconIndia account?
+Sign up
+Forgot your password?
+Reset
+May - 2016 -
+issue				> CEO Insight
+THE NEXT WAVE OF HYPER-CONVERGENCE TAKES ON SECONDARY STORAGE
+Mohit Aron
+CEO-Cohesity
+Tuesday, May 3, 2016
+Print
+Forward
+Tweet
+Hyper-converged platforms using standardized appliances have completely changed architectural philosophies for enterprise data centers. These appliances are usually turnkey, in contrast to the piecemeal server, networking and enterprise storage products that needed to be orchestrated together in decades past. The results have been dramatic benefits to IT, including not just cost reduction but a more strategic shift in focus towards running business applications since less time is spent managing the individual server and storage infrastructure pieces.
+The company I co-founded, Nutanix, led the way in this hyper-convergence movement for primary storage used for virtualization, but I believe there is an even bigger opportunity to impact the world of secondary storage. For many decades, secondary storage consumption focused on data protection and DR, with tape as the secondary media. When data deduplication and SATA HDDs came on the scene, tape was swapped out though it never went away completely. Customers benefited from better backup experiences in terms of speed of recovery, but this remained a separate silo in the datacenter that served as an expensive insurance policy.
+The Bigger Challenges in Secondary Storage
+Meanwhile, several other use cases in secondary storage are creating silos of their own, including test and development, which leverage additional copies of production data. Storage is often managed separately for this use case, rapidly creating data sprawl. File services are also another secondary storage use case because they may not require high performance, but end users depend on high resiliency for productivity. This broader issue around copy data proliferation has only gotten worse as organizations take on big data, creating yet another silo of infrastructure and copies of data for use with Hadoop and its own use of secondary data. All of this makes it increasingly difficult to make use of public cloud services because there isn't a consolidated view of all the on-premise data and what workloads make sense for migration.
+To better understand the depth of these challenges, our company conducted a survey of 74 IT professionals in late 2015 to help identify the top pain points of data storage. Our survey revealed the growing complexity of enterprise data storage-along with widespread lack of visibility into stored data. The survey highlighted that most companies rely on three or more storage solutions to manage company data, and in turn respondents rated "managing complexity of different products" as a top concern, second only to growing storage costs.
+Enterprises need to start thinking about a strategy for unifying how they manage their data to provide a clear view of data type, access, usage, and other important metrics for data since not all data is created equal. Only 28 percent of respondents stated they have a good understanding of which users are accessing company data, while just 40 percent claimed they have good information about how many copies of data exist. 51 and 45 percent of survey respondents, respectively, reported the greatest challenges they face with data storage are costs associated with high data growth and the complexity of managing different storage products.
+The inefficiency, redundancy, and chaos in the secondary storage space is exactly why I believe my company, Cohesity, can bring significant value to IT by leading the next wave of hyper-convergence to deliver a simpler, consolidated approach to all of secondary storage.
+Architecting a Hyperconverged Secondary Storage Platform
+We define Secondary Storage Hyper-convergence as a new category of storage that is based on the same technological foundation as provided by hyper-converged primary storage, but which also tightly integrates secondary storage use cases that may include some or all of the following: Data Protection, Test/Dev, File Services and Analytics. Hyper-convergence must not only deliver simplified deployment and scaling of underlying physical storage, but also transparently eliminate redundant data stored today across these disparate data silos of backup, test/ dev, file shares, object storage, and analytics, all while seamlessly integrating with the public cloud as another repository for archive and active data tiering.
+A hyper-convergent secondary storage platform will require similar architectural elements to those required on the primary side, including a web-scale distributed file system and a scale-out architecture. Together, these elements enable a simplified model for creating and growing a private cloud of virtualized applications. However, for secondary storage, there is an additional architectural challenge because the workloads will be a heterogeneous mix of virtualized and non-virtualized applications that span a range of performance and resiliency requirements for backup, DR, test/dev, file shares and analytics. Being able to balance these disparate workload issues and still maintain consistency and performance using commodity servers, takes hyper-convergence to another level.
+The Impact of Hyper-converged Secondary Storage
+Cohesity offers a scale-out platform targeted specifically at secondary storage that deduplicates, compresses and indexes all data upon ingestion. This enables efficient storage of backups as well as a Google-like global search capability. Cohesity also has integrated Data Protection, File Services, Test/Dev and Analytics support along with tight public cloud integration for archive and tiering. There are builtin applications for monitoring storage utilization trending, reporting on user, VM, and file data.
+We built our Analytics capabilities as an integral element of the Cohesity platform, providing an open application integration framework, along with a SDK. We took this approach because we want to allow third party and end users to develop their own analytics applications to be deployed alongside the native Cohesity applications that are included with the platform. Combined, these applications will be able to shine a light on the ever-increasing 'dark data' that organizations are plagued with, to finally deliver key insights and business value while managing security and compliance.
+For most organizations in these financial times, that strategic insight still requires a business justification. The use of hyper-convergence for secondary storage delivers massive benefits on the cost savings front to satisfy that requirement, including: a single platform to manage, no separate silos of data or separate software vendors for backup to deal with, control over data sprawl and redundancy. Altogether, these benefits have a real and immediate impact on the bottom-line, making it an easy choice to begin riding this next wave in hyper-convergence.
+Post your valuable comment here
+Email
+Password
+Don't have SiliconIndia account?
+Sign up
+Forgot your password?
+Reset
+Post your valuable comment here
+More articles from this issue
+PhishMe: REVOLUTIONIZING PHISHING DEFENSE SOLUTIONS
+siTech20
+THE STATE OF BUSINESS IN LIGHT OF TECHNOLOGICAL ADVANCEMENTS
+ENTERPRISE MOBILITY & BIG DATA ARCHITECTURE - A REVENUE GENERATING APPROACH
+FIX THE H-1B VISA PROGRAM
+Previous Magazine Editions
+Oct
+15
+Aug - Sep
+15
+July
+15
+June 15
+Tweets about siliconindia
+SiliconIndia:
+About Us
+|
+Contact Us
+|
+Help
+|
+Community rules
+|
+Advertise with us
+|
+Sitemap
+|
+News:
+Technology
+|
+Enterprise
+|
+Gadgets
+|
+Startups
+|
+Finance
+|
+Business
+|
+Career
+|
+Magazine |
+Newsletter
+|
+News archive
+Cities:
+CEO
+|
+Startup
+|
+Mobile
+|
+CIO
+|
+Women
+|
+BI
+|
+HR
+|
+SME
+|
+Cloud
+|
+Marketing
+|
+QA
+|
+Java
+|
+WebDeveloper
+Community:
+Members
+|
+Blogs
+|
+Indian Entrepreneurs
+|
+Gyan
+|
+Advice
+|
+Community
+|
+Find
+|
+CXO Insights
+Online Courses:
+Web Developer
+|
+Java Developer
+|
+CCNA Training
+|
+SEO
+|
+SAS
+|
+SQL Server 2005
+|
+J2EE
+Education:
+MBA
+|
+MCA
+|
+Engineering
+|
+Training Institute
+Life:
+Real Estate
+|
+Travel
+|
+Finance
+|
+Gadgets
+|
+Movie Reviews
+|
+Jokes
+Send your feedback and help us continue to improve SiliconIndia
+2016
+InfoConnect Web Technologies India Pvt Ltd. all rights reserved

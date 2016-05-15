@@ -1,0 +1,136 @@
+Computerworld
+AngularBeans brings together Angular and Java for Web dev
+News
+Technology
+News
+Business
+Cloud Computing
+Data Centre
+Gaming Dev
+Government
+Infrastructure
+Mobility
+Networking
+Open Source
+Security
+Servers
+Social Networking
+Software
+Software Development
+Storage
+Tech Planet
+Telecoms
+Tutorials
+Unified Comms
+Virtualisation
+Tools
+Blogs
+Editorial Contacts
+Events
+IT Media Releases
+Join Computerworld
+Newsletters
+NBN
+RSS
+Slideshows
+Vendor View
+Videos
+Zones
+Whitepapers
+All Whitepapers
+Business + Management
+Cloud Computing
+CRM
+Data Centre
+Data Management
+Disaster Recovery
+Network
+Security
+Storage
+Telecommunications
+Unified Communications
+Virtualisation
+Wireless
+Other Whitepapers
+Login
+Username
+Password
+Forgot password?
+Sign up now to get free exclusive access to reports, research and invitation only events.
+Twitter
+Facebook
+AngularBeans brings together Angular and Java for Web dev
+AngularBeans 2 will accommodate Angular's own next-generation upgrade and add container support
+Paul Krill (InfoWorld)
+03 May, 2016 20:00
+-
+-
+-
+-
+print
+email
+Comments
+AngularBeans, a Web framework tying the AngularJS JavaScript framework to enterprise Java, will move forward with accommodations for the planned AngularJS 2 framework and multiple containers.
+Begun in January 2015, AngularBeans allows developers to use Google's AngularJS for front-end Web development with Java EE on the back end. The developer of AngularBeans, Bessem Hmidi, sees the project filling a need in the Java space for an alternative to JavaServer Faces Web UI technology, which has been around for more than a decade.
+[ Pluralsight and InfoWorld get you up and running with AngularJS for free. Check out the tutorial on the popular JavaScript framework. | Keep up with hot topics in app dev with InfoWorld's Strategic Developer blog. ]
+According to Hmidi, Angular is the leading JavaScript single-page application framework, while Java EE 7 offers a lot of enterprise-level services but its presentation layer standard, JSF, is inadequate. Using Angular on the front end helps by including more state-ful clients and making stateless servers easier to scale. Servers use fewer resources to interact with browsers.
+Offering an abstraction level equal to or superior to that of the JSF Primefaces front-end framework, AngularBeans uses a single-page application approach, said Hmidi. "AngularBeans can be compared to Spring MVC plus Spring WebSocket frameworks [but] not Spring itself."
+AngularBeans leverages CDI (Contexts and Dependency Injection) and also supports SockJS WebSocket emulation as well as a real-time event-driven publish-and-subscribe broadcasting system and event-driven file uploads. It handles HTTP methods calls and offers detailed control over server- and client-side data updates, according to documentation.
+The current stable release of AngularBeans is 1.0.2. Version 2, expected to be released in coming months, will run with both the existing Angular 1.x release as well as the upcoming Angular 2 upgrade, a rewrite of the framework featuring faster rendering and supporting multiple renderers. It will also work in any container, including the Spring Framework.
+Brand Post
+Untangling the complexity of cloud computing
+More from Rackspace
+Join the Computerworld newsletter!
+Join
+Error: Please check your email address.
+More about CDIGoogle
+Editor's Recommendations
+Budget 2016: Government unveils Google tax
+Budget 2016: Government cracks down on GST-free online purchases
+Defence trials IBMs Watson for psyops
+NSW to appoint government CIO
+Australian Signals Directorate updates Top 4 security guides
+La Trobe University forges ahead with cloud-first strategy
+Related Whitepapers
+The Top 6 Reports for IT PMOs
+How to think like a Data Scientist
+- Infographic
+Gartner Magic Quadrant for Web Conferencing
+Hyper Converged Infrastructure for the Hybrid Cloud Revolution
+Show Comments
+Please enable JavaScript to view the comments powered by Disqus.
+Read next
+Vodafone prepares to roll out 4G to MVNOs
+Money laundering using bitcoin a significant risk, finds govt review
+Three steps to compliance for end-of-life systems
+CSO Online
+In pictures: Twitter's new Australian headquarters
+In Pictures: Ultimate guide to Raspberry Pi operating systems, part 1
+Inside Origin Energys skunkworks analytics program
+Market Place
+CSO Live Webcast: Hear from KuppingerCole Analysts and ForgeRock on User-Managed Access. Register now
+F5 Security Hub NEW Look -
+Try us out today!
+APJ businesses think they will be breached: Here's why: Read the article NOW
+Editorial Contacts
+Advertising Information
+Privacy Policy
+RSS
+Newsletters
+Events
+Whitepapers
+News
+Zones
+IT Media Releases
+Slideshows
+Videos
+Copyright 2016 IDG Communications. ABN 14 001 592 650. All rights reserved. Reproduction in whole or in part in any form or medium without express written permission of IDG Communications is prohibited.
+IDG Sites:
+PC World |
+GoodGearGuide |
+CIO |
+CMO |
+CSO |
+Techworld |
+ARN |
+CIO Executive Council

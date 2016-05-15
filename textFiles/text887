@@ -1,0 +1,39 @@
+Already a paper subscriber?- Activate your digital membership by going to the SUBSCRIBE
+tab and selecting Option 1Go to SUBSCRIBE to choose the membership option that best suits you.
+// correctly formated NZ date/time
+// OLD CODE (uses Wordpress UTC time): echo date('l, jS F Y');
+$date = new DateTime();
+$date->setTimezone(new DateTimeZone('Pacific/Auckland'));
+echo $date->format('l, jS F Y');
+?>
+Menu
+Home
+Web Cams
+Your Community
+Events
+News
+Latest News
+Sport
+Schools
+Ashburton College Newsletter
+Farming
+Photos
+Subscribe
+Jobs
+Contact Us
+Log In
+Home >
+Wanted: More male teachers
+Subscribe. Subscribe to see more!
+Click here to create your account.
+Login. Enter your details
+Username
+Password
+Remember
+Lost your password?
+Tuesday, May 3rd, 2016
+Tags: Education, Schools
+Add A Comment
+You must be logged in to post a comment.
+2016 Ashburton Guardian
+Site Map | Terms & Conditions | Privacy Policy | Disclaimer

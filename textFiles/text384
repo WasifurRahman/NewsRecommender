@@ -1,0 +1,230 @@
+[Date Prev][Date Next][Thread Prev][Thread Next][Date Index][Thread Index]
+[List Home]
+Re: [paho-dev] I'm back ! ... or at least .. I'll try !
+From: Ian Craggs <icraggs@xxxxxxxxxxxxxxxxxxxxxxx>
+Date: Tue, 3 May 2016 10:48:24 +0100
+Delivered-to: paho-dev@eclipse.org
+User-agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101	Thunderbird/38.7.0
+Hi Paolo,
+this was the email with an M2Mqtt question (Jan is using an IDE
+called SharpDeveloper - I don't know if that has an effect):
+A kindly request to this group:
+is there somebody available with C# knowledge of the M2Mqtt
+library and who can answer my questions, which I sent last week to
+this group?
+At present I could build and run the prototype C# program without
+runtime errors, but I get a MSgID of value 1 and my Groovy
+subscriber did not recieve the topic and Payload message.
+What does the value 1 of the MsgID means?
+With best regards,
+Jan Willem
+------------------------------ previous email ----------------
+Hallo Paolo and pah-dev group,
+On March, the 29th I sent you, Paolo, an email with some questions
+about C# M2Mqtt client library in order to make a start with a
+case study on the subject of using the M2Mqtt library in a
+Winbatch script on a Windows 10 pro (64) environment. A couple
+days later I also joined the paho-dev mailing group following an
+advice form Dominik of HiveMQ.
+unfortunately I did not get any answers on both emails.
+In the meantime I started to develop as a first step a sample C#
+program in order to get familiar with the library in publishing a
+payload message, see the attached program.cs file.
+When I build the program.cs in sharpDeveloper, I get the following
+errors, which are in Dutch.
+<code>
+Build started.
+Warning MSB3247: conflicten gevonden tussen verschillende versies
+van dezelfde afhankelijke assembly.
+Compiling m2mqttPubMsg
+D:\Ontwikkelomgeving\C#_mono\m2mqttPubMsg\m2mqttPubMsg\Program.cs(48,4)
+: Error CS0012: Het type System.Object wordt gedefinieerd in een
+assembly waarnaar niet wordt verwezen. U moet een verwijzing naar
+de assembly System.Runtime, Version=4.0.10.0, Culture=neutral,
+PublicKeyToken=b03f5f7f11d50a3a toevoegen.
+D:\Ontwikkelomgeving\C#_mono\m2mqttPubMsg\m2mqttPubMsg\Program.cs(53,4)
+: Error CS0012: Het type System.MulticastDelegate wordt
+gedefinieerd in een assembly waarnaar niet wordt verwezen. U moet
+een verwijzing naar de assembly System.Runtime, Version=4.0.10.0,
+Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a toevoegen.
+D:\Ontwikkelomgeving\C#_mono\m2mqttPubMsg\m2mqttPubMsg\Program.cs(53,31)
+: Error CS0103: De naam client_MqttMsgPublished bestaat niet in de
+huidige context
+D:\Ontwikkelomgeving\C#_mono\m2mqttPubMsg\m2mqttPubMsg\Program.cs(56,31)
+: Error CS0103: De naam MqttMsgBase bestaat niet in de huidige
+context
+Build failed. (00:00:00.7828545)
+</code>
+The warning is about differences in reference to the used
+assemblies in M2Mqtt.WinRT.dll. The tool AsmSpy gives the
+differences as:
+<code>
+Reference: System.Runtime
+4.0.10.0 by M2Mqtt.WinRT
+4.0.0.0 by M2Mqtt.WinRT
+Reference: System.Collections
+4.0.0.0 by M2Mqtt.WinRT
+Reference: System.Threading
+4.0.0.0 by M2Mqtt.WinRT
+Reference: Windows
+255.255.255.255 by M2Mqtt.WinRT
+Reference: System.Text.Encoding
+4.0.0.0 by M2Mqtt.WinRT
+Reference: System.Runtime.Extensions
+4.0.0.0 by M2Mqtt.WinRT
+Reference: System.Threading.Tasks
+4.0.0.0 by M2Mqtt.WinRT
+Reference: System.Runtime.WindowsRuntime
+4.0.10.0 by M2Mqtt.WinRT
+</code>
+How can I resolve this warning and the related errors?
+Any tips or suggestions?
+Thanks in advance,
+Beste regards, from the Netherlands,
+Jan Willem Teunisse
+------------------- previous email29-3-2016 ------------------
+Ciao Paolo,
+Last week I read your nice and clear article about the MQTT Client
+library (M2Mqtt) and liked to try it for my domotica IoT project.
+I installed yesterday using Nuget the M2Mqtt dotnet library
+package on my windows10 development PC in order to publish a MQTT
+message using a Winbatch script.
+Winbatch support dotnet assemblies. The M2Mqtt package is
+installed in the Winbatch script directory using nuget install
+M2Mqtt -o D:\Winbatch\Ontw
+After installing the M2Mqtt package I saw 6 subdirectories in the
+d:\Winbatch\Ontw\M2Mqtt.4.3.0.0\lib\ directory. All containing
+different DLLs.
+Im now confused which DLL I have to take to get the
+uPLibrary.Networking.M2Mqtt namespace and to define the object new
+MqttClient.
+Maybe you can help me out, as I need some suggestions or advice
+to proceed from here on to get things working.
+Beste regards, from the Netherlands,
+Jan Willem Teunisse
+P.S. I also posted a comment on the blog of the above mentioned
+article, Dominik advices me to contact you more or less directly.
+Program.cs
+/*
+* Created by SharpDevelop.
+* User: JWT_Kantoor
+* Date: 5-4-2016
+* Version: 0.0.1
+*
+* To change this template use Tools | Options | Coding | Edit Standard Headers.
+*/
+using System;
+// using System.MulticastDelegate;
+// using System.Object;
+// using System.Runtime;
+//
+4.0.10.0 by M2Mqtt.WinRT
+//
+4.0.0.0 by M2Mqtt.WinRT
+// using System.Collections;
+//
+4.0.0.0 by M2Mqtt.WinRT
+//using System.Threading;
+//
+4.0.0.0 by M2Mqtt.WinRT
+// using Windows ;
+//
+255.255.255.255 by M2Mqtt.WinRT
+using System.Text;
+//.Encoding;
+//
+4.0.0.0 by M2Mqtt.WinRT
+// using System.Runtime.Extensions;
+//
+4.0.0.0 by M2Mqtt.WinRT
+// using System.Threading.Tasks;
+//
+4.0.0.0 by M2Mqtt.WinRT
+// using System.Runtime;
+// .WindowsRuntime;
+//
+4.0.10.0 by M2Mqtt.WinRT
+using uPLibrary.Networking.M2Mqtt;
+namespace m2mqttPubMsg
+{
+public	class Program
+{
+public static void Main(string[] args)
+{
+string MQTT_ADDRESS = "192.168.10.22" ;
+string MQTT_PORT = "1883" ;
+string MQTT_URL ;
+string MQTT_Client_ID = "mqttC#PubMsg";
+string MQTT_TOPIC = "micasa/sunctrlr/stat/status" ;
+string MQTT_PAYLOAD ;
+Console.WriteLine("Start publish MQTT Topic and Payload messages:");
+MQTT_URL = MQTT_ADDRESS + ":" + MQTT_PORT ;
+Console.WriteLine("MQTT_URL: "+ MQTT_URL);
+// TODO: Implement Functionality Here
+MqttClient client = new MqttClient(MQTT_URL);
+byte code = client.Connect(MQTT_Client_ID);
+// client.ProtocolVersion = MqttProtocolVersion.Version_3_1;
+// uitgezet
+// set PAYLOAD Message
+MQTT_PAYLOAD = "RolledIn;20160406T17:00" ;
+client.MqttMsgPublished += client_MqttMsgPublished;
+ushort msgId = client.Publish(MQTT_TOPIC, // topic
+Encoding.UTF8.GetBytes(MQTT_PAYLOAD), // message body
+MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, // QoS level
+false); // retained
+client.Disconnect();
+Console.WriteLine("Message ID = {0}", msgId);
+Console.Write("Press any key to continue . . . ");
+Console.ReadKey(true);
+}
+}
+}
+_______________________________________________
+paho-dev mailing list
+paho-dev@xxxxxxxxxxx
+To change your delivery options, retrieve your password, or unsubscribe from this list, visit
+https://dev.eclipse.org/mailman/listinfo/paho-dev
+On 05/01/2016 06:27 PM, Paolo Patierno
+wrote:
+Hi guys !
+I'm very sorry for my absence on this list in the last months
+... my new job is making me very busy !
+Repeat ... I'm very sorry !!
+By the way ... starting from today I'll try to do my best on
+giving support !
+If someone has raised some problems with M2Mqtt, please re-send
+the email ...
+Regards,
+Paolo
+Paolo Patierno
+Senior Software Engineer (IoT) @ Red
+Hat
+Microsoft
+MVP on Windows Embedded & IoT
+Microsoft
+Azure Advisor
+Twitter : @ppatierno
+Linkedin : paolopatierno
+Blog :DevExperience
+_______________________________________________
+paho-dev mailing list
+paho-dev@xxxxxxxxxxx
+To change your delivery options, retrieve your password, or unsubscribe from this list, visit
+https://dev.eclipse.org/mailman/listinfo/paho-dev
+--
+Ian Craggs
+icraggs@xxxxxxxxxx
+IBM United Kingdom
+Paho Project Lead; Committer on Mosquitto
+References:
+[paho-dev] I'm back ! ... or at least .. I'll try !
+From: Paolo Patierno
+Prev by Date:
+[paho-dev] Compiling static libs
+Previous by thread:
+[paho-dev] I'm back ! ... or at least .. I'll try !
+Next by thread:
+[paho-dev] Compiling static libs
+Index(es):
+Date
+Thread

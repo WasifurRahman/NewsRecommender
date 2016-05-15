@@ -1,0 +1,113 @@
+Get Gentoo!
+gentoo.org sites
+gentoo.org
+Wiki
+Bugs
+Forums
+Packages
+Planet
+Archives
+Sources
+Infra Status
+Packages
+Toggle navigation
+Home
+Packages
+USE flags
+Architectures
+About
+Home
+Packages
+media-gfx
+graphviz
+media-gfx/
+graphviz
+Open Source Graph Visualization Software
+http://www.graphviz.org/
+Available Versions
+Version
+amd64
+x86
+alpha
+arm
+hppa
+ia64
+ppc
+ppc64
+sparc
+2.38.0-r1:0 T
+amd64
+x86
+alpha
+arm
+hppa
+ia64
+ppc
+ppc64
+~sparc
+2.26.3-r4:0 T
+amd64
+x86
+alpha
+arm
+hppa
+ia64
+ppc
+ppc64
+sparc
+Package Metadata
+Full description
+graphviz is a set of graph drawing tools for Unix or MS-Windows (win32), including a web service interface (webdot). Source code and binary executables for common platforms are available. Graph drawing addresses the problem of visualizing structural information by constructing geometric representations of abstract graphs and networks. Automatic generation of graph drawings has important applications in key technologies such as database design, software engineering, VLSI and network design and visual interfaces in other domains. Situations where these tools might be particularly useful include: * you would like to restructure a program and first need to understand the relationships between its types, procedures, and source files. * you need to find the bottlenecks in an Internet backbone - not only individual links, but their relationships * you're debugging a protocol or microarchitecture represented as a finite state machine and need to figure out how a certain error state arises * you would like to browse a database schema, knowledge base, or distributed program represented pictorially * you would like to see an overview of a collection of linked documents * you would like to discover patterns and communities of interest in a database of telephone calls or e-mail messages
+USE flags
+Local USE flags
+X
+devil
+gdk-pixbuf
+gtk
+gts
+lasi
+qt4
+Global USE flags
+cairo
+doc
+examples
+guile
+java
+nls
+pdf
+perl
+postscript
+python
+ruby
+static-libs
+svg
+tcl
+ELIBC (USE_EXPAND)
+FreeBSD
+PYTHON_TARGETS (USE_EXPAND)
+python2_7
+License
+CPL-1.0
+Maintainer(s)
+Gentoo Graphics Project
+Changelog
+Inline Changelog cannot be displayed.
+View Git Changelog
+Resources
+Related bugs
+Documentation
+Forums posts
+Git repository browser
+Git log
+Changes feed
+Installed files (via PFL)
+Gentoo Packages Database
+Data currrent as ofTue,
+3 May 2016 12:40
+Questions or comments?
+Please feel free to contact us.
+20012016 Gentoo Foundation, Inc.
+Gentoo is a trademark of the Gentoo Foundation, Inc.
+The contents of this document, unless otherwise expressly stated, are licensed under the
+CC-BY-SA-3.0 license.
+The Gentoo Name and Logo Usage Guidelines apply.

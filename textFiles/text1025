@@ -1,0 +1,129 @@
+Computerworld
+Appellate court ruling will make a lot more work for Web designers
+News
+Technology
+News
+Business
+Cloud Computing
+Data Centre
+Gaming Dev
+Government
+Infrastructure
+Mobility
+Networking
+Open Source
+Security
+Servers
+Social Networking
+Software
+Software Development
+Storage
+Tech Planet
+Telecoms
+Tutorials
+Unified Comms
+Virtualisation
+Tools
+Blogs
+Editorial Contacts
+Events
+IT Media Releases
+Join Computerworld
+Newsletters
+NBN
+RSS
+Slideshows
+Vendor View
+Videos
+Zones
+Whitepapers
+All Whitepapers
+Business + Management
+Cloud Computing
+CRM
+Data Centre
+Data Management
+Disaster Recovery
+Network
+Security
+Storage
+Telecommunications
+Unified Communications
+Virtualisation
+Wireless
+Other Whitepapers
+Login
+Username
+Password
+Forgot password?
+Sign up now to get free exclusive access to reports, research and invitation only events.
+Twitter
+Facebook
+Appellate court ruling will make a lot more work for Web designers
+The decision from a case involving a companys method of presenting its terms and conditions is otherwise fairly meaningless
+Evan Schuman (Computerworld (US))
+03 May, 2016 21:00
+-
+-
+-
+-
+print
+email
+Comments
+E-commerce leaders take note: If you want to force your customers to do anything via your terms and conditions, you need to give the T&C its own checkbox. So help me, that is the edict just handed down by the U.S. Court ofAppealsfor the Seventh Circuit. The specific ruling involved getting customers of TransUnion to waive their right to sue, but attorneys watching the case point out that it could apply to almost anything. Want customers to sign over their salary direct deposits to you? No problem, as long as its in your T&C and, critically, it has its very own checkbox.Before we delve into this legally correct but logically bankrupt ruling, some quick background. The current law of the land involving the broader issue of forcing consumers to accept arbitration instead of allowing them to sue in civil court is a case from five years ago called AT&T Mobility v. Concepcion, referred to by lawyers simply as Concepcion. In that 5-4 decision, the U.S. Supreme Court ruled that companies had the right to mandate arbitration simply by mentioning it somewhere in a T&C document, one as long as they liked.There are many who argue that arbitration is, generally, a far worse option for consumers than going to civil court. For one thing, the hearings are private and the decisions and transcripts are not publicly available. Its that risk of public airing of bad practices that is behind so many civil court settlements.Second, the arbiters are private businesspeople. Whether arbiters, as a group, are more or less qualified to weigh these difficult decisions than appointed or elected judges is certainly debatable. But what is indisputable is that companies hire the arbiters. Although that may not consistently and directly deliver a favorable verdict, the reality is that arbiters who routinely rule against the company are not likely to get hired by companies very often. In short, the process of elimination means that the arbiter likely has a history of business-friendly rulings.What happened with the Seventh Circuit, in a case called Gary W. Sgouros v. TransUnion, is where this gets interesting and has immediate implications for e-commerce today. In that case, TransUnion did indeed list mandatory arbitration in its T&C. Where it dropped the ball, according to the Seventh Circuit, is in some Web design minutia.In the courts summary of the case, it described what Sgouros
+a consumer who had sought to obtain a TransUnion credit report
+did: Sgouros proceeded to Step 3 by clicking on the I Accept & Continue to Step 3 button. Nowhere did this button require him first to click on the scroll box or to scroll down to view its complete contents, nor did it in any other way call his attention to any arbitration agreement.
+The court further explained its thinking, applying various legal precedents to the current case, which truly does revolve around GUI functionality and button placement issues. What cinches the case for Sgouros is the fact that TransUnions site actively misleads the customer. The block of bold text below the scroll box told the user that clicking on the box constituted his authorization for TransUnion to obtain his personal information. It says nothing about contractual terms. No reasonable person would think that hidden within that disclosure was also the message that the same click constituted acceptance of the Service Agreement.The courts remedy: There must be a separate area to click for the T&C itself. A website might be able to bind users to a service agreement by placing the agreement, or a scroll box containing the agreement, or a clearly labeled hyperlink to the agreement, next to an I Accept button that unambiguously pertains to that agreement, the decision said.The bottom line is that TransUnion, either deliberately or without adequate review, took a shortcut that caused it to forfeit rights it easily could have secured, said David Goodman, an attorney with the law firm Greensfelder, Hemker & Gale. Instead, they did it in a way that failed to provide adequate disclosure. If you want to bind somebody to a contract, you have to play fair and clearly display the contract terms. The more a company goes out of its way to make sure customers were given full opportunity to read the contact terms, the more likely the contract will pass legal muster.From a designers perspective, the panels ruling says that designs must be more explicit in what the user is agreeing to. That is fine, but the regrettable fact is the very concept of this kind of click signifying a meaningful knowing waiver of being able to sue is ridiculous.Heres the problem with the original Concepcion ruling. It said that a company has the right to say that, as a condition of this deal, the customer has to waive arbitration. A small change would have made a huge difference. It allowed consumers to opt out of that waiver, if thats what they wanted. It would also have to explain in understandable terms the implications for a consumer of having arbitration rather than a civil lawsuit.What happened after Concepcion was absolutely predictable. A huge number of large companies started adding these clauses into their standard customer agreements. In todays mobile society, is working with a mobile carrier truly optional? If all of the major carriers insist on arbitration clauses in their purchase paperwork, do U.S.-based consumers truly have a choice? And if all of the competing banks in a community insist on the same provision, is it truly a choice?If the intent of the court is to allow a consumer who wants to retain his/her right to sue in public courts to do so, requiring that companies add an extra click box isnt going to do that. Alas, this ruling wont help consumers who want to avoid arbitration. On the plus side, though, it will generate a ton of work for Web designers.
+Brand Post
+Untangling the complexity of cloud computing
+More from Rackspace
+Join the Computerworld newsletter!
+Join
+Error: Please check your email address.
+More about indeed
+Editor's Recommendations
+Budget 2016: Government unveils Google tax
+Budget 2016: Government cracks down on GST-free online purchases
+Defence trials IBMs Watson for psyops
+NSW to appoint government CIO
+Australian Signals Directorate updates Top 4 security guides
+La Trobe University forges ahead with cloud-first strategy
+Related Whitepapers
+How to think like a Data Scientist
+Show Comments
+Please enable JavaScript to view the comments powered by Disqus.
+Read next
+Horizon Power prepares for data onslaught
+Microsoft SQL Server 2016 finally gets a release date
+Three steps to compliance for end-of-life systems
+CSO Online
+In pictures: Twitter's new Australian headquarters
+In Pictures: Ultimate guide to Raspberry Pi operating systems, part 1
+Inside Origin Energys skunkworks analytics program
+Market Place
+CSO Live Webcast: Hear from KuppingerCole Analysts and ForgeRock on User-Managed Access. Register now
+F5 Security Hub NEW Look -
+Try us out today!
+APJ businesses think they will be breached: Here's why: Read the article NOW
+Editorial Contacts
+Advertising Information
+Privacy Policy
+RSS
+Newsletters
+Events
+Whitepapers
+News
+Zones
+IT Media Releases
+Slideshows
+Videos
+Copyright 2016 IDG Communications. ABN 14 001 592 650. All rights reserved. Reproduction in whole or in part in any form or medium without express written permission of IDG Communications is prohibited.
+IDG Sites:
+PC World |
+GoodGearGuide |
+CIO |
+CMO |
+CSO |
+Techworld |
+ARN |
+CIO Executive Council

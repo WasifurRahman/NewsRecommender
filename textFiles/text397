@@ -1,0 +1,291 @@
+Forward this article to your friends & colleague
+Subject:
+Receiver's email:
+Separate emails by comma
+Your name:
+Your email:
+Message:
+I found an interesting article on SiliconIndia and thought it might be of significance to you as well.
+Incorrect please try again
+Enter the words above:
+Enter the numbers you hear:
+Get another CAPTCHA
+Business
+Technology
+Enterprise
+Gadgets
+Startups
+Finance
+US-Indian
+Career
+Magazines
+Newsletters
+Members
+Blogs
+My Story
+Indian Entrepreneurs
+Gyan
+Advice
+MBA
+MCA
+Engineering
+Training Institutes
+Courses
+Medical Institute
+CEO
+Startup
+Mobile
+CIO
+Women Leadership
+Biz Intelligence
+HR
+SME
+Cloud Computing
+Marketing
+Embedded
+QA/Testing
+IT Manager
+Dot Net
+Java
+Web Developer
+Jobs
+Freshers Jobs
+Companies
+HR Speak
+Forum
+Career News
+Real Estate
+Travel
+Finance
+Gadgets
+Jokes
+Movie Reviews
+Cars
+Magazines
+Home
+News
+Business
+Technology
+Enterprise
+Gadgets
+Startups
+Finance
+US-Indian
+Career
+Magazines
+Newsletters
+Blogs
+Network
+Members
+My Story
+Gyan
+Advice
+Life
+Real Estate
+Travel
+Finance
+Gadgets
+Jokes
+Movie Reviews
+Auto
+Spotlight
+Immigration
+Enterprise
+Enterprise Software
+IT Services
+Mobile
+Enterprise Security
+Cloud Computing
+Big Data
+Networking
+Semiconductor
+Social
+Non Profits
+CIO City
+QA City
+Magazines
+More
+India Edition
+|
+US Edition
+|
+Education
+|
+Realestate |
+si100
+Browse by year:
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+Sign in to your SiliconIndia account
+Email
+Password
+Remember me
+Don't have SiliconIndia account?
+Sign up
+Forgot your password?
+Reset
+May - 2016 -
+issue				> CXO Insights
+MEASURING CLOUD READINESS OF ENTERPRISE APPLICATIONS
+Amul Merchant
+Senior Director, Software Development-Infor
+Tuesday, May 3, 2016
+Print
+Forward
+Tweet
+Most organizations have application development teams that are very good at meeting the functional needs of their solutions, but only some have the experience with the operational and scalability aspects that come with serving hundreds or thousands of customers from a shared solution. Infor has almost15 years of experience with couple of dozen solutions operating in Infor cloud in this mode. The Infor Cloud Architecture and DevOps team has worked with many of the internal product development teams to guide the product engineering teams in architecting their products for cloud. While each enterprise application has its own unique architectural characteristics, we have designed a generic scorecard to measure the readiness of an enterprise application for cloud. Based on the scorecard the applications are classified as Cloud 1.0, 2.0 and 3.0.
+Cloud 1.0
+Cloud 1.0 applications are not architected for Multi-Tenancy and therefore are not true Cloud applications. Cloud 1.0 applications could be web-enabled or thick client applications and are usually hosted as Single Tenant in a public cloud. In Single Tenant model, customers get their own dedicated environment, and usually each customer deployment is completely isolated from another customer using VLAN/VPC. Cloud 1.0 applications are hardware and labor intensive and therefore are offered at a higher price point. In some cases where data isolation or complete control of environment is desired, customers may actually prefer Cloud 1.0 applications. While the hardware cost of Single Tenant applications cannot be alleviated, the labor cost to provision and manage Cloud1.0 enterprise applications or suite of applications can be reduced by automated provisioning and hands free monitoring. Automation is leveraged for automated backup and recovery from failures. Usually Cloud 1.0 applications are connected to a customer network using virtual private network (VPN)tunnel, hence usually integration with on-premise applications to Cloud 1.0 applications deployed in public cloud can be done without needing any major modifications.
+Cloud 2.0
+Cloud 2.0 applications are truly multi-tenant, highly scalable and fault tolerant. Infor deploys all its Cloud 2.0 applications in multiple availability zones in an AWS region. This allows the application to achieve both high availability and disaster recovery. An AWS region is a geographically separate area, and each region has multiple, isolated data centers called availability zones. Each availability zone has its own isolated power, Internet connection etc., and is separated from another availability zone in the same region with minimal latency. Deploying Cloud 2.0 applications in multiple availability zones allows end users to continue to use the application even when a complete availability zone is not available.
+Infor DevOps team has built a software-defined data center using end-to-end automation. Infor uses agile software development methodology to design and build higher-level services using low-level AWS services. Approaching the building of the datacenter as software development with complete documentation, code reviews, automated builds and automated tests gives consistency, audibility and ability to deploy a datacenter anywhere in the world within minutes. We not only automate creation of these services and hence the data center but also fully automate the deployment of applications and also the lifecycle of the applications, which includes customer environment creation, monitoring, scaling, recovery from hardware/software failures, patching and upgrades. Having fully automated operations eliminates the needs for humans to be physically logged into the infrastructure, thereby improving the security of our operations significantly. We use cloud formation for stack deployment, scripting for bootstrapping, Salt Stack for configuration management and auto scaling for recovering from failure and to provide elasticity. We also use a number of tools to help us protect, monitor and troubleshoot our cloud environment. We use Trend Micro deep security for IPS, Sumo Logic for log aggregation, Stack Driver for infrastructure monitoring and Dynatrace for application performance monitoring. Having full end to-end automation and a robust set of tools allows us to detect and respond to failures before our customers notice any interruption in service. Our end goal is always to know and respond to any issues in our datacenter before our customers call us.
+Cloud 2.0 applications integrate with other applications using web-based technologies such as HTTPS/SFTP/SQS (VPN tunnels are not allowed in Cloud 2.0 environment for security reasons). An application is not considered Cloud 2.0 if the end users are required to use a thick-client for accessing any part of the application. For efficient and reliable health checks of the applications, monitoring high level services usually does not always provide indication when something is wrong, and hence application teams need to build robust and deep health checks which are invoked by either elastic load balancers or aforementioned monitoring tools. Cloud 2.0 applications should also provide rich business-driven extensibility features, which allow business end users to meet their specific application requirements without involving their IT but at the same time without sacrificing upgrade ability of the applications. The hardware and labor costs for a Cloud 2.0 application are exponentially lower than that of a Cloud 1.0 application.
+Cloud 3.0
+Cloud 3.0 applications use proven, highly scalable open source technologies that have micro services architecture in a true distributed computing model. Cloud 3.0 applications can rapidly and elastically respond to fluctuations in workload using technologies such as docker, marathon and mesos. Cloud 3.0applications have all the features of Cloud 2.0applications and additionally are true web scale single version applications designed for cloud and are stateless(or maintain their state externally), thereby allowing frequent updates to functionality with zero downtime.
+Conclusion
+While every enterprise application has architectural characteristics that make it slightly different from any other enterprise application, there are several common characteristics that can be used to measure the cloud readiness of the application. Building and managing a complete datacenter using end-to-end automation provides consistency and audit ability, which would not be true if the same was built manually. Automating the deployment, management and monitoring of the cloud applications in the datacenter using a robust set of tools will result in providing the high level of service that cloud customers expect.
+Post your valuable comment here
+Email
+Password
+Don't have SiliconIndia account?
+Sign up
+Forgot your password?
+Reset
+Post your valuable comment here
+More articles from this issue
+GAVS Technologies: REDEFINING ORGANIZATIONS AT THE CUSP OF LATEST TECHNOLOGIES
+PhishMe: REVOLUTIONIZING PHISHING DEFENSE SOLUTIONS
+CareConnectors: GUIDING THE PARADIGM SHIFT IN HEALTHCARE INDUSTRY
+THE STATE OF BUSINESS IN LIGHT OF TECHNOLOGICAL ADVANCEMENTS
+Experiture: CUSTOMER ENGAGEMENT PLATFORM FOR MARKETERS
+Previous Magazine Editions
+Oct
+15
+Aug - Sep
+15
+July
+15
+June 15
+Tweets about siliconindia
+SiliconIndia:
+About Us
+|
+Contact Us
+|
+Help
+|
+Community rules
+|
+Advertise with us
+|
+Sitemap
+|
+News:
+Technology
+|
+Enterprise
+|
+Gadgets
+|
+Startups
+|
+Finance
+|
+Business
+|
+Career
+|
+Magazine |
+Newsletter
+|
+News archive
+Cities:
+CEO
+|
+Startup
+|
+Mobile
+|
+CIO
+|
+Women
+|
+BI
+|
+HR
+|
+SME
+|
+Cloud
+|
+Marketing
+|
+QA
+|
+Java
+|
+WebDeveloper
+Community:
+Members
+|
+Blogs
+|
+Indian Entrepreneurs
+|
+Gyan
+|
+Advice
+|
+Community
+|
+Find
+|
+CXO Insights
+Online Courses:
+Web Developer
+|
+Java Developer
+|
+CCNA Training
+|
+SEO
+|
+SAS
+|
+SQL Server 2005
+|
+J2EE
+Education:
+MBA
+|
+MCA
+|
+Engineering
+|
+Training Institute
+Life:
+Real Estate
+|
+Travel
+|
+Finance
+|
+Gadgets
+|
+Movie Reviews
+|
+Jokes
+Send your feedback and help us continue to improve SiliconIndia
+2016
+InfoConnect Web Technologies India Pvt Ltd. all rights reserved

@@ -1,0 +1,91 @@
+Package Index
+Browsepackages
+Packagesubmission
+Listtroveclassifiers
+Listpackages
+RSS(latest40updates)
+RSS(newest40packages)
+Python 3 Packages
+PyPI Tutorial
+PyPI Security
+PyPI Support
+PyPI Bug Reports
+PyPI Discussion
+PyPI Developer Info
+About
+News
+Documentation
+Download
+Community
+Foundation
+Core Development
+Package Index
+>
+pydocumentdb
+>
+1.7.0
+Not Logged In
+Login
+Register
+Lost Login?
+Use OpenID
+Login with Google
+pydocumentdb 1.7.0
+Downloads
+Azure DocumentDB Python SDK
+This is the README of the Python driver for Microsoft Azure DocumentDB.
+Welcome to DocumentDB.
+Pre-requirements:
+Python 2.7
+https://www.python.org/download/releases/2.7
+If you use Microsoft Visual Studio as IDE (we use 2013), please install the
+following extension for Python.
+http://microsoft.github.io/PTVS/
+Installation:
+$ python setup.py install
+or
+$ pip install pydocumentdb
+To run tests:
+$ python test/crud_tests.py
+If you use Microsoft Visual Studio, open the project file python.pyproj,
+and press F5.
+To generate documentations:
+Install Sphinx: http://sphinx-doc.org/install.html
+$ cd doc
+$ sphinx-apidoc -e -o .api ..pydocumentdb
+$ make.bat html
+File
+Type
+Py Version
+Uploaded on
+Size
+pydocumentdb-1.7.0-py2-none-any.whl
+(md5)
+Python Wheel
+2.7
+2016-04-26
+38KB
+pydocumentdb-1.7.0.zip
+(md5)
+Source
+2016-04-26
+73KB
+Downloads (All Versions):
+4 downloads in the last day
+229 downloads in the last week
+1520 downloads in the last month
+Author:
+Microsoft
+Home Page:
+https://github.com/Azure/azure-documentdb-python
+Package Index Owner:
+microsoft, pymsft, documentdb
+DOAP record:
+pydocumentdb-1.7.0.xml
+Website maintained by the Python community
+Real-time CDN by Fastly /
+hosting by Rackspace /
+design by Tim Parkin
+Copyright
+1990-2015, Python Software Foundation
+Legal Statements

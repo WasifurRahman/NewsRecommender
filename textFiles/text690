@@ -1,0 +1,128 @@
+Skip to Navigation Skip to Content
+Windows IT Pro
+Search:
+Connect With Us
+TwitterFacebookGoogle+LinkedInRSS
+IT/Dev Connections
+Forums
+Store
+Register Log In
+Display name or email address: *
+Password: *
+Remember me
+Forgot Your Password?
+close
+WindowsWindows 10
+Windows Server 2012
+Windows Server 2008
+Windows Server 2003
+Windows 8
+Windows 7
+Windows Vista
+Windows XP
+Exchange ServerExchange Server 2013
+Exchange Server 2010
+Exchange Server 2007
+Exchange Server 2003
+Outlook
+Unified Communications/Lync
+SharePoint
+Virtualization
+Cloud
+Systems ManagementSystem Center
+PowerShell & Scripting
+Active Directory & Group Policy
+Mobile
+Networking
+Storage
+TrainingOnline Training
+IT/Dev Connections
+Webcasts
+VIP Library
+Digital Magazine Archives
+InfoCentersIT Innovators
+Mobile Computing
+Business Now
+Desktop VDI
+All About Converged Architecture
+Advertisement
+Home > Security > Patch Tuesday > Update That Will Enable You to Deploy the Windows 10 Anniversary Update Still MIA
+Update That Will Enable You to Deploy the Windows 10 Anniversary Update Still MIA
+May 3, 2016
+Rod Trent
+EMAIL
+Tweet
+Comments 0
+Advertisement
+Last month, Microsoft delivered a botched update for WSUS. We covered that in Hold Off on Deploying KB3148812 for Now and then subsequently in Updated: Microsoft Provides Workaround for Issues with KB3148812 WSUS Update. When installed, KB3148812 would cause downed servers in extreme cases, and would definitely keep WSUS from working correctly. Microsoft blamed the problem on incomplete documentation, suggesting that there were manual steps that had to be performed after the update installed but that they just hadnt communicated it.
+The important thing to note here is that Microsoft originally stated that this update is a required installation for syncing and distributing Windows 10 updates (feature updates) that Microsoft releases after May 1, 2016. Company representatives also said that the ability to deploy the Windows 10 Anniversary Update and subsequent feature updates is dependent on KB3148812 being in place. As of today, KB3148812 is still offline and Microsofts communication has gone dark. I think its safe to assume that well see some sort of message on this soon considering it is now past May 1st and Microsoft is sure to want to distribute Windows 10 feature updates. Microsofts last communication on this issue told customers to not install the update, or to uninstall it until further notice. Additionally The original KB has been unpublished, along with the package, and were planning a new release to replace this one under a different KB.
+But, wait...there's probably more... Follow me on Twitter Add me to your Google+circles
+or
+Connect with me on LinkedIn Looking for an awesome, no-nonsense technical conference for IT Pros, Devs, and Devops? Check out IT/Dev Connections!
+Print
+reprints
+Favorite
+EMAIL
+Tweet
+Please Log In or Register to post comments.
+Advertisement
+Join the Conversation
+Get answers to questions, share tips, and engage with the IT professional community at myITforum.
+Are you a data center professional? JoinAFCOMfor the best data centerinsights.
+Looking to get things done in web development? Hot Scripts offers tens of thousands of scripts you can use.
+Database administrator? dBforumsoffers community insight on everything from ASP to Oracle, and get the latest news from Data Center Knowledge.
+Featured Products
+The Essential Guide to Keeping Pace with Windows 10 Updates
+Presented by Steve Rachui
+May 11th & May 18th
+Enroll Now and Save 20%
+...
+The Essential Guide to SQL Server 2016
+Presented by Michael Otey
+Tuesday, May 24th
+Enroll Now and Save 15%
+This...
+View CatalogView Shopping Cart
+Advertisement
+Advertisement
+WindowsITPro.com
+Windows
+Exchange Server
+SharePoint
+Virtualization
+Cloud
+Systems Management
+Site Features
+Contact Us
+Awards
+Community Sponsors
+Media Center
+RSS
+Sitemap
+Site Archive
+View Mobile Site
+Penton
+Privacy Policy
+Terms of Service
+Advertise
+Follow Us
+Twitter
+Facebook
+Google+
+LinkedIn
+RSS
+Search WindowsITPro.com
+Search:
+PISCES
+Related Sites
+Dev Pro
+SharePoint Pro
+SQL Server Pro
+SuperSite for Windows
+IT/Dev Connections
+myITforum
+Advertisement
+Copyright 2016Penton
+Sponsored Introduction Continue on to
+(or wait
+seconds)

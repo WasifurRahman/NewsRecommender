@@ -1,0 +1,205 @@
+current community
+blog
+chat
+Super User
+Meta Super User
+your communities
+Sign up or log in to customize your list.
+more stack exchange communities
+company blog
+Stack Exchange
+Inbox
+Reputation and Badges
+sign up
+log in
+tour
+help
+Tour
+Start here for a quick overview of the site
+Help Center
+Detailed answers to any questions you might have
+Meta
+Discuss the workings and policies of this site
+About Us
+Learn more about Stack Overflow the company
+Business
+Learn more about hiring developers or posting ads with us
+Super User
+Questions
+Tags
+Users
+Badges
+Unanswered
+Ask Question
+_
+Super User is a question and answer site for computer enthusiasts and power users. It's 100% free, no registration required.
+Sign up
+Here's how it works:
+Anybody can ask a question
+Anybody can answer
+The best answers are voted up and rise to the top
+Using latest drivers for Tesla K40 along with nvidia GT210
+up vote
+0
+down vote
+favorite
+I just purchased a geforce 210 GPU for basic graphic acceleration on my server, which primarily uses Tesla K40 for number crunching. Now the problem which I have encountered deals with two different sets of nvidia drivers required to run each card. Geforce 210 is now supported in legacy branch, and thus the latest driver for it falls under 341.x series.
+On the contrary, the Tesla is supported on current branch, i.e. 352.X. And I require CUDA toolkit v7.5, thus reverting back to 341.x branch for both cards is not an option.
+My question is, is there a way to use the 210 without loosing access to latest driver release for Tesla ? There are some old unanswered question regarding same dilemma, but for older hardware.
+drivers graphics-card
+share|improve this question
+asked 1 hour ago
+Siddharth
+292
+add a comment|
+active
+oldest
+votes
+Know someone who can answer?
+Share a link to this question via email, Google+, Twitter, or Facebook.
+Your Answer
+draft saved
+draft discarded
+Sign up or log in
+Sign up using Google
+Sign up using Facebook
+Sign up using Email and Password
+Post as a guest
+Name
+Email
+Post as a guest
+Name
+Email
+discard
+By posting your answer, you agree to the privacy policy and terms of service.
+Browse other questions tagged drivers graphics-card
+or ask your own question.
+asked
+today
+viewed
+5 times
+Related
+2
+Is there a way to manipulate the Nvidia drivers on a MacBook Pro?
+0
+Trying to run some 3D game but its giving this error even though mine are the latest drivers..whats wrong?
+2
+NVIDIA graphics card performance driver what is it for?
+2
+Using latest graphics drivers instead of OEM drivers
+0
+Unable to install NVIDIA GeForce 8700M GT driver on Windows XP laptop
+0
+nVidia drivers crash on low temperatures
+2
+How to get nvidia drivers for GeForce GT635?
+1
+Will Nvidia and Catalyst drivers conflict with each other?
+0
+Keep ATI (fglrx) and NVidia (nvidia-current) Drivers on Ubuntu 14.04
+1
+Nvidia: Windows kernel mode driver stopped responding and has successfully recovered
+Hot Network Questions
+How to wrap submit button of comment form with div
+In a formal paper, should I censor "brainf**k", the name of a programming language?
+Why did Tommen stop Cersei from attending the funeral?
+How to debug math?
+Researchers had a paper retracted due to plagiarism and no one at their university is aware of it
+No user created after magento installation
+Why is my daughter shouting so much?
+Why does the following bash script delete itself?
+Making a big purchase over $2500. I have the money to cover it. Should I get a loan or just place it on credit?
+How would I know if I were a 1 mm tall robot?
+What's the point of "cheese alternative" that has dairy in it?
+Are there an infinite number of prime numbers where removing any number of digits leaves a prime?
+alternative ways to obtain argc, argv of a process
+What is the right way to think about doing lower value work when small talking with an executive?
+Strange outcomes in binary logistic regression in SPSS
+Is the Pi really fit for outer space?
+StringBuilder.toString returns empty string when too big?
+My strange hotel room neighbours
+Why is "of" dropped in 'as X (of) a something'?
+User accused me of mistreatment because of "having a personal problem with her"
+Is it a prefix code?
+If I enter an IP for a website rather than the string form, does my local DNS server understand this and will I bypass the DNS process?
+Enlarge/Reduce the planet
+Special Needs Student with Disruptive Behavior (racial slurs towards teacher)
+more hot questions
+question feed
+about us
+tour
+help
+blog
+chat
+data
+legal
+privacy policy
+work here
+advertising info
+mobile
+contact us
+feedback
+Technology
+Life / Arts
+Culture / Recreation
+Science
+Other
+Stack Overflow
+Server Fault
+Super User
+Web Applications
+Ask Ubuntu
+Webmasters
+Game Development
+TeX - LaTeX
+Programmers
+Unix & Linux
+Ask Different (Apple)
+WordPress Development
+Geographic Information Systems
+Electrical Engineering
+Android Enthusiasts
+Information Security
+Database Administrators
+Drupal Answers
+SharePoint
+User Experience
+Mathematica
+Salesforce
+ExpressionEngine Answers
+more (13)
+Photography
+Science Fiction & Fantasy
+Graphic Design
+Movies & TV
+Seasoned Advice (cooking)
+Home Improvement
+Personal Finance & Money
+Academia
+more (9)
+English Language & Usage
+Skeptics
+Mi Yodeya (Judaism)
+Travel
+Christianity
+Arqade (gaming)
+Bicycles
+Role-playing Games
+more (21)
+Mathematics
+Cross Validated (stats)
+Theoretical Computer Science
+Physics
+MathOverflow
+Chemistry
+Biology
+more (5)
+Stack Apps
+Meta Stack Exchange
+Area 51
+Stack Overflow Careers
+site design / logo
+2016 Stack Exchange Inc; user contributions licensed under cc by-sa 3.0
+with attribution required
+rev 2016.5.2.3530
+Super User works best with JavaScript enabled

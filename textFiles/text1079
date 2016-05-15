@@ -1,0 +1,99 @@
+Package Index
+Browsepackages
+Packagesubmission
+Listtroveclassifiers
+Listpackages
+RSS(latest40updates)
+RSS(newest40packages)
+Python 3 Packages
+PyPI Tutorial
+PyPI Security
+PyPI Support
+PyPI Bug Reports
+PyPI Discussion
+PyPI Developer Info
+About
+News
+Documentation
+Download
+Community
+Foundation
+Core Development
+Package Index
+>
+containerdiff
+>
+0.2
+Not Logged In
+Login
+Register
+Lost Login?
+Use OpenID
+Login with Google
+containerdiff 0.2
+Download
+containerdiff-0.2.tar.gz
+Show changes among two container images.
+# ContainerDiffToolTool to show changes among two container images.### Usage```usage: containerdiff [-h] [-o OUTPUT] [-s] [-f [FILTER]] [-l {10,20,30,40,50}]
+[-d] [--version]
+imageID imageID```| Positional arguments | Description
+|| -------------------- | --------------------------------------------------- ||
+imageID
+| ID of container image from/to which to show changes || Optional arguments
+| Description
+|| -------------------------- | ----------------------------------------------------------------|| -h, --help
+| Show this help message and exit
+|| -o OUTPUT, --output OUTPUT | Output file.
+|| -s, --silent
+| Lower verbosity of diff output. See help of individual tests.
+|| -f [FILTER], --filter [FILTER] | Enable filtering. Specify JSON file with options ("./filter.json" by default). || -l {10,20,30,40,50}, --logging {10,20,30,40,50} | Print additional logging information.
+|| -d, --debug
+| Print additional debug information (= -l 10).
+|| --version
+| Show program's version number and exit
+|See [example usage](./docs/example.md).
+File
+Type
+Py Version
+Uploaded on
+Size
+containerdiff-0.2.tar.gz
+(md5)
+Source
+2016-05-03
+22KB
+Downloads (All Versions):
+0 downloads in the last day
+0 downloads in the last week
+0 downloads in the last month
+Author:
+Marek Skalicky
+Home Page:
+https://github.com/omron93/ContainerDiffTool
+Keywords:
+diff docker image
+License:
+GPL v3
+Categories
+Development Status :: 3 - Alpha
+Intended Audience :: Developers
+Intended Audience :: System Administrators
+License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Programming Language :: Python :: 3
+Programming Language :: Python :: 3.3
+Programming Language :: Python :: 3.4
+Programming Language :: Python :: 3.5
+Topic :: Software Development :: Build Tools
+Topic :: Software Development :: Testing
+Topic :: Utilities
+Package Index Owner:
+mskalicky
+DOAP record:
+containerdiff-0.2.xml
+Website maintained by the Python community
+Real-time CDN by Fastly /
+hosting by Rackspace /
+design by Tim Parkin
+Copyright
+1990-2015, Python Software Foundation
+Legal Statements

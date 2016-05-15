@@ -1,0 +1,131 @@
+Docs
+Guides
+Projects
+Blog
+Questions
+x
+Home
+Guides
+Projects
+Blog
+Questions
+Spring Team
+Christoph Strobl
+Spring Data Committer
+Pregarten, Austria
+Blog Posts by Christoph Strobl
+What's new in Spring Data Hopper?
+Engineering
+May 3, 2016
+As weve just shipped the GA release of Spring Data release train Hopper, lets take a deeper look at the changes and features that come with the 13 modules on the train. A very fundamental change in the release trains dependencies is the upgrade to Spring Framework 4.2 (currently 4.2.5) as baseline. This is in preparation for the upcoming 4.3 release of the framework. We also took the chance to upgrade our Querydsl integration to 4.x (currently 4.1) which required some breaking changes in very core abstractions. Besides that, Hopper contains quite a few significant major version changes its modules.
+Read more...
+What's New In Spring Data Release Gosling?
+Engineering
+September 4, 2015
+Over 300 issues fixed across 12 projects makes it pretty hard to keep track on what has happened since the last release. So heres a more detailed excerpt of some of the new features weve been cooking during the last iteration.
+Ad-hoc JPA fetch graphs.
+Since the Dijkstra release train we have been able to refer to the named entity graph declared on the entity through the @EntityGraph annotation in JPA-backed repositories. In the example below this forces firstname and lastname to be loaded eagerly, while all others remain lazily loaded.
+Read more...
+Spring Data Fowler SR 1 released
+Releases
+July 1, 2015
+Hot on the heels of the final service updates for the release trains Dijkstra and Evans, the first service release for the Spring Data release train Fowler has just been shipped to repo.spring.io and Maven Central. The Fowler SR1 maintenance release includes a total of 119 issues solved and is a recommended upgrade for all users.
+Spring Data Commons 1.10.1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data JPA 1.8.1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data MongoDB 1.7.1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Neo4j 3.3.1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Solr 1.4.1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Couchbase 1.3.1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Cassandra 1.2.1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Elasticsearch 1.2.1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Gemfire 1.6.1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Redis 1.5.1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data REST 2.3.1 - Artifacts - JavaDocs - Documentation - Changelog
+Read more...
+First Milestone of Spring Data Release Train Gosling Available
+Releases
+June 2, 2015
+On behalf of the Spring Data team, I am happy to announce the first milestone of the Spring Data release train Gosling. The release ships with 164 tickets fixed as well as Spring Data KeyValue joining the Spring Data release train with an initial milestone. The highlights of the release include:
+Spring 4.1 as a new minimum baseline.
+Simplified support for adding custom methods to all repositories throughout the individual modules (see this example).
+Declarative ad-hoc JPA 2.1 fetch graph declarations via @EntityGraph on repository methods.
+Gemfire 8.1 support including multi-index definition operations.
+SpEL expressions in @Query as well as support for $geoIntersects for MongoDB.
+Enhanced ZSET support for Spring Data Redis including ZRANGEBYLEX.
+A Spring Data REST module shipping the HAL browser as well as support for conditional GETs.
+Map-backed repositories (see this example)
+Support for Neo4J 2.2.
+Support for derived deleteBy... queries and bulk updates in Spring Data Elasticsearch.
+Read more...
+Spring Data Release Train Fowler RC1 Available
+Releases
+March 5, 2015
+Im pleased to announce the availability of the first and final release candidate of the Spring Data release train named Fowler. The release ships 149 tickets fixed. Here are some of the highlights:
+Support for Java 8 Stream as return type in JPA and MongoDB.
+Enhanced support for JSR-310 and the ThreeTen back port types.
+Dedicated GeoJSON types for the MongoDB module.
+Compatibility with MongoDB 3.0 and the new MongoDB Java driver (current beta3).
+Auto-populate the last modified header for audited entities in Spring Data REST.
+@Score annotation for Solr.
+Support for suggestions in Elasticsearch.
+Read more...
+Spring Data Evans SR1 released
+Releases
+November 3, 2014
+On behalf of the Spring Data team I am pleased to announce the availability of the first service release of the Evans release train. The team around the participating modules completed 41 issues including serveral bug fixes. We want to thank everyone for taking the time to report, volunteer fixing and testing those issues - this is invaluable feedback we could not do without!
+The release includes the following 11 modules:* Spring Data Commons 1.9.1 - Artifacts - JavaDocs - Documentation - Changelog* Spring Data JPA 1.7.1 - Artifacts - JavaDocs - Documentation - Changelog* Spring Data MongoDB 1.6.1 - Artifacts - JavaDocs - Documentation - Changelog* Spring Data Neo4j 3.2.1 - Artifacts - JavaDocs - Documentation - Changelog* Spring Data Solr 1.3.1 - Artifacts - JavaDocs - Documentation - Changelog* Spring Data Couchbase 1.2.1 - Artifacts - JavaDocs - Documentation - Changelog* Spring Data Cassandra 1.1.1 - Artifacts - JavaDocs - Documentation - Changelog* Spring Data Elasticsearch 1.1.1 - Artifacts - JavaDocs - Documentation - Changelog* Spring Data Gemfire 1.5.1 - Artifacts - JavaDocs - Documentation - Changelog* Spring Data Redis 1.4.1 - Artifacts - JavaDocs - Documentation - Changelog* Spring Data REST 2.2.1 - Artifacts - JavaDocs - Documentation - Changelog
+Read more...
+Whats new in Spring Data Evans?
+Engineering
+October 15, 2014
+Spring Data Release Evans has been around for a while and its more than time to finally introduce you to the latest and greatest features we shipped with it.
+Theres a lot to cover since major enhancements have gone into the commons module. Those changes already have made it into some store modules and will go on and sneak their way into others over time, too. All of them are already available for at least Spring Data JPA. That said, lets jump right in.
+Advanced support for Java 8
+Java8 has now been around for a while and previous Spring Data release trains already added fundamental support for some of those. With the Evans release train we extended the support significantly.
+Read more...
+First Release Candidate of Spring Data Release Train Evans Available
+Releases
+August 13, 2014
+We are happy to announce the first release candidate of the Spring Data release train Evans. We ship the following modules:
+Spring Data Commons 1.9 RC1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data JPA 1.7 RC1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data MongoDB 1.6 RC1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Neo4j 3.2 RC1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Solr 1.3 RC1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Couchbase 1.2 RC1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Cassandra 1.1 RC1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Elasticsearch 1.1 RC1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Gemfire 1.5 RC1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Redis 1.4 RC1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data REST 2.2 RC1 - Artifacts - JavaDocs - Documentation - Changelog
+Read more...
+$text $search your Documents with Spring Data MongoDB
+Engineering
+July 17, 2014
+MongoDB officially has offered full text search capabilities since its 2.6 release. The feature ranks among the Top 5 most voted features for the server component and ships in its current version with numerous stemmers and parsers, phrase matching, negation and per field weights. So its about time to give it a little love and share whats cooking in Spring Datas kitchen to support that feature.
+For text indexing and searching MongoDB defaults the language to English, normalizing the text by tokenizing, removing common stop words and reducing words to their base. Theres support for several other languages as well.
+Read more...
+First Milestone of Spring Data Release Train Evans Available
+Releases
+July 10, 2014
+We are happy to announce the first milestone of the Spring Data Release train Evans.
+Spring Data Commons 1.9 M1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data JPA 1.7 M1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data MongoDB 1.6 M1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Neo4j 3.2 M1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Solr 1.3 M1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Couchbase 1.2 M1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Cassandra 1.1 M1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Elasticsearch 1.1 M1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Gemfire 1.5 M1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data Redis 1.4 M1 - Artifacts - JavaDocs - Documentation - Changelog
+Spring Data REST 2.2 M1 - Artifacts - JavaDocs - Documentation - Changelog
+Read more...
+@stroblchristoph
+Follow
+Team
+Services
+Tools
+2016 Pivotal Software, Inc. All Rights Reserved.
+Terms of Use and
+Privacy

@@ -1,0 +1,120 @@
+Pocket C.H.I.P. launches, with Pico-8 as a Pack-in
+Today, Next Thing Co. have announced that the handheld expansion variantof their C.H.I.P. Single Board Computer, PocketCHIP will ship to customers with Lexaloffle's 8-Bit fantasy console Pico-8 pre-installed, bringing hundreds of community developed games to this cute handheld computer for an absurdly low $49.
+Wait... What? C.H.I.P.? Pico-what? Pocket of Chips?
+Back in June last year, Next Thing Co created a Kickstarter to fund the worlds first $9 computer with WiFi and Bluetooth 1GHz ARM CPU and 4Gb of on board flash storage. The campaign was a runaway success with lots of press coverage and raised over $2 million and nearly 40K backers. CHIP's on their own have been trickling through to backers but add-on boards including VGA/HDMI breakout boards were always due to come later. The most interesting of the addon boards though is the PocketCHIP. A Gameboy-esque enclosure with a full QWERTY keyboard, 4.3" touch display and 3000mAH battery for $49 for a true linux on the go
+Enter Pico-8
+For a full introduction to Pico-8 see my introduction article herebut the tl;dr version is that it's an 8-bit style "fantasy console" from Lexaloffle that contains a full game creation environment (code, GFX, sound and music editors) in one tiny, highly restricted package. forcing 8-bit platform style constraints, forcing game makers to pare their game down to the basics and/or get creative with coding tricks, just as was done back in the day when devs had REAL hard constraints.
+"We always knew people would use PocketC.H.I.P. to play games, but we wanted to give them something more. The moment we found PICO-8 we knew it was the perfect fit," said Dave Rauchwerk, CEO of Next Thing Co. "Taking things apart was how we all fell in love with engineering. PICO-8 is unique because you can do more than just play games, you can take them apart and see how they work. We hope PocketC.H.I.P. and PICO-8 helps today's future engineers fall in love with craft the same way we did."
+"I'm excited to see what the PocketC.H.I.P. crowd will do with PICO-8", said Joseph White, owner of Lexaloffle Games. "It's a perfect fit for PICO-8's central goal of providing an accessible, cute platform for hacking and making things just for the joy of it."
+Not too long ago Zep released a Raspberry Pi build for Pico-8 and the second thing I did (after trying the build out on my Pi and tiny screen) was try it on my CHIP*, as this pairing is such an obvious match made in heaven, I'm super excited that NTC and Lexaloffle were able to make it happen on CHIP and specifically on PocketCHIP.
+Since CHIP is running Linux under the hood, as well as Pico-8 pretty much any Debian ARM compiled game or emulator should work and just an apt-get install away. Of course with a full linux command terminal for for proper mobile command bashing, and a battery life in the region of 5 hours, this is a must have retrogaming handheld computer that no self respecting game geek should be without.
+*The third thing I did was be disappointed that the build was Raspberry Pi specific
+Links:
+1) Preorder PocketCHIP (expected delivery June)
+2) Original Kickstarter campaign
+3) Pico-8 at Lexaloffle
+4) C.H.I.P. projects
+-Alistair
+@ABrugsch
+at
+5/03/2016 01:01:00 pm
+Labels:
+CHIP,
+Emulators,
+HANDHELD,
+LINUX,
+pico-8,
+PocketCHIP,
+Retro Gaming,
+small computers
+No comments:
+Post a Comment
+You do not need an account to sign up or log in... Feel free to post a comment as a guest user. Please dont spam!
+Older Post
+Home
+Home Page
+Home
+Remakes & Retro
+Systems
+Amiga
+AMIGA CD32
+AMSTRAD
+ATARI
+C64
+GAME BOY
+LINUX
+MAC
+MSX
+NES
+PC
+Sega Mega Drive
+Zx Spectrum
+Want to keep IndieRetroNews alive?
+Pages
+Aaron White
+Adventure
+Arcade
+BEAT EM UP
+BROWSER BASED
+DIZZY
+Dungeon Crawler
+FREE GAME
+HARDWARE
+Music
+OPEN SOURCE
+Platformer
+Preview
+Puzzle
+RACING
+REMAKE
+REMASTERED
+RETRO INSPIRED
+REVIEW
+RPG
+Shoot em up
+SHOOTER
+THE COMPANY.PL
+WINUAE
+Roland Radio 8-Bit!
+Recent Comments
+Recommended
+4000 Free Games
+AmiBay
+CD32 Ports
+Dizzy-FB
+DungeonCrawl-FB
+DungeonCrawlers
+EAB
+Games That Weren't
+Level UP Games
+PDRoms
+RGDS Podcast
+Retro For Sale-FB
+Retro Obscura
+RetroGamer
+RetroGamesCollector
+RetroGamingMag
+RetroVideoGamer
+Roland Radio (CPC)
+S.E.E.P
+SceneMusic
+The SID Station
+Xtdos
+ZX Legends
+Follow @Indie_RetroNEWS
+Top Viewed News
+V*Bert - A rather wacky classic Q*Bert available for free!
+Ye Olde Pirate Collection - The best Yarrr Amiga CD32 release by Amiga Jay!
+Xenophobe +3DFR - Nostalgia's blasting Aliens in this trainered C64 release
+Universal Hero - ZX Spectrum Retro Review by Steve Trower
+Hot News - Manic Miner released for the Atari XL/XE!
+Shadow Brain - NES Sci-fi Dungeon Crawler gets a full English translation
+Articles of the Month
+CIMMERiAN - Head chopping Barbarian port with jaw dropping SMS detail
+Barnsley Badger - Could this be one of the best C64 games of 2016? Exclusive Preview!
+Articles of the Week
+V*Bert - A rather wacky classic Q*Bert available for free!
+Ye Olde Pirate Collection - The best Yarrr Amiga CD32 release by Amiga Jay!
+Podcasts
+" alt="CSS Drop Down Menu" border="0" style="position: fixed; bottom: 10%; right: 0%;" />
+Contact us : Admin @ indieretronews.com. Powered by Blogger.

@@ -1,0 +1,104 @@
+Get Gentoo!
+gentoo.org sites
+gentoo.org
+Wiki
+Bugs
+Forums
+Packages
+Planet
+Archives
+Sources
+Infra Status
+Packages
+Toggle navigation
+Home
+Packages
+USE flags
+Architectures
+About
+Home
+Packages
+media-libs
+mutagen
+media-libs/
+mutagen
+Audio metadata tag reader and writer implemented in pure Python
+https://bitbucket.org/lazka/mutagen
+Available Versions
+Version
+amd64
+x86
+alpha
+arm
+hppa
+ia64
+ppc
+ppc64
+sparc
+1.32:0
+~amd64
+~x86
+~alpha
+?arm
+~hppa
+~ia64
+~ppc
+~ppc64
+~sparc
+1.31:0
+~amd64
+~x86
+~alpha
+?arm
+~hppa
+~ia64
+~ppc
+~ppc64
+~sparc
+1.27:0
+amd64
+x86
+alpha
+?arm
+hppa
+~ia64
+ppc
+ppc64
+sparc
+Package Metadata
+Other homepage(s)
+https://pypi.python.org/pypi/mutagen
+USE flags
+Global USE flags
+doc
+test
+PYTHON_TARGETS (USE_EXPAND)
+python2_7
+python3_3
+python3_4
+python3_5
+License
+GPL-2
+Maintainer(s)
+Gentoo Sound project
+Changelog
+Inline Changelog cannot be displayed.
+View Git Changelog
+Resources
+Related bugs
+Documentation
+Forums posts
+Git repository browser
+Git log
+Changes feed
+Installed files (via PFL)
+Gentoo Packages Database
+Data currrent as ofTue,
+3 May 2016 12:10
+Questions or comments?
+Please feel free to contact us.
+20012016 Gentoo Foundation, Inc.
+Gentoo is a trademark of the Gentoo Foundation, Inc.
+The contents of this document, unless otherwise expressly stated, are licensed under the
+CC-BY-SA-3.0 license.
+The Gentoo Name and Logo Usage Guidelines apply.

@@ -1,0 +1,196 @@
+Docs
+Guides
+Projects
+Blog
+Questions
+x
+Home
+Guides
+Projects
+Blog
+Questions
+Engineering
+Releases
+News and Events
+What's new in Spring Data Hopper?
+Engineering
+Christoph Strobl
+May 03, 2016
+As weve just shipped the GA release of Spring Data release train Hopper, lets take a deeper look at the changes and features that come with the 13 modules on the train. A very fundamental change in the release trains dependencies is the upgrade to Spring Framework 4.2 (currently 4.2.5) as baseline. This is in preparation for the upcoming 4.3 release of the framework. We also took the chance to upgrade our Querydsl integration to 4.x (currently 4.1) which required some breaking changes in very core abstractions. Besides that, Hopper contains quite a few significant major version changes its modules.
+Those upgrades are mostly driven by major version bumps of the underlying store drivers and implementations that need to be reflected in potential breaking changes to the API exposed by those modules. Some of those modules
+like Spring Data Neo4j and Spring Data Couchbase
+have already seen a new major release outside the release train and are now re-integrated into it.
+Please welcome (back):
+Spring Data Couchbase 2.1 based on Couchbase 2.2
+Spring Data Elasticsearch 2.0 based on Elasticsearch 2.2
+Spring Data Neo4j 4.1 based on Neo4J OGM 2.0
+Spring Data Solr 2.0 based on Solr 5.5
+Besides those upgrades the team has been working on a whole bunch of new features.
+Composable annotations making use of @AliasFor
+Query By Example
+Projections for repository query methods
+Redis cluster and repository support
+$lookup aggregation and bulk operations for MongoDB
+Synchronized cache lookup when using Spring 4.3 in Gemfire and Redis
+Querydsl 4 support
+Id like to spend the rest of the blog post casting a bit more light on some of those features to give you a more detailed overview about them.Query By Example
+The Spring Data repository abstraction has allowed execution of query methods and flexible predicates via Querydsl for quite a while. That said, it has been a long requested feature to be able to provide a partially set up domain type instance as probe to the repository to return all entities that match that particular probe. Hopper introduces general support for this query-by-example mechanism in Spring Data Commons as well as implementations of the API in the JPA and MongoDB modules (more to come).
+The query-by-example API consists of four fundamental parts:
+A probe instance which is an instance of the domain model with fields only partially populated.
+An optional ExampleMatcher which carries details and strategies on how to match particular fields, null-values, Strings in general etc.
+An Example, which consists of the probe and the ExampleMatcher.
+The QueryByExampleExecutor interface which your repository would additionally implement and which provides methods taking Examples similarly to the QueryDslPredicateExecutor.
+In the most trivial case it is enough to set the values you want to query for on the domain type and hand that example to the repository.
+interface PersonRepository extends CrudRepository<Person, Long>,
+QueryByExampleExecutor<Person> {
+}
+Example<Person> example = Example.of(new Person("Jon", "Snow"));
+Iterable<Person> result = repository.findAll(example);
+By default, given value are matched as-is, null-values get ignored during query creation. You can get more control over the matching process by providing an ExampleMatcher to customize the handling in general or for individual fields.
+ExampleMatcher exampleSpec = new ExampleMatcher()
+.withMatcher("firstname", endsWith())
+.withMatcher("lastname", startsWith().ignoreCase());
+The above spec creates for eg. JPA in the above sample predicates like(firstname, "%Jon") and like(lower(expression), "snow%").
+There are more options available. So please have a look at the reference documentation for Spring Data JPA and MongoDB.Projections on repository query methods
+The concept of projections Spring Data REST shipped a feature called projections with the Evans release train. With Hopper we added support to JPA and MongoDB query methods to use projections on the repository level. A projection is a customized view of your domain model, in this case, returned from a query method.
+@Entity
+public class Person {
+@Id @GeneratedValue
+private Long id;
+private String firstName, lastName;
+@OneToOne
+private Address address;
+}
+@Entity
+public class Address {
+@Id @GeneratedValue
+private Long id;
+private String street, state, country;
+}
+Limiting data exposure for Person to firstName and lastName require an dedicated DTO class. Using projections you simply define an interface with the properties (getter methods) you want to expose and use the projection interface as return type of your query method:
+interface NoAddresses {
+String getFirstName();
+String getLastName();
+}
+interface PersonRepository extends CrudRepository<Person, Long> {
+NoAddresses findByFirstName(String firstName);
+}
+Projections are a powerful pattern constructing adjusted views from existing models. NoAddresses is a closed projection as it doesnt contain any methods dynamically calculating values (see more on that below). Closed projections allow us to optimize the query execution as only exposed properties are queried from the data store. So in the above case the query actually executed would be semantically equivalent to select u.firstName, u.lastName from User u where u.firstName = ?1. The returned tuples are then wrapped into a proxy that returns the values corresponding to accessors declared.
+However, projections can also be used for enriching a data model. You can annotate exposed properties with @Value using SpEL expressions to expose synthetic properties.
+interface FullNameAndCountry {
+String getFirstName();
+String getLastName();
+@Value("#{target.firstName} #{target.lastName}")
+String getFullName();
+@Value("#{target.address.country}")
+String getCountry();
+@Value("[emailprotected](target)}")
+String getSomeCalculatedValue()
+}
+Note, how we can make use of properties of the target instance, traverse nested properties not even exposed at the top level or even invoke methods on other Spring beans and hand over the target to it for use in advanced calculations. In this case, no query optimizations are applied as the proxy created for that interface will require access to the original target instance.
+Please refer to the Spring Data JPA and Spring Data MongoDB reference documentation for more details in depth how to use projections with query methods.Redis Cluster
+Support for Redis Cluster provides a high level API on top of the existing Redis drivers having cluster features. Cluster support is based on the very same building blocks as non-clustered communication. RedisClusterConnection
+an extension to RedisConnection
+handles the communication with the Redis Cluster and translates errors into Springs DataAccessException hierarchy. You see theres no big difference to what you are already used to when working with Spring Data Redis.
+Redis Cluster behaves different from single node Redis or even a Sentinel monitored master slave environment. This is caused by the automatic sharding that maps a key to one of 16384 slots which are distributed across the nodes. Therefore, commands that involve more than one key must assert that all keys map to the exact same slot in order to avoid cross slot execution errors.
+RedisClusterConnection offers both an API to talk to a single slot or node but retains expected behavior when interacting with the cluster. It takes care of executing commands that involve more than one key, slot or cluster node and therefore connects to the required nodes and collects results so that eg the KEYS command not only returns the matching keys of one single node but the cumulated list of all matching keys within the cluster.
+More information and a complete sample how to setup Spring Data Redis to work with a cluster can be found in the Redis Cluster module of the Spring Data Examples GitHub repository as well as the reference documentation.Redis Repositories
+With Redis repositories, Hopper ships an implementation of the Spring Data repositories abstraction on top of Redis so that you can execute basic CRUD operations and execute derived query methods. It allows you to seamlessly convert and store domain objects into Redis Hashes, apply custom mapping strategies and make use of secondary indexes. Lets have a look at an example domain type, a repository and the necessary Spring configuration to get Redis repositories bootstrapped.
+@RedisHash("persons")
+class Person {
+@Id String id;
+String firstname;
+@Indexed String lastname;
+Address address;
+}
+interface PersonRepository extends CrudRepository<Person, String> {
+List<Person> findByLastname(String lastname);
+}
+@Configuration
+@EnableRedisRepositories
+class ApplicationConfig {
+@Bean
+RedisConnectionFactory connectionFactory() {
+return new JedisConnectionFactory();
+}
+@Bean
+RedisTemplate<?, ?> redisTemplate() {
+return new RedisTemplate<byte[], byte[]>(connectionFactory());
+}
+}
+Note that the @Indexed annotation used on firstname allows the usage of the property within the derived query method. This also works on nested or embedded objects. For more information about custom Object mapping strategies, expiration times and listeners as well as storing object references please refer to the Spring Data Redis reference documentation.Spring Data REST
+A common request for Spring Data REST was to use the value of a unique property of an aggregate to make up the URI for the item resource exposed. Imagine a very simple entity Country for which youd like to its unique name in the URI.
+@Entity
+class Country {
+@Id @GeneratedValue
+private Long id;
+private String name;
+}
+To make this work, Spring Data RESTs RepositoryRestConfiguration now allows to customize the entity lookup via dedicated API. Using a different property for the URI requires to define two things actually: the property to use and a query method on the repository to map a value of that property back to an instance of it. If youre using Java 8, the registration looks as simple as this:
+@Component
+public class SpringDataRestCustomization extends RepositoryRestConfigurerAdapter {
+@Override
+public void configureRepositoryRestConfiguration(
+RepositoryRestConfiguration config) {
+config.withCustomEntityLookup().
+forRepository(CountryRepository.class,
+Country::getName, CountryRepository::findByName);
+}
+}
+As you can see we use method handles here to define both the mapping step back and forth to be picked up by the infrastructure. Of course, theres an alternative overload for the method shown here to work on Java 6 as well. For details on this, make sure you check out the example dedicated to this on GitHub.Lookup types
+Very often, domain models contain types that are value objects but actually represent a particular value out of a dedicated set of possible values. The Country class of the example above actually falls into that category. Because we need to manage the super set of values, theres a repository in place. If it should be allowed to manage the set via REST as well, the repository needs to be exported, too. As repositories usually indicate an aggregate being managed, Spring Data RESTs default way of handling that scenario would be to render links to an association resource wherever a Country instance is encountered. The Hopper release train adds means to declare so called lookup types, for which Spring Data REST then renders an individual property inlined in the representation and also registers the according Jackson Deserializer to make sure that that property value gets translated back into an instance of that value type for PUT and POST requests.
+Assume the original representation of a resource containing a Country instance:
+{
+"zipCode" : "",
+"_links" {
+"country" : { "href" : "" }
+}
+}
+If you now go ahead and register Country as lookup type like this:
+@Component
+public class SpringDataRestCustomization extends RepositoryRestConfigurerAdapter {
+@Override
+public void configureRepositoryRestConfiguration(
+RepositoryRestConfiguration config) {
+config.withCustomEntityLookup().
+forLookupRepository(CountryRepository.class).
+withIdMapping(Country::getName).
+withLookup(CountryRepository::findByName);
+}
+}
+the representation will change to this but still maintain entity semantics in the model:
+{
+"zipCode" : "",
+"country" : "Germany"
+}
+Composable annotations
+The upgrade to Spring 4.2 as framework baseline allows us to provide enhanced options of composing your own annotations. We added the base infrastructure to the Spring Data Commons module and tweaked the implementations for JPA, MongoDB and Redis to allow you to make use of those changes.
+Assume youre using the Spring Data JPA annotations @Modifying and @Query together in a lot of places like this:
+@Modifying
+@Query("update #{#entityName} u set u.active = ?1 where u.id in ?2")
+void updateUserActiveState(boolean activeState, Integer... ids);
+@Modifying
+@Query
+@Retention(RetentionPolicy.RUNTIME)
+public @interface ModifyingQuery {
+@AliasFor(annotation = Query.class, attribute = "value")
+public String query();
+}
+@ModifyingQuery(query =
+"update #{#entityName} u set u.active = ?1 where u.id in ?2")
+void updateUserActiveState(boolean activeState, Integer... ids);
+Or just have a little fun and translate existing annotations into your favorite language.
+The Spring Data team is coming to Las Vegas! Be sure to join us for a lot of sessions on Spring Data at this years SpringOne Platform. The first batch of featured talks has already been published on the events website. Be sure to register to learn about the latest and greatest in Spring Data, the Spring Framework ecosystem in general as well as everything related to CloudFoundry.
+Please enable JavaScript to view the comments powered by Disqus.
+comments powered by Disqus
+Back
+All Posts
+Engineering
+Releases
+News and Events
+Team
+Services
+Tools
+2016 Pivotal Software, Inc. All Rights Reserved.
+Terms of Use and
+Privacy

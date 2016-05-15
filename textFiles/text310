@@ -1,0 +1,106 @@
+Get Gentoo!
+gentoo.org sites
+gentoo.org
+Wiki
+Bugs
+Forums
+Packages
+Planet
+Archives
+Sources
+Infra Status
+Packages
+Toggle navigation
+Home
+Packages
+USE flags
+Architectures
+About
+Home
+Packages
+app-editors
+scite
+app-editors/
+scite
+A very powerful editor for programmers
+http://www.scintilla.org/SciTE.html
+Available Versions
+Version
+amd64
+x86
+alpha
+arm
+hppa
+ia64
+ppc
+ppc64
+sparc
+3.6.5:0
+~amd64
+~x86
+?alpha
+?arm
+?hppa
+?ia64
+~ppc
+?ppc64
+?sparc
+3.6.4:0
+~amd64
+~x86
+?alpha
+?arm
+?hppa
+?ia64
+~ppc
+?ppc64
+?sparc
+3.6.2:0
+~amd64
+~x86
+?alpha
+?arm
+?hppa
+?ia64
+~ppc
+?ppc64
+?sparc
+3.5.5:0
+amd64
+x86
+?alpha
+?arm
+?hppa
+?ia64
+ppc
+?ppc64
+?sparc
+Package Metadata
+USE flags
+Global USE flags
+lua
+License
+HPND lua? ( MIT )
+Maintainer(s)
+Ervin Peters, Proxy Maintainers
+Changelog
+Inline Changelog cannot be displayed.
+View Git Changelog
+Resources
+Related bugs
+Documentation
+Forums posts
+Git repository browser
+Git log
+Changes feed
+Installed files (via PFL)
+Gentoo Packages Database
+Data currrent as ofTue,
+3 May 2016 12:10
+Questions or comments?
+Please feel free to contact us.
+20012016 Gentoo Foundation, Inc.
+Gentoo is a trademark of the Gentoo Foundation, Inc.
+The contents of this document, unless otherwise expressly stated, are licensed under the
+CC-BY-SA-3.0 license.
+The Gentoo Name and Logo Usage Guidelines apply.

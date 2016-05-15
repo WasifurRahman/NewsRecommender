@@ -1,0 +1,307 @@
+Forward this article to your friends & colleague
+Subject:
+Receiver's email:
+Separate emails by comma
+Your name:
+Your email:
+Message:
+I found an interesting article on SiliconIndia and thought it might be of significance to you as well.
+Incorrect please try again
+Enter the words above:
+Enter the numbers you hear:
+Get another CAPTCHA
+Business
+Technology
+Enterprise
+Gadgets
+Startups
+Finance
+US-Indian
+Career
+Magazines
+Newsletters
+Members
+Blogs
+My Story
+Indian Entrepreneurs
+Gyan
+Advice
+MBA
+MCA
+Engineering
+Training Institutes
+Courses
+Medical Institute
+CEO
+Startup
+Mobile
+CIO
+Women Leadership
+Biz Intelligence
+HR
+SME
+Cloud Computing
+Marketing
+Embedded
+QA/Testing
+IT Manager
+Dot Net
+Java
+Web Developer
+Jobs
+Freshers Jobs
+Companies
+HR Speak
+Forum
+Career News
+Real Estate
+Travel
+Finance
+Gadgets
+Jokes
+Movie Reviews
+Cars
+Magazines
+Home
+News
+Business
+Technology
+Enterprise
+Gadgets
+Startups
+Finance
+US-Indian
+Career
+Magazines
+Newsletters
+Blogs
+Network
+Members
+My Story
+Gyan
+Advice
+Life
+Real Estate
+Travel
+Finance
+Gadgets
+Jokes
+Movie Reviews
+Auto
+Spotlight
+Immigration
+Enterprise
+Enterprise Software
+IT Services
+Mobile
+Enterprise Security
+Cloud Computing
+Big Data
+Networking
+Semiconductor
+Social
+Non Profits
+CIO City
+QA City
+Magazines
+More
+India Edition
+|
+US Edition
+|
+Education
+|
+Realestate |
+si100
+Browse by year:
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+Sign in to your SiliconIndia account
+Email
+Password
+Remember me
+Don't have SiliconIndia account?
+Sign up
+Forgot your password?
+Reset
+May - 2016 -
+issue				> CEO Insight
+ENTERPRISE MOBILITY & BIG DATA ARCHITECTURE - A REVENUE GENERATING APPROACH
+Sureel Bhurat
+Co-Founder-Synapse
+Tuesday, May 3, 2016
+Print
+Forward
+Tweet
+Let's face it - the process of selecting the right technology to address next generation solutions like enterprise mobility, BYOD or big data, is exciting for sure but also implies undertaking a massive research project. Researching the optimum solution needs to be strategic to one's organizational requirements as well as very tactical in order to ensure faster adoption right from the beginning. It is required, by design, that the technology stack of choice not only solves current pain point but can also be scalable.
+It is not uncommon in this research project for the core team members to sweat the small stuff and find themselves as victims of what we call "the whiteboard effect". This essentially means that the team spends vast amount of time, going in spirals and over-analyzing the problem, before drawing that first line on a clean board. To make it interesting, there are boatloads of vendors, and counting, in the market today. There is also an immense amount of marketing data and statistics of the few that ventured down this path and how their sales and savings skyrocketed.
+After having established the numerous distractions that exist today in hindering the optimum technology selection process, here is a suggested framework that can guide you to achieve the desired goal of enterprise mobility and beyond.
+We will begin this exercise by deconstructing the problem and then build a solution framework in a broader sense that could be applied in multiple situations.
+The first step to attain the right solution is to identify and document a well-defined problem statement. The definition of a problem statement in an emerging technology should, in our opinion, always include in a succinct paragraph-Business problem and Ideal success criteria.
+For example, here is a problem statement from an organization we worked with and that we shall use in this article:
+"We are a retail business and our sales reps are on the field making decisions out of few months' old sales data and gut feel. For deal specific data, our reps have to be at their desk for secure access. There is no real time data to support a decision on the field. Our reports are generated every few weeks and are at the mercy of our reporting software speed. Ideally we would like our sales to be truly mobile selling products and not tied to their desks. We want our workforce to be able to access data that is closer to real time and are able to drill down as needed and make data driven decision."
+These statements are not very far from a typical enterprise mobility problem in the global market. On
+further analysis, this business requirement can be broken down into:
+Right device for the right situation
+Secure access to corporate data
+Visualization application
+Fast reporting system
+These result in a list of technology bullets for the CIO/CTO-Device platform strategy, Enterprise connectivity or Wireless strategy, Carrier based strategy, Enterprise boundary, Asset management, Process support, Expense management and Mobility cloud strategy among others.
+They are all valid concerns. However, it is interesting to note how we block ourselves from moving towards the next steps and actually created a laundry list of action items before even addressing the real problem at hand.
+In our experience, any business-driven initiative in an emerging space should be agile and focus on fulfilling basic requirements, rather than focusing on strategic technology initiatives from the day one. Refactoring and reconsidering a solution during implementation is normal and expected in an emerging technology space.
+On the other hand, the CTO's list of items leading to a mobility roadmap, is the valid approach for a technology-driven initiative. In this article, we will focus on the business-driven solution building only.
+Solution Building
+After analyzing the problem and deriving a set of focused and complete business requirements, we figured out a truly innovative, one-of-its-kind, scalable and simple to understand solution.
+The result was to build a data aggregation solution, based Extract-Load-Transform (ELT) concept, which could stream data rapidly from all possible data sources of the organization- Social media, Web analytics, Sales data marts, ERP and POS data.
+Entire data stream was streamed into a small Hadoop cluster, normalized, transformed and further loaded into a massively parallel database cluster. We hooked up a visualization platform for advance analytics at the very end. This architecture is not an invention, but one that is well known and been around for a while. However, a large number of enterprises even today do not have it implemented, but are instead still mulling over next steps.
+This architecture is unique and low-cost as everything was implemented in a virtualized environment. It is one of the first few "Big Data Lake" cluster on a virtualized cloud environment, providing advanced analytics to drill down to the right device at the right time.
+Additionally, a Role-based-access (RBAC) model was added to create a multi-tenant environment. This enabled each department to leverage their BI team to analyze data and direct it towards their respective department visualization dashboards.
+Some will question the speed of this model. The key thing is that the solution needs to be optimized to meet the requirements, but it need not break the bank. More importantly, it needs to be easy to recreate and scale up as and when requirements grow.
+The bottom-line here is that in order to succeed, the solution, especially in an emerging technology space, should at minimum, always resolve the pain point and increase user adoption.
+Another subtle yet important aspect of this solution is the-Apps > Data > Analytics lifecycle. In this case, within few weeks of implementation, the team was tasked to build a mobile app driven by the data in the big data lake. The next step is to go about this were in line with the agile software development strategy utilizing Micro-services and Cloud Foundry for rapid development and deployment.
+In essence, not all environments are the same and each of you might have a different set of environment, requirements, and concerns. However, if architected solution is revenue-generating rather than cost saving and quick-tooperationalize, rest assured that there will be a lot of innovative and exciting work for the entire enterprise.
+Post your valuable comment here
+Email
+Password
+Don't have SiliconIndia account?
+Sign up
+Forgot your password?
+Reset
+Post your valuable comment here
+More articles from this issue
+THE ECOSYSTEM OF GOOGLE TECHNOLOGIES
+Nathan Research: EXPLORING THE WORLD OF ENTERPRISE SOFTWARE ON THE CLOUD
+MEASURING CLOUD READINESS OF ENTERPRISE APPLICATIONS
+TRANSFORMING INDIA'S TELECOM NETWORKS
+INVEST IN RIGHT TECHNOLOGY TO SCALE, GROW AND TRANSFORM BUSINESSES
+Previous Magazine Editions
+Oct
+15
+Aug - Sep
+15
+July
+15
+June 15
+Tweets about siliconindia
+SiliconIndia:
+About Us
+|
+Contact Us
+|
+Help
+|
+Community rules
+|
+Advertise with us
+|
+Sitemap
+|
+News:
+Technology
+|
+Enterprise
+|
+Gadgets
+|
+Startups
+|
+Finance
+|
+Business
+|
+Career
+|
+Magazine |
+Newsletter
+|
+News archive
+Cities:
+CEO
+|
+Startup
+|
+Mobile
+|
+CIO
+|
+Women
+|
+BI
+|
+HR
+|
+SME
+|
+Cloud
+|
+Marketing
+|
+QA
+|
+Java
+|
+WebDeveloper
+Community:
+Members
+|
+Blogs
+|
+Indian Entrepreneurs
+|
+Gyan
+|
+Advice
+|
+Community
+|
+Find
+|
+CXO Insights
+Online Courses:
+Web Developer
+|
+Java Developer
+|
+CCNA Training
+|
+SEO
+|
+SAS
+|
+SQL Server 2005
+|
+J2EE
+Education:
+MBA
+|
+MCA
+|
+Engineering
+|
+Training Institute
+Life:
+Real Estate
+|
+Travel
+|
+Finance
+|
+Gadgets
+|
+Movie Reviews
+|
+Jokes
+Send your feedback and help us continue to improve SiliconIndia
+2016
+InfoConnect Web Technologies India Pvt Ltd. all rights reserved
