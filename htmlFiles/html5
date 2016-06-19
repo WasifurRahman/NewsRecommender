@@ -1,0 +1,6037 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+         
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="en" lang="en">
+
+<head>
+  
+  <meta name="viewport" content="width=1000">
+
+  
+  <meta name="layout" content="Content Default" />
+  
+    <meta name="oid" content="924367" />
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="imagetoolbar" content="no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  
+  
+  
+  <link rel="stylesheet" type="text/css" href="/foundation/styles/reset.css?cb=17ccb6390b8853b70a1c28c233b5f68c" />
+
+  
+  
+    <link rel="stylesheet" type="text/css" href="/styles/defaults.css?cb=17ccb6390b8853b70a1c28c233b5f68c" />
+    <link rel="stylesheet" type="text/css" href="/styles/components.css?cb=17ccb6390b8853b70a1c28c233b5f68c" />
+    <link rel="stylesheet" type="text/css" href="/styles/publication.css?cb=17ccb6390b8853b70a1c28c233b5f68c" />
+  
+
+  <style type="text/css">
+    /* Foundation Convenience Styles */
+    /* For programmatic usage only! */
+    .clear { clear: both }
+    .hidden { display: none }
+    .lower { text-transform: lowercase }
+    .upper { text-transform: uppercase }
+
+    /* Foundation Conditional Display Classes */
+    .briefOnly     {  }    /* override in components.css */
+    .longOnly      {  }    /* override in components.css */
+  </style>
+
+  
+    <link rel="stylesheet" type="text/css" href="/foundation/grids/mule-4-zone.css" />
+  
+
+  <!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="/styles/ie6.css" />
+  <![endif]-->
+  <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="/styles/ie7.css" />
+  <![endif]-->
+  <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="/styles/ie8.css" />
+  <![endif]-->
+  <!--[if gte IE 9]>
+      <link rel="stylesheet" type="text/css" href="/styles/ie9-plus.css">
+  <![endif]-->
+
+  <link rel="stylesheet" href="/styles/print.css" type="text/css" media="print" />
+
+  
+  
+    
+    
+      <link rel="alternate" type="application/rss+xml" title="Chicago Reader RSS: Whole Site" href="http://www.chicagoreader.com/chicago/Rss.xml" />
+    
+    
+      <link rel="alternate" type="application/rss+xml" title="Chicago Reader RSS: News &amp; Politics Section" href="http://www.chicagoreader.com/chicago/Rss.xml?oid=846996" />
+    
+    
+      <link rel="alternate" type="application/rss+xml" title="Chicago Reader RSS: Feature" href="http://www.chicagoreader.com/chicago/Rss.xml?oid=863470" />
+      
+    
+
+    
+    
+      <link rel="alternate" type="application/rss+xml" title="Chicago Reader RSS: Comments on He's Going to Win" href="http://www.chicagoreader.com/chicago/Rss.xml?oid=924367&amp;id=comments" />
+    
+  
+
+  
+  <script src="/foundation/scripts/core-public.js?cb=111d56e1be"></script>
+
+  
+  <link rel="stylesheet" href="/foundation/styles/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+  <script>
+    Foundation.documentReady.then(function () {
+        jQuery("a.zoomable").fancybox({"type": "image", "titlePosition": "over"});
+    });
+  </script>
+
+  
+  <script>
+    // Smooth scrolling to anchors on the same page.
+    setupGlide();
+    
+    // Modify user's own profile links to go to correct URL.
+    fixupProfileLinks("http:\/\/www.chicagoreader.com\/chicago\/Profile", "http:\/\/posting.chicagoreader.com\/chicago\/MyProfile");
+  </script>
+  
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+
+
+
+
+
+
+
+  
+  <script type='text/javascript'>
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+            (function() {
+              var gads = document.createElement('script');
+              gads.async = true;
+              gads.type = 'text/javascript';
+              var useSSL = 'https:' == document.location.protocol;
+              gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+              var node = document.getElementsByTagName('script')[0];
+              node.parentNode.insertBefore(gads, node);
+            })();
+        </script>
+        <script type='text/javascript'>
+            googletag.cmd.push(function() { 
+          Foundation = Foundation || {};
+          Foundation.Ad = Foundation.Ad || {};
+          Foundation.Ad.slots = Foundation.Ad.slots || {};
+              Foundation.Ad.slots['div-gpt-ad-chicago_creativeloafing_edit-1'] = googletag.defineSlot('/622/chicago.creativeloafing/edit', [[468, 60], [728, 90], [970, 90]], 'div-gpt-ad-chicago_creativeloafing_edit-1').addService(googletag.pubads());
+        Foundation.Ad.slots['div-gpt-ad-chicago_creativeloafing_edit-2'] = googletag.defineSlot('/622/chicago.creativeloafing/edit', [[300, 250], [300, 600]], 'div-gpt-ad-chicago_creativeloafing_edit-2').addService(googletag.pubads());
+        Foundation.Ad.slots['div-gpt-ad-chicago_creativeloafing_edit-3'] = googletag.defineSlot('/622/chicago.creativeloafing/edit', [160, 600], 'div-gpt-ad-chicago_creativeloafing_edit-3').addService(googletag.pubads());
+        Foundation.Ad.slots['div-gpt-ad-chicago_creativeloafing_edit-4'] = googletag.defineSlot('/622/chicago.creativeloafing/edit', [975, 36], 'div-gpt-ad-chicago_creativeloafing_edit-4').addService(googletag.pubads());
+              Foundation.Ad.slots['div-gpt-ad-chicago_creativeloafing_lead2-11'] = googletag.defineSlot('/622/chicago.creativeloafing/lead2', [[468, 60], [728, 90], [970, 90]], 'div-gpt-ad-chicago_creativeloafing_lead2-11').addService(googletag.pubads());
+              Foundation.Ad.slots['div-gpt-ad-chicago_creativeloafing_rect2-5'] = googletag.defineSlot('/622/chicago.creativeloafing/rect2', [300, 250], 'div-gpt-ad-chicago_creativeloafing_rect2-5').addService(googletag.pubads());
+              googletag.pubads().setTargeting('template', ["Content"]);
+              googletag.pubads().setTargeting('media', ["screen"]);
+              googletag.pubads().setTargeting('section', ["newscommentary"]);
+              googletag.pubads().setTargeting('category', ["feature"]);
+              googletag.pubads().setTargeting('oid', ["924367"]);
+              googletag.pubads().setTargeting('pg', ["BenJoravsky"]);
+          googletag.pubads().collapseEmptyDivs();
+            googletag.enableServices();
+              Foundation.Ad.refresh = function (id) {
+                if (id && Foundation.Ad.slots[id]) {
+                  googletag.pubads().refresh([Foundation.Ad.slots[id]]);
+                }
+                else {
+                  googletag.pubads().refresh();
+                }
+              };
+              if (window.jQuery) {
+                jQuery(document).on("foundation:ad:refresh", function(event) {
+                  Foundation.Ad.refresh();
+                });
+              }
+            }); 
+        </script>
+
+
+<meta name="google-site-verification" content="LWsciMIvTYJbiK1PtiDsJejlnEOP4J-E1e9TXi9VFSc" />
+
+
+<!-- ChartBeat tag. The rest of it is at the bottom of page.-->
+<script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script>
+
+
+
+<!-- twitter cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@Chicago_Reader">
+<meta name="twitter:creator" content="@joravben">
+<!--/twitter cards -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google fonts -->
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,900,800,700,600,500,200,300' rel='stylesheet' type='text/css'>
+
+
+<!-- Inform video enable, NDN -->
+<script type="text/javascript" 
+ src="http://launch.newsinc.com/js/embed.js"
+ id="_nw2e-js">
+</script>
+
+
+
+
+
+
+
+
+
+
+<!-- AdSupply -->
+<script data-cfasync="false" type="text/javascript">(function(s,o,l,v,e,d){if(s[o]==null&&s[l+e]){s[o]="loading";s[l+e](d,l=function(){s[o]="complete";s[v+e](d,l,!1)},!1)}})(document,"readyState","add","remove","EventListener","DOMContentLoaded");(function(){var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="//cdn.engine.4dsply.com/Scripts/infinity.js.aspx?guid=1a0ebf20-df1e-4b14-9168-d4265542da99";s.id="infinity";s.setAttribute("data-guid","1a0ebf20-df1e-4b14-9168-d4265542da99");s.setAttribute("data-version","async");var e=document.getElementsByTagName('script')[0];e.parentNode.insertBefore(s,e)})();</script>
+
+
+
+
+
+
+
+<!-- Unruly, desktop only -->
+<script>
+var unruly = window.unruly || {};
+unruly.native = unruly.native || {};
+unruly.native.siteId = 951284;
+</script>
+<script src="//video.unrulymedia.com/native/native-loader.js"></script>
+
+
+
+<!-- Nativo -->
+<script type="text/javascript" 
+src="http://a.postrelease.com/serve/load.js?async=true"></script>
+
+<!-- Taboola -->
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({article:'auto'});
+  !function (e, f, u) {
+    e.async = 1;
+    e.src = u;
+    f.parentNode.insertBefore(e, f);
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  'http://cdn.taboola.com/libtrc/chicagosuntimes-chicagoreader/loader.js');
+</script>
+
+
+ 
+
+  <link rel="canonical" href="http://www.chicagoreader.com/chicago/hes-going-to-win/Content?oid=924367" />
+
+
+<script type="text/javascript">
+    var parameters = {};
+
+    function getValueWithDefault(key, input, defaultValue)
+    {
+        if(input != null && array_key_exists(key, input))
+            return input[key];
+        return defaultValue;
+    }
+
+    function array_key_exists(key, search) {
+       return (typeof search[key] != "undefined");
+    }
+    
+    function initIBuster() {
+        try {
+            var queryString = unescape(document.location.search.substr(1));
+            var queryParameters = queryString.split('&');
+
+            for(var i = 0; i < queryParameters.length; i++) {
+                var keyValue = queryParameters[i].split('=');
+                parameters[keyValue[0]] = keyValue[1]; 
+            }
+
+            var iBusterResourceURL = getValueWithDefault("iBusterResourceURL", parameters, "");
+            iBusterResourceURL = iBusterResourceURL.split(".");
+
+			var filePath = getValueWithDefault("filePath", parameters, "");
+            
+            document.write(unescape('%3Cscript src="' + iBusterResourceURL[0] + '.jivox.com/player/'+ getValueWithDefault("iBusterVersion", parameters, "") +'/iBuster.js"  type="text/javascript" %3E%3C/script%3E'));
+        }
+        catch(e) {
+        }
+    }
+
+    initIBuster();
+</script>
+
+  
+  
+  
+  
+
+  
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <meta name="title" content="He&#39;s Going to Win | Feature | Chicago Reader" />
+  <meta name="description" content="Years ago I had a neighbor whose husband used to beat the crap out of her. One night her panic-stricken children showed up at my..." />
+  <meta name="keywords" content="Chicago Reader" />
+  <title>He's Going to Win | Feature | Chicago Reader</title>
+
+  
+  
+  <meta name="news_keywords" content="chicago reader" />
+
+  
+  
+    
+  
+  
+    <link rel="image_src" href="http://www.chicagoreader.com/binary/9866/adminIcon_chicago.jpg" />
+    <meta name="thumbnail" content="http://www.chicagoreader.com/binary/9866/adminIcon_chicago.jpg" />
+  
+
+  
+    
+      <link rel="canonical" href="http://www.chicagoreader.com/chicago/hes-going-to-win/Content?oid=924367" />
+      
+    
+  
+
+  
+    
+      <meta property="og:url" content="http://www.chicagoreader.com/chicago/hes-going-to-win/Content?oid=924367" />
+    
+  
+
+  
+    <meta property="fb:app_id" content="219877661382774" />
+  
+
+  
+  <meta property="og:site_name" content="Chicago Reader" />
+  <meta property="og:title" content="He&#39;s Going to Win" />
+ 
+  
+    <meta property="og:image" content="http://www.chicagoreader.com/binary/9866/adminIcon_chicago.jpg" />
+
+    
+    
+
+    
+    
+
+    
+      <meta property="og:image:width" content="258" />
+      <meta property="og:image:height" content="258" />
+    
+  
+
+  
+  
+    <meta property="og:description" content="Years ago I had a neighbor whose husband used to beat the crap out of her. One night her panic-stricken children showed up at my..." />
+  
+
+  
+  
+
+  
+  
+    <meta property="og:type" content="article" />
+  
+
+  
+  
+  <!--
+    <PageMap>
+      <DataObject type="foundation">
+        <Attribute name="oid">924367</Attribute>
+        <Attribute name="class">Content</Attribute>
+        <Attribute name="lastmodified">20160606232751</Attribute>
+        <Attribute name="creationdate">20081201054819</Attribute>
+      </DataObject>
+
+      
+        
+          <DataObject type="document">
+            <Attribute name="releasedatetime">20070222040000</Attribute>
+            <Attribute name="releasedate">20070222</Attribute>
+            <Attribute name="releaseepoch">1172138400</Attribute>
+            <Attribute name="title">He&#39;s Going to Win</Attribute>
+            <Attribute name="author">847359</Attribute>
+            <Attribute name="authorname">Ben Joravsky</Attribute>
+            <Attribute name="authorsortname">Joravsky, Ben</Attribute>
+          </DataObject>
+        
+
+        
+      
+    </PageMap>
+  -->
+
+
+  
+  
+  
+  
+    
+    <script type="application/ld+json">
+        {
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id":"http:\/\/www.chicagoreader.com\/chicago\/hes-going-to-win\/Content?oid=924367"
+          },
+          "headline": "He's Going to Win",
+          
+            "description": "Years ago I had a neighbor whose husband used to beat the crap out of her. One night her panic-stricken children showed up at my door pleading for help--\"My daddy's ripping my mommy's eye out.\"",
+          
+          
+          "datePublished": "2007-02-22T04:00:00Z",
+          "dateModified": "2016-06-06T23:27:51Z",
+          
+            "author": {
+              "name": "Ben Joravsky",
+              "@type": "Person"
+            },
+          
+          "publisher": {
+            "name": "Chicago Reader",
+            
+              
+              
+              
+              "logo": {
+                "url": "http:\/\/www.chicagoreader.com\/imager\/b\/google-amp-logo\/808579\/9866\/adminIcon_chicago.jpg",
+                "width": 258,
+                "height": 258,
+                "@type": "ImageObject"
+              },
+            
+            "@type": "Organization"
+          },
+          "@context": "http://schema.org",
+          "@type": "NewsArticle"
+        }
+      </script>
+  
+
+
+  
+  
+
+    
+    
+
+    
+    
+      <meta name="twitter:card" content="summary">
+    
+
+    
+      <meta name="twitter:creator" content="@joravben">
+    
+
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="He&#39;s Going to Win">
+    <meta name="twitter:description" content="Years ago I had a neighbor whose husband used to beat the crap out of her. One night her panic-stricken children showed up at my...">
+  
+</head>
+
+
+
+
+
+  <body id="Content" class="ContentDefault Mule4Zone">
+
+
+
+<div id="fb-root"></div>
+
+
+  <script>
+    (function () {
+        var app = new Foundation.Facebook.Application();
+        app.receiveAuthNotifications();
+        app.receiveLikeNotifications();
+    })();
+  </script>
+    
+
+<!-- Leader -->
+<div id="gridLeader">
+  
+</div><!-- end gridLeader -->
+
+<div id="gridClamp">
+
+  <!-- Header -->
+  <div id="gridHeader">
+    
+
+
+
+
+  
+  
+
+  
+  
+  
+
+  
+
+    
+      <div id="MobileDetect" class="GlobalHeader ContentDefault " style="display:none">
+        
+        
+          Switch to the <a href="http://m.chicagoreader.com/chicago/hes-going-to-win/Content?oid=924367" rel="nofollow alternate" media="handheld">mobile version</a> of this page.
+        
+      </div>
+    
+
+    <script>
+      new Foundation.MobileDetectComponent("MobileDetect", true);
+    </script>
+  
+
+
+
+<div id="HeaderLinks" class="GlobalHeader ContentDefault ">
+  <ul class="componentBody">
+    
+    
+        <li class="first">
+          <ul>
+      
+      
+
+      <li class=" first last"><a href="/subscribe">Newsletters</a></li>
+
+      
+    
+          </ul>
+        </li>
+      
+
+    
+    
+        <li>
+          <span>Follow us</span>
+          <ul>
+      
+      
+        <li id="icon-Twitter" class="icon twitterIcon first"><a href="http://twitter.com/Chicago_Reader">Twitter</a></li>
+      
+    
+      
+        <li id="icon-Facebook" class="icon facebookIcon"><a href="http://facebook.com/chicagoreader">Facebook</a></li>
+      
+    
+      
+        <li id="icon-RSS" class="icon rssIcon last"><a href="/chicago/Syndication/Page">RSS</a></li>
+      
+    
+          </ul>
+        </li>
+      
+
+    
+    <li class="last">
+      <ul>
+        <li class="first last"><a href="http://m.chicagoreader.com">Mobile</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  
+  
+    <ul class="componentFooter">
+      <li class="first last">
+        
+
+<div id="LoginStatus" class="MicroComponent HeaderLinks ">
+  
+  <ul data-view="loggedin" style="display:none">
+    <li class="first"><strong data-label="username">Username</strong></li>
+    <li><a href="http://posting.chicagoreader.com/chicago/MyProfile">View Profile</a></li>
+    <li><a href="http://posting.chicagoreader.com/chicago/Profile/MySettings">Edit Profile</a></li>
+    <li class="last"><a href="http://www.chicagoreader.com/chicago/Logout">Log Out</a></li>
+  </ul>
+  
+  <ul data-view="loggedout" style="display:none">
+    <li class="first"><a href="#LogIn">Log in</a></li>
+    <li class="last"><a href="#CreateAccount">Create Account</a></li>
+  </ul>
+
+  <script>
+    new Foundation.LoginRequiredComponent("LoginStatus");
+  </script>
+</div>
+<!-- #LoginStatus -->
+
+      </li>
+    </ul>
+  
+
+
+
+</div>
+<div id="Leaderboard" class="GlobalHeader ContentDefault Leaderboard Ad">
+  
+  <!-- /622/chicago.creativeloafing/edit -->
+          <div id="div-gpt-ad-chicago_creativeloafing_edit-1" style="" data-slot="/622/chicago.creativeloafing/edit" data-output="asynchronous" data-width="970" data-height="90">
+            <script type='text/javascript'>
+                googletag.cmd.push(function() {
+                googletag.display('div-gpt-ad-chicago_creativeloafing_edit-1');
+                });
+            </script>
+          </div>
+</div>
+
+
+    
+    
+
+<div id="Search" class="GlobalHeader ContentDefault ">
+    
+    
+    <form class="prepTextForm" id="searchbox_partner-pub-8505671427584150:vj9mirq6e7r" action="http://www.chicagoreader.com/chicago/Search">
+        <input type="hidden" name="cx" value="partner-pub-8505671427584150:vj9mirq6e7r" />
+        <input type="hidden" name="cof" value="FORID:9" />
+        <input class="clearFocus" type="text" name="q" size="25" value="Search chicagoreader.com" />
+        <input type="submit" class="submit" name="sa" value="Go" />
+    </form>
+  
+
+  
+  <script type="text/javascript">
+    if (jQuery) {
+      (function ($) {
+        $("#Search .clearFocus").one("focus", function () {
+          $(this).val("");
+          $(this).removeClass("clearFocus");
+        });
+        $("#Search form").submit(function () {
+          $("#Search .clearFocus").each(function () {
+            $(this).val("");
+            $(this).removeClass("clearFocus");
+          });
+        });
+      })(jQuery);
+    }
+  </script>
+</div>
+
+
+
+
+
+
+
+
+
+
+  <div id="SecondaryLogo" class="GlobalHeader ContentDefault ">
+    
+      <a id="secondaryLogo-924367" class="secondaryLogo logo-924367 logo-story logo-feature logo-newscommentary logo-Content" href="http://www.chicagoreader.com/chicago/news-and-politics/Section?oid=846996"></a>
+    
+  </div>
+
+
+
+<div id="Logo" class="GlobalHeader ContentDefault ">
+  
+    <div><a href="http://www.chicagoreader.com/">The Chicago Reader</a></div>
+  
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<div id="NavigationHorizontal" class="GlobalHeader ContentDefault ">
+  
+    
+    
+        <ul id="mainNav">
+      
+      
+
+      
+
+      
+
+      
+
+      <li class="first" id="NavItem_news">
+        <a href="http://www.chicagoreader.com/chicago/news-and-politics/Section?oid=846996" target="_self" class="subnav_link" id="SNAVL_news">News &amp; Politics</a>
+      </li>
+      
+    
+      
+
+      
+
+      
+
+      
+
+      <li class="" id="NavItem_music">
+        <a href="http://www.chicagoreader.com/chicago/music/Section?oid=846991" target="_self" class="subnav_link" id="SNAVL_music">Music</a>
+      </li>
+      
+    
+      
+
+      
+
+      
+
+      
+
+      <li class="" id="NavItem_arts">
+        <a href="http://www.chicagoreader.com/chicago/arts-and-culture/Section?oid=939136" target="_self" class="subnav_link" id="SNAVL_arts">Arts &amp; Culture</a>
+      </li>
+      
+    
+      
+
+      
+
+      
+
+      
+
+      <li class="" id="NavItem_movies">
+        <a href="http://www.chicagoreader.com/chicago/film/Section?oid=846987" target="_self" class="subnav_link" id="SNAVL_movies">Film</a>
+      </li>
+      
+    
+      
+
+      
+
+      
+
+      
+
+      <li class="" id="NavItem_food">
+        <a href="http://www.chicagoreader.com/chicago/food-and-drink/Section?oid=846971" target="_self" class="subnav_link" id="SNAVL_food">Food &amp; Drink</a>
+      </li>
+      
+    
+      
+
+      
+
+      
+
+      
+
+      <li class="last" id="NavItem_classifieds">
+        <a href="http://www.chicagoreader.com/classifieds" target="_self" class="subnav_link" id="SNAVL_classifieds">Classifieds</a>
+      </li>
+      
+    
+        </ul>
+      
+
+    
+      
+      
+        
+          <h3 class="hidden">Browse News &amp; Politics</h3>
+          <ul class="subnav_content" id="SNAV_news" style="display:none;">
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/news-and-politics/Section?oid=846996" target="_self" title="">News &amp; Politics home page</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/ArticleArchives?author=863602" target="_self" title="">Steve Bogira | Criminal Justice</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/ArticleArchives?author=867259" target="_self" title="">John Greenfield | Transportation</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/ArticleArchives?author=847327" target="_self" title="">Deanna Isaacs | Culture</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/ArticleArchives?author=847359" target="_self" title="">Ben Joravsky | Politics</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/ArticleArchives?author=847371" target="_self" title="">Michael Miner | Media</a>
+        </li>
+        
+          </ul>
+        
+      
+        
+          <h3 class="hidden">Browse Music</h3>
+          <ul class="subnav_content" id="SNAV_music" style="display:none;">
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/music/Section?oid=846991" target="_self" title="">Music home page</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=1515274" target="_self" title="">Gossip Wolf</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=3685682" target="_self" title="">In Rotation</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=13133545" target="_self" title="">Record roundups</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/ArticleArchives?author=2015102" target="_self" title="">Leor Galil | Music Criticism</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/ArticleArchives?author=847392" target="_self" title="">Peter Margasak | Music Criticism</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="searchItem">
+          <a href="http://www.chicagoreader.com/chicago/Soundboard" target="_self" title="">Soundboard: Concerts this week</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="searchItem">
+          <a href="http://www.chicagoreader.com/chicago/EarlyWarnings" target="_self" title="">Early Warnings: Concerts on horizon</a>
+        </li>
+        
+          </ul>
+        
+      
+        
+          <h3 class="hidden">Browse Film</h3>
+          <ul class="subnav_content" id="SNAV_movies" style="display:none;">
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/film/Section?oid=846987" target="_self" title="">Film home page</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/ArticleArchives?author=866632" target="_self" title="">J.R. Jones | Movie Reviews</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/movie-reviews-long-form-film-criticism-index/Content?oid=5648188" target="_self" title="">Index of Long Reviews</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="searchItem">
+          <a href="http://www.chicagoreader.com/chicago/FilmSearch" target="_self" title="">Film Archive: Short Reviews</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="searchItem">
+          <a href="http://www.chicagoreader.com/chicago/MovieTimes" target="_self" title="">Now Playing</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="searchItem">
+          <a href="http://www.chicagoreader.com/chicago/MovieTimes?narrowByDate=Today" target="_self" title="">Today&#39;s Showtimes</a>
+        </li>
+        
+          </ul>
+        
+      
+        
+          <h3 class="hidden">Browse Arts &amp; Culture</h3>
+          <ul class="subnav_content" id="SNAV_arts" style="display:none;">
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/arts-and-culture/Section?oid=939136" target="_self" title="">Arts &amp; Culture home page</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/ArticleArchives?author=866027" target="_self" title="">Tony Adler | Theater</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/ArticleArchives?author=851121" target="_self" title="">Justin Hayford | Theater</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/ArticleArchives?author=8954849" target="_self" title="">Aimee Levitt | Features</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/ArticleArchives?author=10929316" target="_self" title="">Brianna Wellen | Comedy</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="searchItem">
+          <a href="http://www.chicagoreader.com/chicago/FindACulturalEvent/Page" target="_self" title="">Arts &amp; Culture event search</a>
+        </li>
+        
+          </ul>
+        
+      
+        
+          <h3 class="hidden">Browse Food &amp; Drink</h3>
+          <ul class="subnav_content" id="SNAV_food" style="display:none;">
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/food-and-drink/Section?oid=846971" target="_self" title="">Food &amp; Drink home page</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/chicago/ArticleArchives?author=847347" target="_self" title="">Mike Sula | Restaurant Reviews</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/Bleader/archives/key-ingredient/" target="_self" title="">Key Ingredient: A chef-to-chef challenge</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/Bleader/archives/cocktail-challenge/" target="_self" title="">Cocktail Challenge</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="searchItem">
+          <a href="http://www.chicagoreader.com/chicago/BarGuide" target="_self" title="">Bar Guide</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="searchItem">
+          <a href="http://www.chicagoreader.com/chicago/RestaurantFinder/Page" target="_self" title="">Restaurant search</a>
+        </li>
+        
+          </ul>
+        
+      
+        
+          <h3 class="hidden">Browse The Bleader</h3>
+          <ul class="subnav_content" id="SNAV_blogs" style="display:none;">
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/blogs/Bleader/" target="_self" title="">The Bleader blog home page</a>
+        </li>
+        
+          </ul>
+        
+      
+        
+          <h3 class="hidden">Browse Classifieds</h3>
+          <ul class="subnav_content" id="SNAV_classifieds" style="display:none;">
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/classifieds" target="_self" title="">Classifieds home page</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://chicagoreaderre.kaango.com/" target="_self" title="">Real Estate</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://chicagoreaderre.kaango.com/browse/rentals/11367/" target="_self" title="">Rentals</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://chicagoreader.kaango.com/browse/jobs-help-wanted/927/" target="_self" title="">Jobs/Help Wanted</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://www.chicagoreader.com/monster" target="_self" title="">Jobs (Monster)</a>
+        </li>
+        
+      
+        
+
+        
+
+        <li class="">
+          <a href="http://chicagoreader.kaango.com/ads/create" target="_self" title="">Post An Ad</a>
+        </li>
+        
+          </ul>
+        
+      
+
+      
+
+      
+      
+      
+    
+  
+</div>
+
+
+
+
+
+
+
+  
+  
+    <script>
+    (function(){
+      jQuery('#NavigationHorizontal .subnav_link').each(function(){
+        var navigationID = jQuery(this).attr('id');
+        var navigationSelector = '#'+navigationID;
+        var navMenuSelector = '#NavigationHorizontal #SNAV_'+navigationID.split('_')[1];
+        var navigationTimeout;
+        var focusNavigation = function(e){
+          window.clearTimeout(navigationTimeout);
+          jQuery(navMenuSelector).css('left',Math.round(jQuery(navigationSelector).position().left)+'px');
+          jQuery(navMenuSelector).show();
+        }
+        var blurNavigation = function(e){
+            jQuery(navMenuSelector).hide();
+          navigationTimeout = window.setTimeout(function(){
+          },75);
+        }
+        jQuery(navMenuSelector+', '+navigationSelector).hover(focusNavigation,blurNavigation);
+      });
+    })();
+    </script>
+  
+
+<!-- End #NavigationHorizontal -->
+
+
+
+
+
+
+  <div id="NavigationSecondary" class="GlobalHeader ContentDefault ">
+    
+    
+
+    
+      
+          <ul>
+        
+        
+        <li class="first"><li class="first"><a href="/chicago/midwest-road-trip-travel-illinois-wisconsin-michigan-indiana/Content?oid=22309706" class="highlight">Road Trips</a></li></li>
+        
+      
+        
+        <li class=""><li class=""><a href="/chicago/ArticleArchives?category=866366" >Savage Love</a></li></li>
+        
+      
+        
+        <li class=""><li class=""><a href="/chicago/ArticleArchives?author=863602" >Steve Bogira</a></li></li>
+        
+      
+        
+        <li class=""><li class=""><a href="/chicago/ArticleArchives?author=867259" >John Greenfield</a></li></li>
+        
+      
+        
+        <li class=""><li class=""><a href="/chicago/ArticleArchives?author=847327" >Deanna Isaacs</a></li></li>
+        
+      
+        
+        <li class=""><li class=""><a href="/chicago/ArticleArchives?author=847359" >Ben Joravsky</a></li></li>
+        
+      
+        
+        <li class=""><li class=""><a href="/chicago/ArticleArchives?author=847371" >Michael Miner</a></li></li>
+        
+      
+        
+        <li class=" last"><li class=" last"><a href="/Bleader/archives/news/" >The Bleader: News</a></li></li>
+        
+      
+          </ul>
+        
+
+    
+    
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="TopPencilBar" class="GlobalHeader ContentDefault Pencil Ad">
+  <!--  pencil bar rev 20100311 -->
+  
+  <!-- /622/chicago.creativeloafing/edit -->
+          <div id="div-gpt-ad-chicago_creativeloafing_edit-4" style="" data-slot="/622/chicago.creativeloafing/edit" data-output="asynchronous" data-width="975" data-height="36">
+            <script type='text/javascript'>
+                googletag.cmd.push(function() {
+                googletag.display('div-gpt-ad-chicago_creativeloafing_edit-4');
+                });
+            </script>
+          </div>
+  <!-- /pencil bar -->
+</div>
+
+
+  </div><!-- end gridHeader -->
+
+  <div id="gridMain">
+  
+    <!-- ZoneA -->
+    <div id="gridMainColumn">
+      
+
+
+
+  
+    <div id="StoryBreadcrumb" class="MainColumn ContentDefault ">
+      <p class="issueInfo">
+        <span class="date">
+          
+            <a href="http://www.chicagoreader.com/chicago/IssueArchives?issue=870281">February 22, 2007</a>
+          
+        </span>
+
+        
+          <a href="http://www.chicagoreader.com/chicago/news-and-politics/Section?oid=846996">News & Politics</a>
+        
+        
+          | <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=863470">Feature</a>
+        
+      </p>
+    </div> <!-- end StoryBreadcrumb -->
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  <!-- 
+    xxx
+    admin: 808579
+    serverURl: http://www.chicagoreader.com
+    var.publicDesktopServer = http://www.chicagoreader.com
+    var.shareUrl = http://www.chicagoreader.com/chicago/hes-going-to-win/Content?oid=924367
+    s/http\:\/\/www\.chicagoreader\.com/http\:\/\/www\.chicagoreader\.com/
+    var.shareUrl = http://www.chicagoreader.com/chicago/hes-going-to-win/Content?oid=924367
+  -->
+
+
+
+
+  
+
+  
+    
+    
+  
+
+  
+  <style>
+    div.l0.last div:first-child {float:right;}
+  </style>
+  
+  <div id="ToolBarHorizontal" class="MainColumn ContentDefault ">
+    <div style="width:100%; height: 20px;">
+      <div class="l0 first" style="width:16%; height: 20px; float:left;">
+        <fb:like href="http://www.chicagoreader.com/chicago/hes-going-to-win/Content?oid=924367" send="false" show_faces="false" action="like" font="tahoma" colorscheme="light" layout="button_count"></fb:like></div> <div class="l0" style="width:16%; height: 20px; float:left;"><a href="http://twitter.com/share?url=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&text=He%27s%20Going%20to%20Win" class="twitter-share-button" data-count="horizontal">Tweet</a>
+    <script>
+      dnLoadScript("http://platform.twitter.com/widgets.js", true);
+    </script></div> <div class="l0" style="width:16%; height: 20px; float:left;"><script>
+      dnLoadScript("https://apis.google.com/js/plusone.js", true);
+    </script>
+    <g:plusone href="http://www.chicagoreader.com/chicago/hes-going-to-win/Content?oid=924367" size="medium" count="true"></g:plusone></div> <div class="l0" style="width:16%; height: 20px; float:left;">
+
+
+  
+
+  
+
+  
+
+  <a href="http://pinterest.com/pin/create/button/?media=http%3A%2F%2Fwww.chicagoreader.com%2Fbinary%2F9866%2FadminIcon_chicago.jpg&amp;description=He%27s%20Going%20to%20Win&amp;url=http%3A%2F%2Fwww.chicagoreader.com%2Fchicago%2Fhes-going-to-win%2FContent%3Foid%3D924367" class="pin-it-button" count-layout="none">Pin It</a>
+  <script>
+  Foundation.documentReady.then(function () {
+    new Foundation.Script("http://assets.pinterest.com/js/pinit.js", true);
+  })
+  </script>
+
+</div> <div class="l0" style="width:16%; height: 20px; float:left;">
+
+
+
+<div style="margin-top: 4px; ">
+<span style="
+text-transform: uppercase;
+padding: 2px 2px 1px 2px ;
+border: 1px solid #999;
+font-family: verdana, sans-serif;
+font-size: 10px;
+">
+<a href="http://www.readerreprints.com/reprint-products-quote-request/?cf2_field_17=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&cf2_field_18=02/22/2007" style="
+text-decoration: none; color: #666;
+">
+Reprints
+</a>
+</span>
+</div>
+
+</div> <div class="l0 last" style="width:16%; height: 20px; float:right;">
+
+
+
+
+  <div class="addthis_toolbox addthis_default_style"><a href="http://www.addthis.com/bookmark.php?v=300&pubid=ra-55e9dd86a53061b1" addthis:url="http://www.chicagoreader.com/chicago/hes-going-to-win/Content?oid=924367" addthis:title="He's Going to Win" addthis:description="Here's why you should vote against him anyway." class="addthis_button_compact">Share</a></div>
+  <script type="text/javascript">
+    dnLoadScript("http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55e9dd86a53061b1", true);
+  </script>
+
+
+      </div>
+    </div>
+  </div>
+
+  
+  
+    <script type="text/javascript">
+      Foundation.Tools.setup();
+    </script>
+  
+
+
+
+
+  
+
+  
+
+  
+    <div id="StoryHeader" class="MainColumn ContentDefault  section_feature">
+      <div class="storyHead">
+        <h1 class="headline headline-924367">He's Going to Win&nbsp;</h1>        
+        
+          <h2 class="subheadline">Here's why you should vote against him anyway.</h2>
+        
+        
+          
+
+          <cite class="byline">
+            By <a href="http://www.chicagoreader.com/chicago/ArticleArchives?author=847359" rel="author">Ben Joravsky</a>
+              
+              
+                
+                  
+                    <span class="twitter"><a href="http://twitter.com/joravben" title="joravben" target="_blank">@joravben</a></span>
+          </cite>
+
+          
+
+        
+      </div>
+    </div> <!-- end StoryHeader -->
+  
+
+
+
+    
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div id="StoryLayout" class="MainColumn ContentDefault  section_feature">
+
+<!-- Debut output 123456789 -->
+
+  
+
+    
+    
+    
+
+    
+    
+    
+      
+      
+  
+      
+              
+      
+       
+      
+      
+      <link type="text/css" href="/foundation/scripts/jplayer/skin/jplayer.blue.monday.css" rel="stylesheet" />
+      <script type="text/javascript" src="/foundation/scripts/jplayer/jquery.jplayer.min.js"></script>               
+      
+      <style>
+      div.jp-audio,
+      div.jp-video {
+        /* Edit the font-size to counteract inherited font sizing.
+         * Eg. 1.25em = 1 / 0.8em
+         */
+        font-size:1.25em;
+      }      
+      div#storyBody div.inlineAudio,
+      div#AudioPlayer div.inlineAudio {
+        width: 400px;
+        margin: auto;
+        }      
+      </style>
+      
+      
+      <div id="storyBody" class="page1 section_feature">
+        
+        
+        
+
+        
+          <p class="DropCap">
+  Years ago I had a neighbor whose husband used to beat the crap out of her. One night her panic-stricken children showed up at my door pleading for help--"My daddy's ripping my mommy's eye out." 
+</p>
+<p>
+  I wound up driving her to the hospital, and on the way I asked why she stayed with him. Blood dripping from her eye, she shrugged and said, "It's not so bad." But later she admitted she was scared--as rotten as life was with him, she was afraid it might be worse without him. 
+</p>
+<p>
+  We, the voters of Chicago, are like my helpless and hopeless neighbor. In a few days we're supposed to vote on the next mayor, and we're too scared and beaten down to take a stand. Ask us how the city's being run and the chances are we'll shrug, "It's not so bad." 
+</p>
+<p>
+  No doubt about it, Chicago's real estate market is booming. But cities all over the country are enjoying the same resurgence; it's transformed New York, Boston, San Francisco, even Newark, New Jersey. Our problem is that through waste, inefficiency, corruption, and, perhaps worst of all, political cowardice, we're squandering our riches. 
+</p>
+<p>
+  Review the record: The Daley administration awards about $100 million in affirmative-action contracts to companies run by the politically connected Duff family. James Duff, who's white, is charged with racketeering in 2003 and pleads guilty in 2005. Yet in 2007 Mayor Daley is endorsed for reelection by congressmen Bobby Rush and Luis Gutierrez and other black and Hispanic leaders. 
+</p>
+<p>
+  Daley's top City Hall patronage aide, Robert Sorich, gets four years in prison for overseeing a hiring operation where tests and interviews are rigged so the well connected get jobs over the well qualified. Yet good-government types like Miguel del Valle and Barack Obama praise him for cleaning up corruption. 
+</p>
+<p>
+  His transportation and streets and sanitation departments ran the hired truck program, doling out about $40 million a year in contracts to truck drivers who basically did nothing but campaign for the machine on election day. Yet civic groups and the chamber of commerce praise him for being a fiscal watchdog. 
+</p>
+<p>
+  I'm told over and over--by friends, insiders, cabbies, editorial pages--that scandals, including the heroin ring run by city workers out of the water department, are the price we pay for good services. 
+</p>
+<p>
+  Good services? Back in the 70s New York City was a laughingstock for not being able to run its trains on time. Who's laughing now? According to a study by Straphangers, a not-for-profit association of public transit users in New York, the worst subway line in New York runs "without bunching or gaps in service 79 percent of the time." The citywide average is 87 percent (you can read the study at www.straphangers.org). By contrast, 13.5 percent of the CTA's tracks are under "speed restrictions," including 23.9 percent of the Red Line and 22.1 percent of the Blue; it's virtually impossible to ride any line without experiencing a delay, according to the CTA's own statistics. A poster at the snarky Web site ctatattler.com said Daley seems to care more about collapsible Olympic stadiums than rapid transit and cracked, "Perhaps if the CTA shop sold collapsible trains, etc, then it wouldn't take me almost 2 hours to travel 16 miles." 
+</p>
+<p>
+  Service will get even worse after the elections, when the Red and Brown lines begin sharing a track through Lincoln Park to accommodate the Brown Line reconstruction. <i>Crain's Chicago Business</i> put it nicely when it said the CTA suffers from "crumbling structures . . . outdated signals . . . aging railcars . . . peeling paint . . . decaying rails and ties." 
+</p>
+<p>
+  The CTA doesn't have the money to keep up with basic repairs because it's squandered hundreds of millions of capital-improvement dollars rebuilding the Brown Line, creating the Pink Line, and building an underground station at Block 37 that's intended to service high-priced express trains to Midway and O'Hare. These projects either embellish or duplicate existing routes, and it's not at all clear that express trains can run to the airports without cutting into current Blue and Orange line service. Yet the Block 37 station was unanimously approved without debate by the City Council as part of a much larger economic development bill. One alderman admitted to me that he and most of his colleagues had no idea what they were voting for. 
+</p>
+<p>
+  Anything else? Why, yes: most public schools are underperforming and overcrowded, or are underused because upper- and middle-income residents wouldn't dream of sending their children there. The wave of the future for Chicago's poor kids is charter schools, which ask teachers to work longer hours for less money and fewer benefits. You tell me how the charters will ever retain a top-flight teaching staff against the higher salaries and benefits of the suburbs. 
+</p>
+<p>
+  Meanwhile, the Park District cuts programs and raises fees. The city's ready to build that Olympic stadium but somehow can't find enough money to mop the floors or replace the burned-out lightbulbs in its gyms and field houses. I've coached or watched basketball in gyms all over the city, and I can tell you most Park District gyms aren't open to the walk-in public anymore because the parks don't have the money to pay staffers to supervise them. They don't have money because they've jacked up their capital debt on boondoggles like the reconstruction of Soldier Field, which provides benefits to almost no one but the Bears. The city still hasn't built one indoor track facility for its public schools--they have to rent the Proviso West track for their indoor championship--but it's ready to build its fourth privately used stadium in 20 years. Many parents don't even bother with the Park District--they enroll their kids in private youth leagues or clubs. God help the kids who can't afford the sign-up fees. 
+</p>
+<p>
+  Yet Daley's proposals for audacious projects keep coming. The reconstruction of Soldier Field was followed by the construction of Millennium Park, which is to be followed by the 2016 Olympics. How the city's going to pay for the Olympics is anyone's guess. It can hardly tap the hotel-motel tax again, not after that was jacked for Soldier Field. It's promised not to use property taxes--about $100 million in those went for Millennium Park. The mayor says he has a list of investors interested in spending their own money to build the 5,000-unit Olympic village, but he hasn't identified them. My guess is that once the election is over and Daley's safely reelected he'll announce he's going to build for the Olympics with yet another tax increment financing district. 
+</p>
+<p>
+  There are about 150 TIFs so far--it's hard to keep count (the Community Development Commission just approved two more at its February 13 meeting). Virtually everything the city tells you about TIFs (they don't raise taxes, they don't take money from the schools and the parks, they're the only economic tool we have, they're reserved for blighted areas) is either a lie or a gross distortion. As I've reported extensively (chicagoreader.com/tifarchive/), they're essentially a slush fund, which the mayor and aldermen spend as they like. They're occasionally used to build or improve a school or a park, but they're kept from the systems themselves, where they belong. At last count (in 2005), TIFs had absorbed about $400 million a year in property taxes from the parks, schools, county, and other taxing bodies. The mayor's supporters are proud of the robust development downtown and the property taxes it brings in. But the reality is that the new property taxes generated there are sucked away by one of the nine TIFs Daley has created in and around the Loop. So it's no wonder your property taxes are rising, even as Daley says he's keeping them down. (New York's real estate boom has generated a surplus, enabling Mayor Michael Bloomberg to propose a $750 million property tax cut; but then, New York City doesn't have TIFs.) 
+</p>
+<p>
+  So let's see. We have corruption, a gutless and clueless City Council, a dysfunctional transportation system, lousy schools and parks, rising property taxes, off-the-books budgeting, and a mayor whose reelection is a foregone conclusion. Daley's so confident of beating his two challengers--William "Dock" Walls and Circuit Court clerk Dorothy Brown--that he's hardly campaigning. Instead he's hanging out with the likes of developer Judd Malkin, who flew him to the Super Bowl in his private jet and donated $200,000 to his campaign. 
+</p>
+<p>
+  I understand why developers would adore the mayor. His idea of economic development is to hand out TIF subsidies that let big corporations like United Airlines, USG, and Brach's move into fancy new headquarters and get rent breaks. But why in the world are the rest of us rushing to reelect him? I've been especially mystified since voters (mostly white north-, southwest-, and northwest-siders) revolted against the patronage, nepotism, waste, and rising taxes of Cook County Board president John Stroger. Son Todd stepped into the race for his stricken father and was narrowly nominated and elected, thanks to massive black support, but he's caught the same flak. Why the Strogers but not Daley? 
+</p>
+<p>
+  Obviously race has something to do with it. But what I hear from those friends, insiders, cabbies, and editorial pages is that they can put up with the scandals because the city doesn't look as dirty as it used to. 
+</p>
+<p>
+  I suppose it depends on what we mean by dirty. Maybe that's code for poor--as in, the city's cleaner now that Daley moved all the poor people out. For better or worse, Daley's greatest accomplishment so far has been the destruction of Cabrini-Green, Robert Taylor, Henry Horner, and other outdated high-rise public housing projects. The CHA's so-called Plan for Transformation opened up the south, north, and west sides to gentrification and development. Of course, Daley doesn't come right out and admit he got rid of the poor people. He goes along with the idea that the plan was about finding them adequate low-income housing. But in fact, the CHA admits it can't keep track of all its displaced residents. I'll give them a hint. According to a recent study by Illinois Poverty Summit, a not-for-profit research group, the number of poor people living in the collar counties and suburban Cook County has risen by 100,000 since 1999. The CHA might want to try poking around those suburbs if it really wants to find its evicted tenants. 
+</p>
+<p>
+  Make no mistake: public complacency about inefficient autocracies has been part of Chicago's political culture for decades--Milton Rakove's classic book on the machine run by the current mayor's father, Richard J. Daley, was called Don't Make No Waves, Don't Back No Losers. Only once in the last half century has the City Council done its duty to act as a check on the power of the mayor, and that was during the Council Wars of the mid-80s, when white aldermen waged a blatantly racial war on Mayor Harold Washington. 
+</p>
+<p>
+  But the current Mayor Daley has even more authority than his father did (and he certainly has fewer independent-minded aldermen in the council to contend with). In a city that gave us Saul Alinsky and other firebrand grassroots organizers, even community groups pull their punches for fear of alienating the mayor. The coalition of activists behind the Developing Government Accountability to the People project deserve credit for daring to rate Daley's record. (Their study's posted at www.dgapchicago.org.) But some of its members privately confessed to me that they felt pressured to inflate Daley's grades (awarding him, for instance, a C on transportation) because they figured their funding agencies and the media wouldn't take them seriously if they'd given him all the Fs he deserved. 
+</p>
+<p>
+  Is it folly to expect more from our mayor? Union and political activists tell me Daley's more vulnerable than he seems. If the two contenders with a reasonable chance of unseating him--congressmen Jesse Jackson and Luis Gutierrez--had run and hammered him hard, they might have kept him under 50 percent of the vote and forced a runoff. They were apparently trying to work out a deal: the congressman who didn't make the runoff would support the one who did, giving us a wide-open race for mayor. But people inside their camps tell me they figured they couldn't beat Daley and were waiting to see if U.S. attorney Patrick Fitzgerald's investigation of patronage and city contracts scandals would sweep him up before the election. When the summer passed without an indictment, the congressmen backed off. In the end both Gutierrez and Jackson chickened out. 
+</p>
+<p>
+  What does that mean for the rest of us? You still have a choice. If you don't use public trains, buses, parks, or schools; if you're not a teacher losing a pension; if you can afford skyrocketing taxes (and believe me, after the election, they'll rise); if you're OK with Daley personally controlling billions of tax dollars; and if you feel corruption is the price we pay for decent garbage collection--then by all means vote for the mayor. 
+</p>
+<p>
+  Otherwise, let me tell you about a recent conversation I had with a woman from the northwest side. We were reviewing the inadequacies of the Olympics funding scheme and figuring out that eventually the taxpayers will pick up the tab. She said, "This is horrible. What can we do?" 
+</p>
+<p>
+  I said the first step seemed obvious: vote against Daley. She laughed and asked, "Who are my choices?" When I mentioned Walls and Brown, she scoffed, "Oh, they can't win." And I thought--so what? Thousands of voters didn't care if Tony Peraica could win--much less who he was or what he stood for--when they voted for him over Todd Stroger for county board president last November. 
+</p>
+<p>
+  A vote for the opposition--whoever the opposition is--is a vote of defiance against a system that needs to be changed. A runoff, as unlikely as that sounds, might make the mayor agree to a debate. And even if Daley wins, oh, 65 percent of the vote, a lower-than-expected margin might give more aldermen courage to take an independent stand once in a while. 
+</p>
+<p>
+  I've had people tell me that as much as they despise the mayor's policies they're afraid to vote against him because chaos will ensue if he loses. I remember machine aldermen using that line as far back as 1979, when Jane Byrne was running against Mayor Michael Bilandic. To hear them talk, you'd have thought the city would fall apart--the Sears Tower would jump in the lake, as Mike Royko satirically put it four years later, when it was Harold Washington running against the machine and chaos again was predicted. Well, guess what: under Byrne and Washington, and Eugene Sawyer for that matter, city workers picked up the garbage, cleared the snow, salted the streets. The trains and buses ran--a hell of a lot better than they run today. As Tony Peraica once put it, it's "infantile" to live in fear and awe of one man. 
+</p>
+<p>
+  Dorothy Brown is a lawyer and a CPA. She was an auditor at the CTA, and she's been clerk of the circuit court since 2001. She's had about as much administrative experience as (or even more than) Byrne, Washington, or Daley had when they got elected. She's an unlikely agent of chaos. 
+</p>
+<p>
+  It only takes one major rebuff for Chicago's elected officials to catch on. Look at how efficiently (to the point of overkill?) snow removal has been handled since voters ousted Bilandic after the blizzard of '79. Vote Daley out for mismanaging the CTA and future mayors will think twice before they allow it to fall into such disrepair. 
+</p>
+<p>
+  At the very least, as voters we should have some self-respect. The city slaps us in the face and we ask for more. If we keep reelecting the slappers, we deserve the bad schools, slow trains, dimly lit gyms, and big tax bills they give us. 
+</p>
+<p>
+  If we elect a bum worse than the one we threw out, we can vote for someone else four years later. Democracy's not that complicated. If we don't start behaving like we live in one, we'll have no one to blame but ourselves for the consequences.  
+</p>
+<p>
+  <p><font size="1"><i>Art accompanying story in printed newspaper (not available in this archive):</i> photo/Tim Boyle/Getty Images.</font></p>
+        
+
+        
+        
+
+        
+        
+      </div>
+    
+
+  
+
+</div> <!-- end StoryLayout -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="DoPublicGoodbutton" class="MainColumn ContentDefault " style="text-align: center; ">
+
+<p style="font-size: 12px; margin-bottom: 6px; "><em>Find out how you can help</em></p>
+<div class="pgs-dpg-btn" data-pgs-partner-id="chicago-reader"></div> 
+<script async type="text/javascript" src="https://assets.pgs.io/button/v2/dpg.js"></script>
+</div>
+
+
+
+<!-- do public good -->
+
+
+
+
+
+
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+
+
+
+
+  <div id="ArchiveLink" class="MainColumn ContentDefault ">
+    <p class="moreArticles">
+      
+        <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=863470">More Feature &raquo;</a>
+      
+    </p>
+  </div> <!-- end ArchiveLink -->
+
+
+
+
+
+
+<div id="SaambaaNarrowArticleWidget" class="MainColumn ContentDefault ">
+<!-- Saambaa 20160606 -->
+    <!-- BEGIN WIDGET EMBED -->
+    <style>.smb-container608{margin:0 auto;max-width:608px;height:709px;position:relative;overflow:auto}.smb-container608 iframe{position:absolute;top:0;left:0;height:100%;width:100%;border:none}@media (max-width:616px){.smb-container608{height:1120px}}@media (max-device-width:616px){.smb-container608{height:1113px}}</style>
+    <div class="smb-container608">
+      <iframe id="saambaaWidget" frameborder="none" src="http://chicagoreader.saambaa.com/partner/center/chicagoreader" scrolling="no"></iframe>
+    </div>
+    <!-- END WIDGET EMBED -->
+<!--/Saambaa -->
+</div>
+    
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  <div id="ArticleToolsHorizontal" class="MainColumn ContentDefault ">
+    <div id="ArticleToolsHorizontalTools" class="horizontalTools">
+      <ul>
+        <li class="l0">
+          
+
+<a class="emailAction" title="Email" href="http://posting.chicagoreader.com/chicago/Tools/EmailFriend?oid=924367" rel="nofollow" target="_blank" onclick="popupWindow('popupEmailFriend', this.href, 340, 550, 400, 10); return false">Email</a>
+
+</li> <li class="l0">
+
+
+  <a class="toggleActivator shareAction" href="javascript://ShowSharePanel">Share</a>
+  <div class="togglePanel" style="display:none">
+    <ul>
+      <li class="l1">
+        <a href="http://digg.com/submit?url=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&title=He%27s%20Going%20to%20Win" target="_blank" class="toolIconLink"><img src="/binary/bed7/Digg_16x16.png" width="1" height="1" alt="" /></a>
+    <a href="http://digg.com/submit?url=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&title=He%27s%20Going%20to%20Win" target="_blank" class="toolTextLink">Digg</a></li> <li class="l1"><a href="http://www.newsvine.com/_wine/save?popoff=1&u=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&e=He%27s%20Going%20to%20Win" target="_blank" class="toolIconLink"><img src="/binary/1453/Newsvine_16x16.png" width="1" height="1" alt="" /></a>
+    <a href="http://www.newsvine.com/_wine/save?popoff=1&u=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&e=He%27s%20Going%20to%20Win" target="_blank" class="toolTextLink">Newsvine</a></li> <li class="l1"><a href="http://del.icio.us/post?url=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&title=He%27s%20Going%20to%20Win" target="_blank" class="toolIconLink"><img src="/binary/1e53/delicious_16x16.png" width="1" height="1" alt="" /></a>
+    <a href="http://del.icio.us/post?url=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&title=He%27s%20Going%20to%20Win" target="_blank" class="toolTextLink">del.icio.us</a></li> <li class="l1"><a href="http://www.facebook.com/sharer.php?u=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&t=He%27s%20Going%20to%20Win" target="_blank" class="toolIconLink"><img src="/binary/be99/FaceBook_16x16.png" width="1" height="1" alt="" /></a>
+        <a href="http://www.facebook.com/sharer.php?u=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&t=He%27s%20Going%20to%20Win" target="_blank" class="toolTextLink">Facebook</a></li> <li class="l1"><a href="http://reddit.com/submit?url=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&title=He%27s%20Going%20to%20Win" target="_blank" class="toolIconLink"><img src="/binary/06f4/Reddit_16x16.png" width="1" height="1" alt="" /></a>
+    <a href="http://reddit.com/submit?url=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&title=He%27s%20Going%20to%20Win" target="_blank" class="toolTextLink">Reddit</a></li> <li class="l1"><a href="http://twitter.com/share?url=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&text=He%27s%20Going%20to%20Win" target="_blank" class="toolIconLink"><img src="/binary/c8c6/twitter-16x16.gif" width="1" height="1" alt="" /></a>
+    <a href="http://twitter.com/share?url=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&text=He%27s%20Going%20to%20Win" target="_blank" class="toolTextLink">Twitter</a></li> <li class="l1"><a href="http://www.windycitizen.com/submit?url=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&title=He%27s%20Going%20to%20Win&body=Here%27s%20why%20you%20should%20vote%20against%20him%20anyway." target="_blank" class="toolIconLink"><img src="/binary/750a/windycitizenbutton.png" width="1" height="1" alt="" /></a>
+    <a href="http://www.windycitizen.com/submit?url=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&title=He%27s%20Going%20to%20Win&body=Here%27s%20why%20you%20should%20vote%20against%20him%20anyway." target="_blank" class="toolTextLink">Windy Citizen</a>
+      </li>
+    </ul>
+  </div>
+</li> <li class="l0">
+
+
+  <a class="toggleActivator saveAction requiresLogin" title="My Favorites" href="http://posting.chicagoreader.com/chicago/Profile/MyFavorites?add=924367">
+    Add to favorites
+  </a>
+  <div class="togglePanel" data-toolsoid="924367" data-toolsajaxmacro="addObject" style="display:none">
+    <div class="loading">Saving&hellip;</div>
+    <div class="ajaxUpdater" style="display:none"></div>
+  </div>
+
+
+</li> <li class="l0">
+
+<a class="toggleActivator saveAction listAction requiresLogin" href="javascript://CreateList">Add to Custom List</a>
+<div class="togglePanel" data-toolsoid="924367" data-toolsajaxmacro="generateList" style="display:none">
+  <div class="loading">Loading&hellip;</div>
+  <div class="ajaxUpdater" style="display:none"></div>
+</div>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+    <script type="text/javascript">
+      Foundation.Tools.setup();
+    </script>
+  
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+    
+    
+  
+
+  
+  <style>
+    div.l0.last div:first-child {float:right;}
+  </style>
+  
+  <div id="ToolBarHorizontal" class="MainColumn ContentDefault ">
+    <div style="width:100%; height: 20px;">
+      <div class="l0 first" style="width:16%; height: 20px; float:left;">
+        <fb:like href="http://www.chicagoreader.com/chicago/hes-going-to-win/Content?oid=924367" send="false" show_faces="false" action="like" font="tahoma" colorscheme="light" layout="button_count"></fb:like></div> <div class="l0" style="width:16%; height: 20px; float:left;"><a href="http://twitter.com/share?url=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&text=He%27s%20Going%20to%20Win" class="twitter-share-button" data-count="horizontal">Tweet</a>
+    <script>
+      dnLoadScript("http://platform.twitter.com/widgets.js", true);
+    </script></div> <div class="l0" style="width:16%; height: 20px; float:left;"><script>
+      dnLoadScript("https://apis.google.com/js/plusone.js", true);
+    </script>
+    <g:plusone href="http://www.chicagoreader.com/chicago/hes-going-to-win/Content?oid=924367" size="medium" count="true"></g:plusone></div> <div class="l0" style="width:16%; height: 20px; float:left;">
+
+
+  
+
+  
+
+  
+
+  <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.chicagoreader.com%2Fchicago%2Fhes-going-to-win%2FContent%3Foid%3D924367&amp;media=http%3A%2F%2Fwww.chicagoreader.com%2Fbinary%2F9866%2FadminIcon_chicago.jpg&amp;description=He%27s%20Going%20to%20Win" class="pin-it-button" count-layout="none">Pin It</a>
+  <script>
+  Foundation.documentReady.then(function () {
+    new Foundation.Script("http://assets.pinterest.com/js/pinit.js", true);
+  })
+  </script>
+
+</div> <div class="l0" style="width:16%; height: 20px; float:left;">
+
+
+
+<div style="margin-top: 4px; ">
+<span style="
+text-transform: uppercase;
+padding: 2px 2px 1px 2px ;
+border: 1px solid #999;
+font-family: verdana, sans-serif;
+font-size: 10px;
+">
+<a href="http://www.readerreprints.com/reprint-products-quote-request/?cf2_field_17=http%3A//www.chicagoreader.com/chicago/hes-going-to-win/Content%3Foid%3D924367&cf2_field_18=02/22/2007" style="
+text-decoration: none; color: #666;
+">
+Reprints
+</a>
+</span>
+</div>
+
+</div> <div class="l0 last" style="width:16%; height: 20px; float:right;">
+
+
+
+
+  <div class="addthis_toolbox addthis_default_style"><a href="http://www.addthis.com/bookmark.php?v=300&pubid=ra-55e9dd86a53061b1" addthis:url="http://www.chicagoreader.com/chicago/hes-going-to-win/Content?oid=924367" addthis:title="He's Going to Win" addthis:description="Here's why you should vote against him anyway." class="addthis_button_compact">Share</a></div>
+  <script type="text/javascript">
+    dnLoadScript("http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55e9dd86a53061b1", true);
+  </script>
+
+
+      </div>
+    </div>
+  </div>
+
+  
+  
+    <script type="text/javascript">
+      Foundation.Tools.setup();
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+      <div id="RelatedStories" class="MainColumn ContentDefault ">
+        <h3><span class="headingText">Related Stories</span></h3>
+        <ul>
+    
+    
+
+    <li class="l0 storyItem">
+    
+
+    
+      
+
+      
+        
+        <div class="imageTeaser">
+          <a href="http://www.chicagoreader.com/Bleader/archives/2015/03/04/what-would-mayor-rahm-do-without-detroit"><img src="http://media1.fdncms.com/chicago/imager/senator-mark-kirk-went-there/u/featurettecrop/16761705/1425499723-ax120_4c45_9.jpg" alt="What would Mayor Rahm do without Detroit?" title="What would Mayor Rahm do without Detroit?" class="contentListingImg" width="140" height="90" /></a>
+        </div>
+      
+    
+
+    <h4 class="headline">
+      <a href="http://www.chicagoreader.com/Bleader/archives/2015/03/04/what-would-mayor-rahm-do-without-detroit">What would Mayor Rahm do without Detroit?</a>
+    </h4>
+    
+      <h5 class="subhead">
+        Leave it to one of the mayor's Republican backersSenator Mark Kirkto use the Detroit analogy to try to scare white Chicagoans into voting for Rahm.
+      </h5>
+    
+    <ul>
+      
+        <li class="l1 byline">by Ben Joravsky</li>
+      
+      
+        <li class="l1 longOnly">
+          <span class="date">Mar  4, 2015</span>
+        </li>
+      
+    </ul>
+  </li> 
+
+    
+  
+    
+
+    <li class="l0 storyItem">
+    
+
+    
+      
+
+      
+        
+        <div class="imageTeaser">
+          <a href="http://www.chicagoreader.com/chicago/2016-chicago-olympics/Content?oid=1195912"><img src="http://media2.fdncms.com/chicago/imager/chicagos-2016-olympic-bid/u/featurettecrop/1634401/2016_olympics_teaser.jpg" alt="Chicago&#39;s 2016 Olympic Bid" title="Chicago&#39;s 2016 Olympic Bid" class="contentListingImg" width="140" height="90" /></a>
+        </div>
+      
+    
+
+    <h4 class="headline">
+      <a href="http://www.chicagoreader.com/chicago/2016-chicago-olympics/Content?oid=1195912">Chicago's 2016 Olympic Bid</a>
+    </h4>
+    
+      <h5 class="subhead">
+        An archive of the Reader's coverage by Ben Joravsky and Mick Dumke
+      </h5>
+    
+    <ul>
+      
+      
+        <li class="l1 longOnly">
+          <span class="date">Sep 10, 2009</span>
+        </li>
+      
+    </ul>
+  </li> 
+
+    
+  
+        </ul>
+      </div>
+    
+
+
+
+
+
+    
+    
+    
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+
+  
+
+  
+    
+      <style>
+        
+
+        div.commentsHeader form {
+          float:right;
+        }
+        div.CommentsComponent .memberThumb {margin-bottom:7px; margin-left:0;}
+        div.CommentsComponent .commentPublicControls {float:left;}
+        div.CommentsComponent .commentPublicControls a {text-decoration:none;}
+        div.comment {
+          position: relative;
+          float: none !important;
+          width: auto !important;
+          clear: both;
+          margin-top: 16px;
+          padding: 0;
+        }
+        .ProfileComments div#BrowseComments {
+          background-color: transparent;
+        }
+        div.commentText {
+          padding-bottom: 0px;
+          border-radius: 4px;
+          -moz-box-shadow: 0px 0px 2px #CCC;
+          -webkit-box-shadow: 0px 0px 2px #CCC;
+          box-shadow: 0px 0px 2px #CCC;
+          border: 1px solid #CCC;
+          overflow: visible;
+          font-size: 12px;
+          padding: 10px 10px 0px !important;
+          float:none !important;
+          width:auto !important;
+          margin: 0 !important;
+        }
+        .brandNewComment {
+          position: relative;
+        }
+        .brandNewComment .comment .commentText {
+          border: 1px solid #FFCC1C;
+          box-shadow: 0 0 4px #FFCC1C;
+        }
+        .newCommentOptions {
+          box-shadow: 0 0 4px #AAA;
+          background-color: #FFCC1C;
+          position: absolute;
+          right: 18px;
+          top: -16px;
+          border-bottom: none;
+          box-shadow-bottom: 0px;
+          font-size: 10px;
+          padding: 2px 4px;
+          border-radius: 3px;
+          padding-bottom: 8px;
+          color: #900;
+        }
+        .newCommentOptions a,
+        .newCommentoptions a:visited {
+          font-weight:bold;
+          text-decoration:none;
+          color: #900;
+        }
+        .newCommentOptions a:hover {
+          color: #c00;
+        }
+        div.commentText .commentToolbar {position: relative; height:18px; text-align:right; clear:both; border-top:1px solid #EEE; margin-top:4px;padding-top:1px;}
+        div.commentText p {margin-bottom:5px;padding:0;}
+        div.commentText img.memberThumb {
+            clear: left;
+            display: block;
+            float: left;
+            margin: 2px 8px 2px 2px;
+            overflow: hidden;
+            width: 50px;
+            padding:0;
+        }
+        div.commentAuthor {
+          background-image: none !important;
+          padding-left: 10px !important;
+          padding-top: 3px !important;
+          float: none !important;
+        }
+        #showMoreComments,
+        #showAllComments,
+        .userCommentForm  p.commentFormSubmit input{
+          color: #335770;
+          padding:4px 0;
+          width:160px;
+          text-decoration:none;
+          margin: 4px;
+          font-family: Verdana;
+          font-size:12px;
+          border-radius: 3px;
+          border-right: 1px solid #f3f3f3;
+          background-color: #FFF;
+          border: 1px solid #DDD;
+          box-shadow: 0 0 4px #CCC;
+          display:inline-block;
+        }
+        .userCommentForm  p.commentFormSubmit input {
+          width:120px;
+        }
+        div.commentSpinner {
+          background-image: url("/foundation/images/loaders/comment_spinner.gif");
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          height:30px;
+        }
+        div.sortSpinner {
+          background-image: url("/foundation/images/loaders/comment_spinner_small.gif");
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          height:16px;
+          width:16px;
+          float: left;
+          position: relative;
+          top: 3px;
+          left: -2px;
+        }
+        div.pagination div.commentSpinner {
+          width:100%;
+          position:absolute;
+        }
+
+        div.pagination {
+          height:30px;
+          padding: 0;
+          position: relative;
+          margin:20px 16px 8px;
+          text-align: left;
+          font-size: 11px;
+          text-align:center;
+        }
+
+        #showMoreComments:hover,
+        #showAllComments:hover,
+        .userCommentForm  p.commentFormSubmit input:hover {
+          background-color:#eeeedd;
+          color: #CC0000;
+          box-shadow: 0 0 2px #CCC;
+        }
+
+        .currentLikePositive,
+        .currentLikeNegative {
+          font-family: Arial;
+          font-size: 13px;
+          font-weight: bold;
+          color: #999;
+        }
+        .likeLink{
+          border-radius: 3px;
+          padding: 0 3px;
+          font-family: Verdana, Arial;
+          position: relative;
+          padding-left:20px;
+          display: inline-block; /* for IE8 and opacity */
+          font-weight: normal;
+          text-decoration: none !important;
+        }
+        .likeLink img {
+          position: absolute;
+          left:0px;
+          bottom: -2px;
+        }
+
+        .likeLink.like {
+          text-decoration:none;
+          color: #66bb66 !important;
+        }
+        .likeLink.like:hover {
+          background-color: #66bb66;
+          color: #FFF !important;
+        }
+        .likeLink.dislike {
+          text-decoration:none;
+          color: #bb6666 !important;
+        }
+        .likeLink.dislike:hover {
+          background-color: #bb6666;
+          color: #FFF !important;
+        }
+        .likeLink.like.dimmed,
+        .likeLink.dislike.dimmed {
+          background-color: #FFF;
+          text-decoration:none;
+          color: #666;
+        }
+        .likeLink.like.dimmed:hover,
+        .likeLink.dislike.dimmed:hover {
+          background-color: #FFF;
+          color: #666 !important;
+        }
+        .likeError {
+          color: #AA9;
+        }
+        .commentCurrentRating {
+          font-family:Arial;
+          color: #AA9;
+          font-size:11px;
+        }
+        .likeLoader {
+          margin-right:8px;
+        }
+        .reportCommentContainer {
+          position: absolute;
+          background-color: #ccccbb;
+          border: 1px solid #c9c9b9;
+          border-radius: 3px;
+          bottom: 0px;
+          left: 0;
+          width:250px;
+          opacity:0.95;
+          -moz-box-shadow: 0 0 10px #aaa;
+          -webkit-box-shadow: 0 0 10px #aaa;
+          box-shadow: 0 0 10px #aaa;
+          text-align:left;
+          font-family: Arial;
+          z-index: 10;
+        }
+        .reportCommentContainer a {
+          text-decoration: none !important;
+        }
+        .reportContainer a {
+          font-weight: normal;
+        }
+        .reportCommentContainer .reportHeader {
+          font-family: Arial;
+          font-size:14px;
+          text-align: left;
+          margin:2px 8px;
+          border-bottom:1px solid #aaaa99;
+          padding-bottom:2px;
+          font-weight:bold;
+          position: relative;
+        }
+        .reportCommentContainer .reportHeader a.reportClose{
+          position: absolute;
+          right:0;
+        }
+
+        .reportCommentContainer dl.formElements {
+          float:left;
+          margin:6px 0 0;
+        }
+        .reportCommentContainer dl.formElements dt {
+          width: auto; min-height: 0;
+          float:none;
+          font-family: Arial;
+          font-weight: bold;
+          font-size: 12px;
+          color: #444;
+        }
+        .reportCommentContainer dl.formElements dd{
+          width: auto !important;
+          float:none;
+          min-height:0;
+          margin-bottom:8px;
+          margin-left:0 !important;
+        }
+        .reportCommentContainer form {
+          margin: 0 8px 0 !important;
+        }
+        .reportCommentContainer .formSubmit {
+          clear:both;
+          text-align:right;
+          padding: 0 8px;
+        }
+        .reportCommentContainer .formSubmit a {
+          position: relative;
+          border-radius: 3px;
+          padding-left: 20px;
+        }
+
+        .reportCommentContainer .formSubmit a img {
+          position: absolute;
+          left: 0;
+          bottom: -1px;
+        }
+
+        .reportCommentContainer .formInput {
+          border:1px;
+          background-color: #FFE;
+          border:1px solid #BBA;
+          padding:2px;
+          width:228px;
+          border-radius: 3px;
+        }
+
+        .reportCommentContainer textarea {
+          border:1px;
+          background-color: #FFE;
+          border:1px solid #BBA;
+          padding:2px;
+          width:228px !important;
+          height:60px !important;
+          border-radius: 3px;
+          resize: none;
+        }
+
+        .reportCommentContainer .errorDisplay {
+          background-color: transparent;
+          color: #933;
+          font-weight: bold;
+          padding: 10px 10px 4px;
+        }
+
+        .reportCommentContainer .reportSuccess {
+          text-align: center;
+          color: #fff;
+          font-family: Arial;
+          font-weight: bold;
+          padding: 30px 15px 40px;
+        }
+        .reportCommentLink {
+          border-radius: 3px;
+          font-family: Verdana, Arial;
+          /*padding: 0 3px 0 23px;*/
+          padding:0 3px;
+          position: relative;
+          color: #AAAA99 !important;
+          font-weight: normal;
+          text-decoration: none !important;
+        }
+        .reportCommentLink img {
+          position: absolute;
+          left: 3px;
+          bottom: 1px;
+        }
+        .reportCommentLink:hover {
+          background-color: #CCCCBB;
+          color: #FFF !important;
+        }
+        .userCommentForm {
+          margin-left:15px;
+          margin-right:15px;
+        }
+        .userCommentForm div.errorDisplay,
+        div.editErrorDisplay {
+          margin-top: 8px;
+          border: 1px solid #FCC;
+          border-radius: 2px;
+          box-shadow: 0 0 4px #CCC;
+          background-color: #FCC;
+          }
+        div.editErrorDisplay {padding:4px; margin-bottom:8px;}
+        .userCommentForm div.errorDisplay ol li,
+        div.editErrorDisplay ol li {
+          font-size: 1.1em;
+         }
+        .userCommentForm textarea {
+          border: 1px solid #CCC;
+          -moz-box-shadow: 0 0 2px #CCCCCC;
+          -webkit-box-shadow: 0 0 2px #CCCCCC;
+          box-shadow: 0 0 2px #CCCCCC;
+          border-radius: 4px;
+        }
+        .userCommentForm dl.formElements dt {
+          min-height: 0;
+        }
+        .userCommentForm dl.formElements {margin:15px 0;}
+        .userCommentForm  p.commentFormSubmit {
+          margin: 10px 0px 0 0;
+          text-align: right;
+        }
+        div.commentFormRating{
+          background-color: #FFF;
+          border:1px solid #FFCC1C;
+          float:left;
+          padding: 5px 8px;
+          -moz-box-shadow: 0 0 2px #CCCCCC;
+          -webkit-box-shadow: 0 0 2px #CCCCCC;
+          box-shadow: 0 0 2px #CCCCCC;
+          width:auto;
+        }
+
+        div.CommentsComponent p.showing, div#BrowseComments p.showing {
+          float:left;
+          width: auto;
+          margin: 0 0 10px 15px;
+          font-style:normal;
+        }
+        .commentsTopBar{
+          position: relative;
+        }
+
+        div.bottomOptionBar {
+          padding: 0;
+          position: relative;
+          margin:20px 16px 8px;
+          text-align: left;
+          font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-size: 12px;
+          border: 1px solid #D0d0d0;
+          background-color: #e0e0e0;
+          box-shadow: 0 0 5px #ccc inset;
+          border-radius:2px;
+          clear:both;
+        }
+        div.bottomOptionBar div.showing {
+          margin-bottom:6px;
+          /*font-style: italic;*/
+          float:right;
+          padding:4px 6px 4px;
+          font-size:12px;
+          font-family: Verdana, Arial, Helvetica, sans-serif;
+          /* border-right: 1px solid #f3f3f3; */
+          margin: 4px 0;
+          color: #333;
+
+        }
+
+        .bottomOptionBar .togglePanel {
+          position: absolute;
+          left:-40px;
+          top:35px;
+          background-color: #DDC;
+          white-space: nowrap;
+          border-width: 1px 0;
+          border-radius: 2px;
+          color: #666;
+          opacity: 0.95;
+          padding: 16px;
+          border: 1px solid #CCB;
+          -moz-box-shadow: 0 0 5px #CCC;
+          -webkit-box-shadow: 0 0 5px #CCC;
+          box-shadow: 0 0 5px #CCC;
+          z-index:1;
+        }
+        .bottomOptionBar .togglePanel a {
+          color: #335770;
+        }
+        .bottomOptionBar .togglePanel a:hover {
+          color: #CC0000;
+        }
+        .bottomOptionBar .togglePanel .toggleArrow {
+          content:"";
+          position:absolute;
+          border-width:7px;
+          border-color: transparent transparent #DDC transparent;
+          display:block;
+          width:0;
+          top:-14px;
+          left:78px;
+          border-style: solid;
+        }
+        .bottomOptionBar .togglePanel .toggleArrowBorder {
+          content:"";
+          position:absolute;
+          border-width:8px;
+          border-color: transparent transparent #CCB transparent;
+          display:block;
+          width:0;
+          top:-17px;
+          left:77px;
+          border-style: solid;
+          opacity: 0.95;
+        }
+
+        .bottomOptionBar .togglePanel div {
+          /*float:left;*/
+          text-align: center;
+        }
+        .bottomOptionBar .loading,
+        .bottomOptionBar .toolsInner {
+          background-color: transparent;
+          white-space: nowrap;
+          padding: 0;
+          border:none;
+        }
+
+        .bottomOptionBar .togglePanelClose {
+          float:right;
+          position:absolute;
+          font-size:14px;
+          right:0;
+          top:-1px;
+          padding: 4px;
+          margin-left:10px;
+          text-decoration:none;
+        }
+
+        .bottomOptionBar .commentRSSLink,
+        .bottomOptionBar .commentSubscribeLink {
+          margin:4px 0;
+          padding:4px 2px 4px;
+          float:left;
+        }
+        .bottomOptionBar .loading,
+        .bottomOptionBar .ajaxUpdater {
+          width:140px;
+          text-align:center;
+
+        }
+
+        .bottomOptionBar .togglePanel a.feedLink,
+        .bottomOptionBar .togglePanel div.commentSubscribeLink a,
+        .bottomOptionBar a.feedLink,
+        .bottomOptionBar div.commentSubscribeLink a {
+          background-position: 4px center;
+          padding: 3px 4px 3px 20px;
+          border-radius: 3px;
+          margin:2px;
+          background-repeat:no-repeat;
+          font-size:12px;
+          text-decoration: none;
+        }
+
+        .bottomOptionBar .togglePanel a.feedLink:hover,
+        .bottomOptionBar .togglePanel div.commentSubscribeLink a:hover,
+        .bottomOptionBar a.feedLink:hover,
+        .bottomOptionBar div.commentSubscribeLink a:hover {
+          background-color: #eeeedd;
+        }
+        .bottomOptionBar a.feedLink {
+          background-image:url(/images/rss-small.gif);
+        }
+        .bottomOptionBar div.commentSubscribeLink a {
+          background-image:url(/images/icons/article_tools/email.gif);
+          padding-left:26px;
+        }
+        #comment.validationError {
+          border: 1px solid #D99;
+          box-shadow: 0 0 4px #D99;
+          }
+        div.commentEditCont {
+          margin-left:60px;
+        }
+        div.commentEditCont textarea {
+          width: 99%;
+          min-height: 70px;
+          border: 1px solid #CCC;
+          background-color: #F9F9F9;
+          border-radius: 2px;
+          box-shadow: inset 0 0 4px #DDD;
+          padding: 2px;
+          margin-bottom: 4px;
+          overflow:hidden;
+        }
+        .doneEditLink,
+        .doneEditLink:visited {
+          float: right;
+          margin-top: 1px;
+          padding: 1px 4px;
+          background-color: #333;
+          border-radius: 3px;
+          color: #9BE;
+          text-decoration: none;
+          box-shadow: 0 0 4px #AAA;
+          text-transform: uppercase;
+          font-size: 11px;
+          margin-bottom:4px;
+        }
+        .doneEditLink:hover{
+          color: #333;
+          background-color: #9be;
+        }
+        .cancelEditLink{
+          float:right;
+          font-size:11px;
+          margin-top:1px;
+          margin-left:4px;
+          padding:1px 4px;
+          text-decoration:none;
+        }
+        .commentTemp {
+          display:none;
+        }
+        div.comment.limitMsg {
+          position: relative;
+          float: none !important;
+          width: auto !important;
+          clear: both;
+          margin-top: 16px;
+          padding: 8px;
+          border: 1px solid #FF5555;
+          box-shadow: 0 0 4px #FF3333;
+          padding: 8px;
+          background-color: #FF6666;
+          color: #FFF;
+        }
+
+      </style>
+      <div id="Comments" class="MainColumn ContentDefault CommentsComponent ">
+        
+        
+        <div class="commentsHeader hreview-aggregate clearfix" id="readerComments">
+
+          
+          
+          
+          <h3 class="clearfix">
+            <div style="float:left;">
+              Comments 
+            </div>
+            
+          </h3>
+        </div>
+        
+        
+        <div id="Comments_commentContent" class="commentContent">
+          
+        </div>
+        
+
+        
+          <div class="bottomOptionBar clearfix">
+            
+              <div style="float:left;">
+      <div style="float:left;margin:4px 0; padding:4px 6px;">Subscribe to this thread:</div>
+      <div style="position:relative;float:left">
+      <div class="commentSubscribeLink">
+        <a class="toggleActivator saveAction" id="doSubscribe" href="javascript://Subscribe">By Email</a>
+      </div>
+      <div class="togglePanel" data-toolsoid="924367" data-toolsajaxmacro="commentSubscribe" style="display:none">
+        <div class="toggleArrowBorder"></div>
+        <div class="toggleArrow"></div>
+        <a href="javascript://close" class="togglePanelClose"><img src="/foundation/images/icons/cross.png" width="14" height="14"></a>
+        <div class="loading">Subscribing&hellip;</div>
+        <div class="ajaxUpdater" style="display:none;"></div>
+      </div>
+      </div>
+      <div class="commentRSSLink"><a href="/chicago/Rss.xml?id=comments&amp;oid=924367" class="feedLink" title="Subscribe to this story's comments" target="_blank">With RSS</a></div>
+      </div>
+            
+            
+          </div>          
+          
+        <hr />
+
+        
+
+        
+          
+
+          <form id="CommentsPostCommentForm" method="post" class="userCommentForm validateForm" data-validate="login" data-validate-login-options="{&quot;feelingShy&quot;:true}">
+            <input type="hidden" name="commentType" value="comment" />
+            <input type="hidden" name="oid" value="924367" />
+            <input type="hidden" name="source" value="desktop">
+
+            
+            
+
+            <label for="comment" class="hidden">Comment</label>
+            
+              <h4 class="commentFormAddHeader"><a name="readerComments">Add a comment</a></h4>
+            
+
+            
+            
+            
+
+            <div class="errorDisplay" style="display:none">
+              <ol></ol>
+            </div>
+            <dl class="formElements clearfix">
+            
+              <dd><textarea name="comment" style="height:112px;overflow:hidden;" tabindex="1" class="expandableBox required" id="comment" data-validate="required"></textarea></dd>
+            </dl>
+
+            
+
+            
+
+            <input type="checkbox" name="subscribe" id="Comments_commentSubscribe" value="yes"> <label for="Comments_commentSubscribe" style="margin-right:24px;">Subscribe to this thread</label>
+            
+            
+
+            <p class="commentFormSubmit">
+              <input type="submit" name="commentSubmit" tabindex="2" value="Post Comment" id="commentSubmit" />
+            </p>
+
+          </form>
+          <script>
+            jQuery("textarea.expandableBox").autoBoxResize();
+          </script>
+        
+      </div><!-- comments -->
+      <script type="text/javascript">
+        var componentId = "Comments";
+
+        function updateCommentTotals (showing,total){
+          if (showing) {
+            jQuery(".commentsShowingUpdate").each(function(){jQuery(this).html(showing)});
+          }
+          if (total==0) total="0";
+          if (total){
+            jQuery(".commentsTotalUpdate").each(function(){jQuery(this).html(total)});
+          }
+        }
+
+        
+
+        
+        function getMoreComments (e) {
+          if (e) e.preventDefault();
+          if (jQuery(this).attr("id") == "showAllComments" || jQuery(this).attr("id") == "showMoreComments"){
+            jQuery(this).parent().html('<div class="commentSpinner">&nbsp;</div>');
+          } else if (jQuery(this).attr("id") == "sortSelect"){
+            jQuery("#Comments .sortSpinner").show();
+          }
+
+          var url = "/chicago/hes-going-to-win/Content?oid=924367";
+          var myStart = jQuery(this).attr("id") == "sortSelect" ? "1" : jQuery(this).attr("rel");
+          var showAllComments = jQuery(this).attr("id") == "showAllComments" ? "yes" : "no";
+          if (!myStart) var myStart = "1";
+          var mySort = jQuery("#sortSelect").val() || "asc";
+          var params = {
+            sort: mySort,
+            ajaxComponent: componentId,
+            startIndex: myStart,
+            showAll: showAllComments
+          };
+          jQuery.ajax({
+              url: url,
+              data: (params),
+              success: function (data) {
+                  jQuery("#"+componentId+"_PaginationBottom").remove();
+                  jQuery("#"+componentId+"_commentContent .brandNewComment").remove();
+                  jQuery("#Comments .sortSpinner").hide();
+                  if (myStart == "1") jQuery("#"+componentId+"_commentContent").html(data);
+                  else jQuery("#"+componentId+"_commentContent").append(data);
+              }
+          });
+        };
+
+        function removeEdit(oid){
+          if (oid){
+            var cont = jQuery("#Comments-comment-"+oid).closest(".brandNewComment");
+            cont.find(".newCommentOptions").fadeOut("fast", function(){
+              jQuery(this).remove();
+            });
+          }
+        }
+
+        function getComment(oid, commentLimit){
+          var url = "/chicago/hes-going-to-win/Content?oid=924367";
+          var limitMsg = commentLimit?"<div class=\"comment limitMsg\">\r\n\r\n      \r\n      \r\n        Note: Since you've already made  live comments to day(s)ay, this and any additional comments in this timeframe will be reviewed by our staff before being made live.  Thank you for your contribution!\r\n          \r\n    <\/div>":'';
+          if (oid){
+            var params = {
+              ajaxComponent: componentId,
+              commentOid: oid
+            };
+            jQuery.ajax({
+                url: url,
+                data: (params),
+                success: function (data) {
+                  if (!jQuery.trim(jQuery("#"+componentId+"_commentContent").html())){
+                    jQuery("#"+componentId+"_commentContent").append(limitMsg+data).find(".brandNewComment").fadeIn("fast");
+                  } else {
+                    jQuery("#"+componentId+"_commentContent").children("div.comment, div.brandNewComment, div.limitMsg").filter(":last").after(limitMsg+data).parent().find(".brandNewComment").fadeIn("fast");
+                  }
+                  var t=setTimeout(function(){removeEdit(oid)},300000);
+                  var myTotal = parseInt(jQuery("#comments_total").text(), 10);
+                  myTotal++;
+                  updateCommentTotals(false,myTotal);
+                }
+            });
+          }
+        }
+
+        function doLikeComment(e){
+          e.preventDefault();
+          if (!this.clicked){
+            var oid = jQuery(this).attr("data-commentOid");
+            jQuery("#Comments #"+oid+"_likeLinks a").addClass("dimmed").css("opacity","0.4").each(function(){this.clicked = true;});
+
+            var myCurrentLikes = jQuery("#"+oid+"_rating_likes").html() || 0;
+            var myCurrentDislikes = jQuery("#"+oid+"_rating_dislikes").html() || 0;
+
+            var thisRating = jQuery(this).attr("rel");
+            if (thisRating == "Like"){
+              myCurrentLikes = parseFloat(myCurrentLikes)+1;
+            } else {
+              myCurrentDislikes = parseFloat(myCurrentDislikes)+1;
+            }
+            var myNewLine = '<span id="'+oid+'_rating_likes">' + myCurrentLikes + '</span> like';
+            if (myCurrentLikes != 1) {
+              myNewLine += 's';
+            }
+            myNewLine += ', ' + '<span id="'+oid+'_rating_dislikes">' + myCurrentDislikes + '</span> dislike';
+            if (myCurrentDislikes != 1) {
+              myNewLine += "s";
+            }
+
+            jQuery("#"+oid+"_rating_sub").html(myNewLine);
+            jQuery("#"+oid+"_rating_sub").show();
+
+            var params = {
+              oid: oid,
+              rating: thisRating
+            };
+            jQuery.ajax({
+                url: "/gyrobase/Tools/AjaxLike",
+                type: "POST",
+                data: (params),
+                success: function (data) {
+                  jQuery("#"+oid+"_rating_sub").html(data);
+                  if (thisRating == "Like"){
+                    jQuery("#Comments #"+oid+"_likeLinks a.dislike").removeClass("dimmed").css("opacity","1").each(function(){this.clicked = false;});
+                  } else {
+                    jQuery("#Comments #"+oid+"_likeLinks a.like").removeClass("dimmed").css("opacity","1").each(function(){this.clicked = false;});
+                  }
+                }
+            });
+          }
+        }
+
+        function reportComment(e){
+          e.preventDefault();
+          e.stopPropagation();
+          var oid = jQuery(this).attr("rel");
+          var elem = jQuery("#"+oid+"_report");
+          elem.click(function(e){e.stopPropagation();})
+          if (!elem.is(":visible")){
+            jQuery("#Comments .reportCommentContainer").hide();
+            if (elem.is(":empty")){
+              var params = {
+                oid: oid,
+                ajaxComponent: "ReportComment"
+              };
+              jQuery.ajax({
+                  url: "/gyrobase/Tools/ReportComment",
+                  data: (params),
+                  success: function (data) {
+                    elem.html(data);
+                    elem.fadeIn("fast");
+                  }
+              });
+            } else {
+              elem.fadeIn("fast");
+            }
+          }
+          // attach close event handler to the html
+          jQuery("html").one("click", function(){
+            jQuery("#Comments .reportCommentContainer:visible").hide();
+          });
+        }
+
+        function closeReport(obj){
+          jQuery(obj).closest(".reportCommentContainer").fadeOut("fast");
+        }
+
+        function submitReport(e){
+          var params = jQuery(e).closest("form").serialize()+"&ajaxComponent=ReportComment";
+          jQuery.ajax({
+              url: "/gyrobase/Tools/ReportComment",
+              type: "POST",
+              data: (params),
+              success: function (data) {
+                jQuery(e).closest(".reportCommentContainer").html(data);
+              }
+          });
+        }
+
+        (function($) {
+          var subscribed=false;
+
+          function showFollowPanel(e){
+            e.preventDefault();
+            myPanel = $(this).parent().next(".togglePanel");
+            myPanel.fadeIn("fast");
+          }
+
+          function doSubscribe(obj){
+            var myPanel = obj.parent().next(".togglePanel");
+            myPanel.fadeIn("fast");
+            if (!subscribed){
+              var myLink = obj.parent();
+              var myLoader = myPanel.children(".loading");
+              var myUpdater = myPanel.children(".ajaxUpdater");
+              var params = {
+                object: myPanel.attr("data-toolsoid"),
+                macro: myPanel.attr("data-toolsajaxmacro"),
+                url: window.location
+              };
+
+              $.ajax({
+                url: "/gyrobase/Macros/ToolsAjax",
+                data: (params),
+                type: "POST",
+                dataType: "html",
+                success: function (data) {
+                  subscribed = true;
+                  if (myUpdater){
+                    myUpdater.html(data);
+                    myLoader.fadeOut("fast", function(){
+                      myUpdater.fadeIn("fast", function(){
+                        setTimeout(function(){
+                          myPanel.fadeOut("fast");
+                        }, 3000);
+                      });
+                    });
+                  } else {
+                    myPanel.fadeOut("fast");
+                  }
+                }
+              });
+            }
+          }
+
+          function activateSubscribe(e){
+            e.preventDefault();
+            var myObj = $(this);
+            var isAuthenticated = Foundation.SessionManager.sharedSessionManager().isAuthenticated();
+            if (!isAuthenticated){
+              new Foundation.Login.Dialog({
+                  "feelingShy": false,
+                  "callback": function(){doSubscribe(myObj);}
+              });
+              return false;
+            } else {
+              // Proceed
+              doSubscribe(myObj);
+            }
+          }
+
+          function deleteComment(e){
+            e.preventDefault();
+            var thisComment = $(this);
+            var params = {
+              macro: "deleteComment",
+              comment: thisComment.attr("data-comment")
+            };
+            $.ajax({
+              url: "/gyrobase/Macros/ToolsAjax",
+              data: (params),
+              type: "POST",
+              dataType: "html",
+              success: function (data) {
+                thisComment.closest(".brandNewComment").fadeOut("fast", function(){
+                  $(this).remove();
+                  var myTotal = parseInt(jQuery("#comments_total").text(), 10);
+                  myTotal--;
+                  updateCommentTotals(false,myTotal);
+                });
+              }
+            });
+          }
+
+          function editComment(e){
+            e.preventDefault();
+            var thisComment = $(this);
+            var commentCont = thisComment.closest(".brandNewComment").find(".description");
+            var commentTemp = thisComment.closest(".brandNewComment").find(".commentTemp");
+            var commentText = commentTemp.html();
+            var toolbar = thisComment.closest(".brandNewComment").find(".commentToolbar");
+            commentCont.next(".commentEditCont").remove();
+            commentCont.after('<div class="commentEditCont clearfix" style="display:none;"><div class="editErrorDisplay" style="display:none"><ol></ol></div><textarea class="expandableBox">'+commentText+'</textarea><a href="#" class="cancelEditLink">Cancel</a> <a href="#" class="doneEditLink" data-comment="'+thisComment.attr("data-comment")+'">SAVE</a></div>');
+            toolbar.fadeOut("fast");
+            commentCont.fadeOut("fast", function(){
+              commentCont.next(".commentEditCont").fadeIn("fast", function(){
+                $(".brandNewComment textarea.expandableBox").autoBoxResize();
+                $(".brandNewComment textarea.expandableBox").focus();
+              });
+            });
+          }
+
+          function editCommentSave(e){
+            e.preventDefault();
+            var thisComment = $(this);
+            var editCont = thisComment.closest(".commentEditCont");
+            var commentTemp = thisComment.closest(".brandNewComment").find(".commentTemp");
+            var newText = thisComment.prevAll("textarea").val();
+            var toolbar = thisComment.closest(".brandNewComment").find(".commentToolbar");
+
+            var params = {
+              macro: "editComment",
+              comment: thisComment.attr("data-comment"),
+              commentText: newText
+            };
+            $.ajax({
+              url: "/gyrobase/Macros/ToolsAjax",
+              data: (params),
+              type: "POST",
+              success: function (data) {
+                if (data.error){
+                  $(".editErrorDisplay").html("<ol><li>"+data.error+"</li></ol>").fadeIn("fast");
+                } else if (data.result){
+                  editCont.fadeOut("fast", function(){
+                    $(".editErrorDisplay").hide().html("<ol></ol>");
+                    editCont.prev(".description").html($.trim(data.result));
+                    commentTemp.html(newText);
+                    editCont.prev(".description").fadeIn("fast");
+                    toolbar.fadeIn("fast");
+                  });
+                }
+              }
+            });
+          }
+
+          function editCommentCancel(e){
+            e.preventDefault();
+            var editCont = $(this).closest(".commentEditCont");
+            var toolbar = $(this).closest(".brandNewComment").find(".commentToolbar");
+            editCont.fadeOut("fast", function(){
+              $(".editErrorDisplay").hide().html("<ol></ol>");
+              editCont.prev(".description").fadeIn("fast");
+              toolbar.fadeIn("fast");
+              editCont.remove();
+            });
+          }
+
+          $("#Comments").on('click', ".bottomOptionBar a#doSubscribe", activateSubscribe);
+          $("#Comments").on('click', ".bottomOptionBar a.togglePanelClose", function(){$(this).parent().fadeOut("fast"); return false;});
+          $("#Comments").on('click', ".brandNewComment a.commentDeleteLink", deleteComment);
+          $("#Comments").on('click', ".brandNewComment a.commentEditLink", editComment);
+          $("#Comments").on('click', ".brandNewComment a.doneEditLink", editCommentSave);
+          $("#Comments").on('click', ".brandNewComment a.cancelEditLink", editCommentCancel);
+        })(jQuery);
+
+
+        jQuery(document).ready(function($){
+          $("#Comments").on('click', '#showMoreComments,#showAllComments', getMoreComments);
+          $("#Comments #sortSelect").change(getMoreComments);
+          getMoreComments();
+          new Foundation.PostCommentComponent(componentId);
+          var nc = Foundation.NotificationCenter.sharedNotificationCenter();
+          nc.observe("comment:added", function (e) {
+            var comment = e.data;
+              getComment(comment.get("oid"), comment.get("commentLimit"));
+            // clear rating
+            if (jQuery(".commentFormRating").length!=0){
+              jQuery(".commentFormRating input[name='reviewRating']").val("");
+              jQuery(".commentFormRating .goldStarContainer").css("left", zeroPos+"px");
+            }
+          });
+          var subscribeCheckBox = $("#Comments_commentSubscribe");
+          subscribeCheckBox.prop("checked", getCookie("subscribeToThread") === "true" ? true : false);
+          subscribeCheckBox.change(function (e) {
+              var subscribeToThread = $(this).prop("checked");
+              setCookie("subscribeToThread", subscribeToThread ? "true" : "false", 30);
+          });
+          var shareFacebookBox = $("#Comments_postCommentToFacebook");
+          shareFacebookBox.prop("checked", getCookie("shareOnFacebook") === "true" ? true : false);
+          shareFacebookBox.change(function (e) {
+              var shareOnFacebook = $(this).prop("checked");
+              setCookie("shareOnFacebook", shareOnFacebook ? "true" : "false", 30);
+          });
+          $("#Comments").on('click', 'a.likeLink', doLikeComment);
+          $("#Comments").on('click', 'a.reportCommentLink', reportComment);
+        });
+      </script>
+    
+  
+
+
+
+
+
+
+
+  
+
+  
+
+  
+    <div id="MorebyThisAuthorWrapper" class="MainColumn ContentDefault Wrapper">
+
+    
+      
+      
+          <div id="MorebyThisAuthor" class="MainColumn ContentDefault ">
+            <h3><span class="headingText">More by Ben Joravsky</span></h3>
+            <ul class="moduleList">
+        
+        
+        
+        <li class="l0 storyItem">
+    
+
+    
+      
+
+      
+        
+        <div class="imageTeaser">
+          <a href="http://www.chicagoreader.com/chicago/emanuel-rauner-burns-pawar-airbnb/Content?oid=22412058"><img src="http://media1.fdncms.com/chicago/imager/u/featurettecrop/22412031/fob_politics-airbnb-middle-class-rahm-teaser.jpg" alt="Airbnb reminds Chicago why Rahm&rsquo;s nicknamed Mayor 1 Percent" title="Airbnb reminds Chicago why Rahm&rsquo;s nicknamed Mayor 1 Percent" class="contentListingImg" width="140" height="90" /></a>
+        </div>
+      
+    
+
+    <h4 class="headline">
+      <a href="http://www.chicagoreader.com/chicago/emanuel-rauner-burns-pawar-airbnb/Content?oid=22412058">Airbnb reminds Chicago why Rahms nicknamed Mayor 1 Percent</a>
+    </h4>
+    
+      <h5 class="subhead">
+        The home-sharing company accuses the mayor of siding with his Gold Coast base at the expense of the little guys.
+      </h5>
+    
+    <ul>
+      
+        <li class="l1 byline">by Ben Joravsky</li>
+      
+      
+        <li class="l1 longOnly">
+          <span class="date">Jun  8, 2016</span>
+        </li>
+      
+    </ul>
+  </li>
+        
+        
+
+      
+        
+        
+        <li class="l0 storyItem">
+    
+
+    
+      
+
+      
+        
+        <div class="imageTeaser">
+          <a href="http://www.chicagoreader.com/chicago/emanuel-garza-unpaid-leave-ctu-cps/Content?oid=22312579"><img src="http://media1.fdncms.com/chicago/imager/u/featurettecrop/22313152/fob_politics-sue-garza-magnum.jpg" alt="Why won&rsquo;t Mayor Rahm grant Alderman Sue Garza unpaid leave from CPS?" title="Why won&rsquo;t Mayor Rahm grant Alderman Sue Garza unpaid leave from CPS?" class="contentListingImg" width="140" height="90" /></a>
+        </div>
+      
+    
+
+    <h4 class="headline">
+      <a href="http://www.chicagoreader.com/chicago/emanuel-garza-unpaid-leave-ctu-cps/Content?oid=22312579">Why wont Mayor Rahm grant Alderman Sue Garza unpaid leave from CPS?</a>
+    </h4>
+    
+      <h5 class="subhead">
+        Cops, firefighters, and other city employees get to take unpaid leave if theyre elected.
+      </h5>
+    
+    <ul>
+      
+        <li class="l1 byline">by Ben Joravsky</li>
+      
+      
+        <li class="l1 longOnly">
+          <span class="date">Jun  1, 2016</span>
+        </li>
+      
+    </ul>
+  </li>
+        
+        
+
+      
+        
+        
+        <li class="l0 storyItem">
+    
+
+    
+      
+
+      
+        
+        <div class="imageTeaser">
+          <a href="http://www.chicagoreader.com/Bleader/archives/2016/05/27/city-treasurer-kurt-summers-joins-the-anti-interest-rate-swap-party"><img src="http://media1.fdncms.com/chicago/imager/u/featurettecrop/22267903/kurt_summers.jpg" alt="City treasurer Kurt Summers joins the anti-interest-rate-swap party" title="City treasurer Kurt Summers joins the anti-interest-rate-swap party" class="contentListingImg" width="140" height="90" /></a>
+        </div>
+      
+    
+
+    <h4 class="headline">
+      <a href="http://www.chicagoreader.com/Bleader/archives/2016/05/27/city-treasurer-kurt-summers-joins-the-anti-interest-rate-swap-party">City treasurer Kurt Summers joins the anti-interest-rate-swap party</a>
+    </h4>
+    
+      <h5 class="subhead">
+        Kurt Summers distances himself from Mayor Rahm's position on interest-rate swaps.
+      </h5>
+    
+    <ul>
+      
+        <li class="l1 byline">by Ben Joravsky</li>
+      
+      
+        <li class="l1 longOnly">
+          <span class="date">May 27, 2016</span>
+        </li>
+      
+    </ul>
+  </li>
+        
+        
+
+      
+             <li class="l0 storyItem more">
+               <a href="http://www.chicagoreader.com/chicago/ArticleArchives?author=847359" class="more">More &raquo;</a>
+             </li>
+             </ul>
+          </div>
+        
+    
+   </div>  
+   
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+    </div><!-- end gridMainColumn -->
+
+    <!-- ZoneB -->
+    <div id="gridAdSidebar">
+      
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  <!-- AgendaTeaser:  Last updated 2016-06-11 06:00:00 -->
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  
+
+  
+
+
+  
+
+  
+
+
+  
+
+  
+    
+    
+    
+        <div id="AgendaTeaser" class="AdSidebar ContentDefault ">
+          <h2 class="componentHeader"><a href="/chicago/Agenda">Agenda Teaser</a></h2>
+          <div class="componentBody">
+            <div class="date">
+              <a href="/chicago/Agenda">06.11.16</a>
+            </div>
+            <div class="cols">
+      
+      
+      <div class="col first">
+        <div class="teaserImage">
+        
+        <a href="http://www.chicagoreader.com/chicago/spinning/Event?oid=22311211">
+          <img src="http://media2.fdncms.com/chicago/imager/u/storycrop/22328601/spinning-1-teaser.jpg" alt="Spinning" title="Spinning" width="160" height="100" class="storyImg" />
+        </a>
+      </div>
+    
+    <div class="category">Performing Arts</div>
+    <div class="headline">
+      <a href="http://www.chicagoreader.com/chicago/spinning/Event?oid=22311211"><span class="title">Spinning</span></a> <span class="location">Den Theatre</span>
+    </div>
+    <div class="date">May 26</div>
+      </div>
+      
+    
+      
+      <div class="col last">
+        <div class="teaserImage">
+        
+        <a href="http://www.chicagoreader.com/chicago/xanadu/Event?oid=22355478">
+          <img src="http://media1.fdncms.com/chicago/imager/u/storycrop/22389489/xanadu-3-teaser.jpg" alt="Xanadu" title="Xanadu" width="160" height="100" class="storyImg" />
+        </a>
+      </div>
+    
+    <div class="category">Performing Arts</div>
+    <div class="headline">
+      <a href="http://www.chicagoreader.com/chicago/xanadu/Event?oid=22355478"><span class="title">Xanadu</span></a> <span class="location">American Theater Company</span>
+    </div>
+    <div class="date">May 27</div>
+      </div>
+      
+    
+            </div>
+          </div>
+          <div class="componentFooter">
+            <div class="more">
+              <a href="/chicago/Agenda">More Agenda Teaser &raquo;</a>
+            </div>
+          </div>
+        </div>
+      
+  
+
+
+
+
+
+
+
+
+
+  <!-- TabbedEventSearch:  Last updated 2016-06-11 00:00:00 -->
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  <div id="TabbedEventSearch" class="AdSidebar ContentDefault ">
+    <h2 id="TabbedEventSearchHeader" class="componentHeader toggle"><a href="http://www.chicagoreader.com/chicago/EventSearch">Tabbed Event Search</a></h2>
+
+    <div class="tabs toggleable" style="display:none;">
+      <div class="tabCurrent tabLeft tab first"><a href="#">All</a></div>
+      <div class="tabBack tabCenter tab"><a href="#">Music</a></div>
+      <div class="tabBack tabRight tab"><a href="#">Movies</a></div>
+      <div class="tabBack tabCenter tab last"><a href="#">Arts</a></div>
+    </div><!-- close .tabs -->
+
+    <div class="componentBody tabBodies toggleable" style="display:none;">
+      
+
+      <div class="tabBody" >
+        <form name="eventSearchForm" method="get" action="http://www.chicagoreader.com/chicago/EventSearch">
+          <select name="narrowByDate" class="narrowDate">
+      
+      
+        <option value="">-All Dates-</option>
+        
+        
+          <option value="Today">Today</option>
+        
+        
+          <option value="Tomorrow">Tomorrow</option>
+        
+        
+          <option value="This Weekend">This Weekend</option>
+        
+        
+          <option value="This Week">This Week</option>
+        
+        <option value="">--------------------</option>
+        
+          
+          
+            <option value="2016-06-11">Saturday, June 11</option>
+          
+        
+          
+          
+            <option value="2016-06-12">Sunday, June 12</option>
+          
+        
+          
+          
+            <option value="2016-06-13">Monday, June 13</option>
+          
+        
+          
+          
+            <option value="2016-06-14">Tuesday, June 14</option>
+          
+        
+          
+          
+            <option value="2016-06-15">Wednesday, June 15</option>
+          
+        
+          
+          
+            <option value="2016-06-16">Thursday, June 16</option>
+          
+        
+          
+          
+            <option value="2016-06-17">Friday, June 17</option>
+          
+        
+          
+          
+            <option value="2016-06-18">Saturday, June 18</option>
+          
+        
+          
+          
+            <option value="2016-06-19">Sunday, June 19</option>
+          
+        
+          
+          
+            <option value="2016-06-20">Monday, June 20</option>
+          
+        
+          
+          
+            <option value="2016-06-21">Tuesday, June 21</option>
+          
+        
+          
+          
+            <option value="2016-06-22">Wednesday, June 22</option>
+          
+        
+          
+          
+            <option value="2016-06-23">Thursday, June 23</option>
+          
+        
+          
+          
+            <option value="2016-06-24">Friday, June 24</option>
+          
+        
+          
+          
+            <option value="2016-06-25">Saturday, June 25</option>
+          
+        
+          
+          
+            <option value="2016-06-26">Sunday, June 26</option>
+          
+        
+          
+          
+            <option value="2016-06-27">Monday, June 27</option>
+          
+        
+          
+          
+            <option value="2016-06-28">Tuesday, June 28</option>
+          
+        
+          
+          
+            <option value="2016-06-29">Wednesday, June 29</option>
+          
+        
+          
+          
+            <option value="2016-06-30">Thursday, June 30</option>
+          
+        
+          
+          
+            <option value="2016-07-01">Friday, July  1</option>
+          
+        
+          
+          
+            <option value="2016-07-02">Saturday, July  2</option>
+          
+        
+          
+          
+            <option value="2016-07-03">Sunday, July  3</option>
+          
+        
+          
+          
+            <option value="2016-07-04">Monday, July  4</option>
+          
+        
+          
+          
+            <option value="2016-07-05">Tuesday, July  5</option>
+          
+        
+          
+          
+            <option value="2016-07-06">Wednesday, July  6</option>
+          
+        
+          
+          
+            <option value="2016-07-07">Thursday, July  7</option>
+          
+        
+          
+          
+            <option value="2016-07-08">Friday, July  8</option>
+          
+        
+          
+          
+            <option value="2016-07-09">Saturday, July  9</option>
+          
+        
+          
+          
+            <option value="2016-07-10">Sunday, July 10</option>
+          
+        
+          
+          
+            <option value="2016-07-11">Monday, July 11</option>
+          
+        
+      
+    </select>
+
+          <select name="eventCategory" class="eventCategory">
+            <option value="">-All Event Categories-</option>
+            
+              
+                <option value="10703590" >FALL ARTS</option>
+              
+              
+            
+              
+                <option value="928681" >FOOD &amp; DRINK</option>
+              
+              
+                <option value="928683" >&nbsp;&nbsp;Drink Events</option>
+              
+            
+              
+              
+                <option value="928682" >&nbsp;&nbsp;Food Events</option>
+              
+            
+              
+              
+                <option value="2859162" >&nbsp;&nbsp;New Year&#39;s Day Brunch</option>
+              
+            
+              
+              
+                <option value="927115" >&nbsp;&nbsp;New Year&#39;s Eve Dining</option>
+              
+            
+              
+              
+                <option value="2696898" >&nbsp;&nbsp;Thanksgiving</option>
+              
+            
+              
+              
+                <option value="1387264" >&nbsp;&nbsp;Valentine&#39;s Day</option>
+              
+            
+              
+                <option value="84643" >GALLERIES &amp; MUSEUMS</option>
+              
+              
+                <option value="833064" >&nbsp;&nbsp;Galleries</option>
+              
+            
+              
+              
+                <option value="842889" >&nbsp;&nbsp;Galleries: Openings &amp; Receptions</option>
+              
+            
+              
+              
+                <option value="833065" >&nbsp;&nbsp;Museums</option>
+              
+            
+              
+              
+                <option value="842890" >&nbsp;&nbsp;Museums: Openings &amp; Receptions</option>
+              
+            
+              
+              
+                <option value="84655" >&nbsp;&nbsp;Special Events</option>
+              
+            
+              
+                <option value="11544948" >HOLIDAY EVENTS</option>
+              
+              
+            
+              
+                <option value="84640" >LIT &amp; LECTURES</option>
+              
+              
+                <option value="857261" >&nbsp;&nbsp;Chicago Humanities Festival</option>
+              
+            
+              
+              
+                <option value="833063" >&nbsp;&nbsp;Lectures</option>
+              
+            
+              
+              
+                <option value="84646" >&nbsp;&nbsp;Literary Events</option>
+              
+            
+              
+                <option value="807941" >MUSIC</option>
+              
+              
+                <option value="833050" >&nbsp;&nbsp;Blues, Gospel, and R&amp;B</option>
+              
+            
+              
+              
+                <option value="833058" >&nbsp;&nbsp;Classical</option>
+              
+            
+              
+              
+                <option value="833046" >&nbsp;&nbsp;Dance</option>
+              
+            
+              
+              
+                <option value="833054" >&nbsp;&nbsp;Experimental</option>
+              
+            
+              
+              
+                <option value="833061" >&nbsp;&nbsp;Fairs &amp; Festivals</option>
+              
+            
+              
+              
+                <option value="833048" >&nbsp;&nbsp;Folk &amp; Country</option>
+              
+            
+              
+              
+                <option value="833044" >&nbsp;&nbsp;Hip-Hop</option>
+              
+            
+              
+              
+                <option value="833059" >&nbsp;&nbsp;In-Stores</option>
+              
+            
+              
+              
+                <option value="833056" >&nbsp;&nbsp;International</option>
+              
+            
+              
+              
+                <option value="833052" >&nbsp;&nbsp;Jazz</option>
+              
+            
+              
+              
+                <option value="833062" >&nbsp;&nbsp;Miscellaneous</option>
+              
+            
+              
+              
+                <option value="833060" >&nbsp;&nbsp;Open Mikes and Jams</option>
+              
+            
+              
+              
+                <option value="807943" >&nbsp;&nbsp;Rock, Pop, Etc</option>
+              
+            
+              
+                <option value="116961" >OTHER STUFF</option>
+              
+              
+                <option value="993477" >&nbsp;&nbsp;Green Events</option>
+              
+            
+              
+              
+                <option value="1215480" >&nbsp;&nbsp;Halloween</option>
+              
+            
+              
+              
+                <option value="850492" >&nbsp;&nbsp;Holiday Shopping</option>
+              
+            
+              
+              
+                <option value="934063" >&nbsp;&nbsp;Inaugural Events</option>
+              
+            
+              
+              
+                <option value="927114" >&nbsp;&nbsp;New Year&#39;s Eve Parties &amp; Events</option>
+              
+            
+              
+              
+            
+              
+              
+                <option value="6264109" >&nbsp;&nbsp;Parties</option>
+              
+            
+              
+              
+                <option value="1124739" >&nbsp;&nbsp;Pride Weekend</option>
+              
+            
+              
+              
+                <option value="8983836" >&nbsp;&nbsp;St. Patrick&#39;s Day</option>
+              
+            
+              
+              
+                <option value="8612641" >&nbsp;&nbsp;Valentine&#39;s Day</option>
+              
+            
+              
+                <option value="84642" >PERFORMING ARTS</option>
+              
+              
+                <option value="833067" >&nbsp;&nbsp;Dance</option>
+              
+            
+              
+              
+                <option value="928219" >&nbsp;&nbsp;Holiday Shows</option>
+              
+            
+              
+              
+                <option value="826718" >&nbsp;&nbsp;Improv/Sketch</option>
+              
+            
+              
+              
+                <option value="837422" >&nbsp;&nbsp;Spoken Word/Poetry Slams/Open Mikes</option>
+              
+            
+              
+              
+                <option value="833066" >&nbsp;&nbsp;Stand-Up</option>
+              
+            
+              
+              
+                <option value="93922" >&nbsp;&nbsp;Theater &amp; Performance</option>
+              
+            
+              
+                <option value="10864154" >SPONSORED</option>
+              
+              
+            
+              
+                <option value="1010427" >SUMMER GUIDE</option>
+              
+              
+                <option value="3767990" >&nbsp;&nbsp;Beer</option>
+              
+            
+              
+              
+                <option value="3767987" >&nbsp;&nbsp;Biking</option>
+              
+            
+              
+              
+                <option value="3767994" >&nbsp;&nbsp;Dog-Friendly</option>
+              
+            
+              
+              
+                <option value="1010428" >&nbsp;&nbsp;Fairs &amp; Festivals</option>
+              
+            
+              
+              
+                <option value="6213959" >&nbsp;&nbsp;Farmers Markets</option>
+              
+            
+              
+              
+                <option value="1010429" >&nbsp;&nbsp;Illinois</option>
+              
+            
+              
+              
+                <option value="1010430" >&nbsp;&nbsp;Indiana</option>
+              
+            
+              
+              
+                <option value="3767991" >&nbsp;&nbsp;Lake &amp; River</option>
+              
+            
+              
+              
+                <option value="1010431" >&nbsp;&nbsp;Michigan</option>
+              
+            
+              
+              
+                <option value="3767988" >&nbsp;&nbsp;Music Festivals</option>
+              
+            
+              
+              
+                <option value="3767995" >&nbsp;&nbsp;Scavenger Hunts &amp; Races</option>
+              
+            
+              
+              
+            
+              
+              
+                <option value="1010432" >&nbsp;&nbsp;Wisconsin</option>
+              
+            
+          </select>
+
+          <input type="text" size="18" name="keywords" title="Enter keyword" class="text clearFocus" value="Search events&hellip;" />
+          <input type="submit" class="submit" value="Go" />
+        </form>
+      </div><!-- close .tabBody -->
+
+
+      
+
+      <div class="tabBody" style="display:none">
+        <form name="eventSearchForm" method="get" action="http://www.chicagoreader.com/chicago/EventSearch">
+          <input type="hidden" name="eventSection" value="807941">
+          <select name="narrowByDate" class="narrowDate">
+      
+      
+        <option value="">-All Dates-</option>
+        
+        
+          <option value="Today">Today</option>
+        
+        
+          <option value="Tomorrow">Tomorrow</option>
+        
+        
+          <option value="This Weekend">This Weekend</option>
+        
+        
+          <option value="This Week">This Week</option>
+        
+        <option value="">--------------------</option>
+        
+          
+          
+            <option value="2016-06-11">Saturday, June 11</option>
+          
+        
+          
+          
+            <option value="2016-06-12">Sunday, June 12</option>
+          
+        
+          
+          
+            <option value="2016-06-13">Monday, June 13</option>
+          
+        
+          
+          
+            <option value="2016-06-14">Tuesday, June 14</option>
+          
+        
+          
+          
+            <option value="2016-06-15">Wednesday, June 15</option>
+          
+        
+          
+          
+            <option value="2016-06-16">Thursday, June 16</option>
+          
+        
+          
+          
+            <option value="2016-06-17">Friday, June 17</option>
+          
+        
+          
+          
+            <option value="2016-06-18">Saturday, June 18</option>
+          
+        
+          
+          
+            <option value="2016-06-19">Sunday, June 19</option>
+          
+        
+          
+          
+            <option value="2016-06-20">Monday, June 20</option>
+          
+        
+          
+          
+            <option value="2016-06-21">Tuesday, June 21</option>
+          
+        
+          
+          
+            <option value="2016-06-22">Wednesday, June 22</option>
+          
+        
+          
+          
+            <option value="2016-06-23">Thursday, June 23</option>
+          
+        
+          
+          
+            <option value="2016-06-24">Friday, June 24</option>
+          
+        
+          
+          
+            <option value="2016-06-25">Saturday, June 25</option>
+          
+        
+          
+          
+            <option value="2016-06-26">Sunday, June 26</option>
+          
+        
+          
+          
+            <option value="2016-06-27">Monday, June 27</option>
+          
+        
+          
+          
+            <option value="2016-06-28">Tuesday, June 28</option>
+          
+        
+          
+          
+            <option value="2016-06-29">Wednesday, June 29</option>
+          
+        
+          
+          
+            <option value="2016-06-30">Thursday, June 30</option>
+          
+        
+          
+          
+            <option value="2016-07-01">Friday, July  1</option>
+          
+        
+          
+          
+            <option value="2016-07-02">Saturday, July  2</option>
+          
+        
+          
+          
+            <option value="2016-07-03">Sunday, July  3</option>
+          
+        
+          
+          
+            <option value="2016-07-04">Monday, July  4</option>
+          
+        
+          
+          
+            <option value="2016-07-05">Tuesday, July  5</option>
+          
+        
+          
+          
+            <option value="2016-07-06">Wednesday, July  6</option>
+          
+        
+          
+          
+            <option value="2016-07-07">Thursday, July  7</option>
+          
+        
+          
+          
+            <option value="2016-07-08">Friday, July  8</option>
+          
+        
+          
+          
+            <option value="2016-07-09">Saturday, July  9</option>
+          
+        
+          
+          
+            <option value="2016-07-10">Sunday, July 10</option>
+          
+        
+          
+          
+            <option value="2016-07-11">Monday, July 11</option>
+          
+        
+      
+    </select>
+          <select name="neighborhood" class="neighborhood">
+      <option value="">-All Neighborhoods-</option>
+      
+        
+          
+            <option value="837639" >CENTRAL</option>
+          
+          <option value="837502" >&nbsp;&nbsp;Gold Coast/Mag Mile/Streeterville</option>
+        
+          
+          <option value="837503" >&nbsp;&nbsp;Loop</option>
+        
+          
+          <option value="837504" >&nbsp;&nbsp;Museum Campus</option>
+        
+          
+          <option value="837505" >&nbsp;&nbsp;Near North</option>
+        
+          
+          <option value="837506" >&nbsp;&nbsp;Near South Side</option>
+        
+          
+          <option value="837507" >&nbsp;&nbsp;Printers Row</option>
+        
+          
+          <option value="837508" >&nbsp;&nbsp;River North</option>
+        
+          
+          <option value="837509" >&nbsp;&nbsp;South Loop</option>
+        
+          
+          <option value="838941" >&nbsp;&nbsp;Other Central</option>
+        
+          
+          <option value="38243" >&nbsp;&nbsp;*REGION UNDEFINED</option>
+        
+          
+            <option value="837640" >NORTH</option>
+          
+          <option value="837511" >&nbsp;&nbsp;Albany Park</option>
+        
+          
+          <option value="837512" >&nbsp;&nbsp;Andersonville</option>
+        
+          
+          <option value="837513" >&nbsp;&nbsp;DePaul</option>
+        
+          
+          <option value="837514" >&nbsp;&nbsp;Edgewater</option>
+        
+          
+          <option value="837515" >&nbsp;&nbsp;Lakeview</option>
+        
+          
+          <option value="837516" >&nbsp;&nbsp;Lincoln Park</option>
+        
+          
+          <option value="837517" >&nbsp;&nbsp;Lincoln Square</option>
+        
+          
+          <option value="837518" >&nbsp;&nbsp;North Center</option>
+        
+          
+          <option value="837519" >&nbsp;&nbsp;Old Town</option>
+        
+          
+          <option value="837520" >&nbsp;&nbsp;Ravenswood</option>
+        
+          
+          <option value="837521" >&nbsp;&nbsp;Rogers Park/West Rogers Park</option>
+        
+          
+          <option value="837522" >&nbsp;&nbsp;Roscoe Village</option>
+        
+          
+          <option value="837523" >&nbsp;&nbsp;Uptown</option>
+        
+          
+          <option value="837524" >&nbsp;&nbsp;West Ridge</option>
+        
+          
+          <option value="837525" >&nbsp;&nbsp;Wrigleyville</option>
+        
+          
+          <option value="838942" >&nbsp;&nbsp;Other North</option>
+        
+          
+            <option value="837628" >NORTHWEST</option>
+          
+          <option value="837527" >&nbsp;&nbsp;Avondale</option>
+        
+          
+          <option value="837528" >&nbsp;&nbsp;Belmont Cragin</option>
+        
+          
+          <option value="837529" >&nbsp;&nbsp;Irving Park</option>
+        
+          
+          <option value="837530" >&nbsp;&nbsp;Jefferson Park</option>
+        
+          
+          <option value="837531" >&nbsp;&nbsp;Logan Square</option>
+        
+          
+          <option value="837532" >&nbsp;&nbsp;Portage Park</option>
+        
+          
+          <option value="838943" >&nbsp;&nbsp;Other Northwest</option>
+        
+          
+            <option value="837641" >WEST</option>
+          
+          <option value="837534" >&nbsp;&nbsp;Austin</option>
+        
+          
+          <option value="837536" >&nbsp;&nbsp;Garfield Park</option>
+        
+          
+          <option value="837537" >&nbsp;&nbsp;Greektown</option>
+        
+          
+          <option value="837538" >&nbsp;&nbsp;Humboldt Park</option>
+        
+          
+          <option value="837539" >&nbsp;&nbsp;Lawndale</option>
+        
+          
+          <option value="837540" >&nbsp;&nbsp;University Village/Little Italy</option>
+        
+          
+          <option value="837541" >&nbsp;&nbsp;Near West Side</option>
+        
+          
+          <option value="837543" >&nbsp;&nbsp;River West</option>
+        
+          
+          <option value="837544" >&nbsp;&nbsp;Ukrainian Village/East Village</option>
+        
+          
+          <option value="837545" >&nbsp;&nbsp;United Center</option>
+        
+          
+          <option value="837546" >&nbsp;&nbsp;West Loop/Fulton Market</option>
+        
+          
+          <option value="837547" >&nbsp;&nbsp;Wicker Park/Bucktown</option>
+        
+          
+          <option value="838998" >&nbsp;&nbsp;West Town/Noble Square</option>
+        
+          
+          <option value="838944" >&nbsp;&nbsp;Other West</option>
+        
+          
+            <option value="837630" >SOUTH SIDE</option>
+          
+          <option value="837542" >&nbsp;&nbsp;Pilsen/Little Village</option>
+        
+          
+          <option value="837549" >&nbsp;&nbsp;Beverly</option>
+        
+          
+          <option value="837550" >&nbsp;&nbsp;Bridgeport</option>
+        
+          
+          <option value="837551" >&nbsp;&nbsp;Bronzeville</option>
+        
+          
+          <option value="5841600" >&nbsp;&nbsp;Bronzeville/ Kenwood/ Washington Park</option>
+        
+          
+          <option value="837552" >&nbsp;&nbsp;Chatham</option>
+        
+          
+          <option value="837553" >&nbsp;&nbsp;Chinatown</option>
+        
+          
+          <option value="837554" >&nbsp;&nbsp;Englewood</option>
+        
+          
+          <option value="837555" >&nbsp;&nbsp;Hyde Park</option>
+        
+          
+          <option value="837556" >&nbsp;&nbsp;Oakland/ Kenwood</option>
+        
+          
+          <option value="837557" >&nbsp;&nbsp;Pullman</option>
+        
+          
+          <option value="837558" >&nbsp;&nbsp;South Shore</option>
+        
+          
+          <option value="837559" >&nbsp;&nbsp;Washington Park</option>
+        
+          
+          <option value="837560" >&nbsp;&nbsp;Woodlawn</option>
+        
+          
+          <option value="838945" >&nbsp;&nbsp;Other South</option>
+        
+          
+            <option value="837642" >SOUTHWEST</option>
+          
+          <option value="837562" >&nbsp;&nbsp;Brighton Park</option>
+        
+          
+          <option value="837563" >&nbsp;&nbsp;Ford City</option>
+        
+          
+          <option value="837564" >&nbsp;&nbsp;Marquette Park</option>
+        
+          
+          <option value="837565" >&nbsp;&nbsp;McKinley Park</option>
+        
+          
+          <option value="837566" >&nbsp;&nbsp;West Lawn</option>
+        
+          
+          <option value="838946" >&nbsp;&nbsp;Other Southwest</option>
+        
+          
+            <option value="837643" >SUBURBS NORTH</option>
+          
+          <option value="837568" >&nbsp;&nbsp;Evanston</option>
+        
+          
+          <option value="837569" >&nbsp;&nbsp;Lincolnwood</option>
+        
+          
+          <option value="837570" >&nbsp;&nbsp;Skokie</option>
+        
+          
+          <option value="838951" >&nbsp;&nbsp;Other Suburbs North</option>
+        
+          
+            <option value="837644" >SUBURBS NORTHWEST</option>
+          
+          <option value="837653" >&nbsp;&nbsp;Suburbs Northwest</option>
+        
+          
+          <option value="838950" >&nbsp;&nbsp;Other Suburbs Northwest</option>
+        
+          
+            <option value="837645" >SUBURBS WEST</option>
+          
+          <option value="838949" >&nbsp;&nbsp;Other Suburbs West</option>
+        
+          
+          <option value="837573" >&nbsp;&nbsp;Berwyn</option>
+        
+          
+          <option value="837574" >&nbsp;&nbsp;Cicero</option>
+        
+          
+          <option value="837575" >&nbsp;&nbsp;Forest Park</option>
+        
+          
+          <option value="837576" >&nbsp;&nbsp;Oak Park/River Forest</option>
+        
+          
+            <option value="837646" >SUBURBS SOUTH</option>
+          
+          <option value="837654" >&nbsp;&nbsp;Suburbs South</option>
+        
+          
+            <option value="837647" >SUBURBS SOUTHWEST</option>
+          
+          <option value="837655" >&nbsp;&nbsp;Suburbs Southwest</option>
+        
+          
+            <option value="838938" >OUT OF STATE</option>
+          
+          <option value="838939" >&nbsp;&nbsp;Indiana</option>
+        
+          
+          <option value="838940" >&nbsp;&nbsp;Wisconsin</option>
+        
+          
+            <option value="842902" >OTHER ILLINOIS</option>
+          
+          <option value="842903" >&nbsp;&nbsp;Other Illinois</option>
+        
+      
+    </select>
+          <input type="text" size="18" name="keywords" title="Enter keyword" class="text clearFocus" value="Search events&hellip;" />
+          <input type="submit" class="submit" value="Go" />
+        </form>
+      </div><!-- close .tabBody -->
+
+
+      
+
+      <div class="tabBody" style="display:none">
+        <form name="movietimesSearchForm" id="movietimesSearchFormMovie" method="get" action="http://www.chicagoreader.com/chicago/MovieTimes">
+          <select name="film" class="film">
+            <option value="">-All Films-</option>
+            
+              <option value="1052229" >Ali</option>
+            
+              <option value="22443229" >Ali</option>
+            
+              <option value="21590442" >Alice Through the Looking Glass</option>
+            
+              <option value="21590444" >Alice Through the Looking Glass 3D</option>
+            
+              <option value="1463324" >Almost Famous</option>
+            
+              <option value="22443263" >The Angry Birds Movie 3D</option>
+            
+              <option value="21514499" >The Angry Birds Movie</option>
+            
+              <option value="21894080" >A Beautiful Planet: An IMAX 3D Experience</option>
+            
+              <option value="1150576" >Bellissima</option>
+            
+              <option value="3344211" >Blue Velvet</option>
+            
+              <option value="21361302" >Captain America: Civil War</option>
+            
+              <option value="21361304" >Captain America: Civil War 3D</option>
+            
+              <option value="22213776" >The Conjuring 2</option>
+            
+              <option value="22013862" >Dark Horse</option>
+            
+              <option value="19438058" >Dheepan</option>
+            
+              <option value="22456683" >Dheepan</option>
+            
+              <option value="22410385" >Eva Hesse</option>
+            
+              <option value="22407240" >Gangster Ka</option>
+            
+              <option value="21787328" >Green Room</option>
+            
+              <option value="22321811" >Housefull 3</option>
+            
+              <option value="22410380" >The Idol</option>
+            
+              <option value="21182850" >The Jungle Book 3D</option>
+            
+              <option value="21182847" >The Jungle Book</option>
+            
+              <option value="21752363" >Keanu</option>
+            
+              <option value="22128387" >The Lobster</option>
+            
+              <option value="22121522" >Love &amp; Friendship</option>
+            
+              <option value="22213790" >Maggie&#39;s Plan</option>
+            
+              <option value="1060866" >Many Dreams Along the Way</option>
+            
+              <option value="22160081" >Me Before You</option>
+            
+              <option value="21868321" >The Meddler</option>
+            
+              <option value="21894066" >Money Monster</option>
+            
+              <option value="22410459" >A Monster With a Thousand Heads</option>
+            
+              <option value="21878413" >Neighbors 2: Sorority Rising</option>
+            
+              <option value="21956752" >The Nice Guys</option>
+            
+              <option value="22407555" >Not a Stranger</option>
+            
+              <option value="22213796" >Now You See Me 2</option>
+            
+              <option value="22389452" >Older Than Ireland</option>
+            
+              <option value="22160091" >Popstar: Never Stop Never Stopping</option>
+            
+              <option value="22389475" >Presenting Princess Shaw</option>
+            
+              <option value="22408282" >Puerto Ricans in Paris</option>
+            
+              <option value="22443313" >Quackerz</option>
+            
+              <option value="1065836" >The Secrets</option>
+            
+              <option value="21246810" >Sunset Song</option>
+            
+              <option value="22456689" >Sunset Song</option>
+            
+              <option value="22418938" >TE3N</option>
+            
+              <option value="22443252" >Teenage Mutant Ninja Turtles 2 Pizza Party</option>
+            
+              <option value="22126600" >Teenage Mutant Ninja Turtles: Out of the Shadows</option>
+            
+              <option value="22126630" >Teenage Mutant Ninja Turtles: Out of the Shadows 3D</option>
+            
+              <option value="1054457" >3 Ninjas</option>
+            
+              <option value="21909284" >Time to Choose</option>
+            
+              <option value="1074794" >Tol&#39;able David</option>
+            
+              <option value="22410564" >Unlocking the Cage</option>
+            
+              <option value="21947965" >Warcraft</option>
+            
+              <option value="22443269" >Warcraft 3D</option>
+            
+              <option value="22443249" >Warcraft: An IMAX 3D Experience</option>
+            
+              <option value="22019874" >X-Men: Apocalypse</option>
+            
+              <option value="22019886" >X-Men: Apocalypse 3D</option>
+            
+          </select>
+
+          <select name="narrowByDate" class="narrowDate">
+            <option value="2016-06-11">Today</option>
+            
+              
+              
+                <option value="2016-06-12">Sunday, June 12</option>
+              
+            
+              
+              
+                <option value="2016-06-13">Monday, June 13</option>
+              
+            
+              
+              
+                <option value="2016-06-14">Tuesday, June 14</option>
+              
+            
+              
+              
+                <option value="2016-06-15">Wednesday, June 15</option>
+              
+            
+              
+              
+                <option value="2016-06-16">Thursday, June 16</option>
+              
+            
+              
+              
+                <option value="2016-06-17">Friday, June 17</option>
+              
+            
+          </select>
+
+          <input type="submit" class="submit" value="Go" />
+        </form>
+      </div><!-- close .tabBody -->
+
+
+      
+
+      <div class="tabBody" style="display:none">
+        <form name="eventSearchForm" method="get" action="http://www.chicagoreader.com/chicago/EventSearch">
+          <input type="hidden" name="eventSection" value="84642">
+          <select name="narrowByDate" class="narrowDate">
+      
+      
+        <option value="">-All Dates-</option>
+        
+        
+          <option value="Today">Today</option>
+        
+        
+          <option value="Tomorrow">Tomorrow</option>
+        
+        
+          <option value="This Weekend">This Weekend</option>
+        
+        
+          <option value="This Week">This Week</option>
+        
+        <option value="">--------------------</option>
+        
+          
+          
+            <option value="2016-06-11">Saturday, June 11</option>
+          
+        
+          
+          
+            <option value="2016-06-12">Sunday, June 12</option>
+          
+        
+          
+          
+            <option value="2016-06-13">Monday, June 13</option>
+          
+        
+          
+          
+            <option value="2016-06-14">Tuesday, June 14</option>
+          
+        
+          
+          
+            <option value="2016-06-15">Wednesday, June 15</option>
+          
+        
+          
+          
+            <option value="2016-06-16">Thursday, June 16</option>
+          
+        
+          
+          
+            <option value="2016-06-17">Friday, June 17</option>
+          
+        
+          
+          
+            <option value="2016-06-18">Saturday, June 18</option>
+          
+        
+          
+          
+            <option value="2016-06-19">Sunday, June 19</option>
+          
+        
+          
+          
+            <option value="2016-06-20">Monday, June 20</option>
+          
+        
+          
+          
+            <option value="2016-06-21">Tuesday, June 21</option>
+          
+        
+          
+          
+            <option value="2016-06-22">Wednesday, June 22</option>
+          
+        
+          
+          
+            <option value="2016-06-23">Thursday, June 23</option>
+          
+        
+          
+          
+            <option value="2016-06-24">Friday, June 24</option>
+          
+        
+          
+          
+            <option value="2016-06-25">Saturday, June 25</option>
+          
+        
+          
+          
+            <option value="2016-06-26">Sunday, June 26</option>
+          
+        
+          
+          
+            <option value="2016-06-27">Monday, June 27</option>
+          
+        
+          
+          
+            <option value="2016-06-28">Tuesday, June 28</option>
+          
+        
+          
+          
+            <option value="2016-06-29">Wednesday, June 29</option>
+          
+        
+          
+          
+            <option value="2016-06-30">Thursday, June 30</option>
+          
+        
+          
+          
+            <option value="2016-07-01">Friday, July  1</option>
+          
+        
+          
+          
+            <option value="2016-07-02">Saturday, July  2</option>
+          
+        
+          
+          
+            <option value="2016-07-03">Sunday, July  3</option>
+          
+        
+          
+          
+            <option value="2016-07-04">Monday, July  4</option>
+          
+        
+          
+          
+            <option value="2016-07-05">Tuesday, July  5</option>
+          
+        
+          
+          
+            <option value="2016-07-06">Wednesday, July  6</option>
+          
+        
+          
+          
+            <option value="2016-07-07">Thursday, July  7</option>
+          
+        
+          
+          
+            <option value="2016-07-08">Friday, July  8</option>
+          
+        
+          
+          
+            <option value="2016-07-09">Saturday, July  9</option>
+          
+        
+          
+          
+            <option value="2016-07-10">Sunday, July 10</option>
+          
+        
+          
+          
+            <option value="2016-07-11">Monday, July 11</option>
+          
+        
+      
+    </select>
+          <select name="neighborhood" class="neighborhood">
+      <option value="">-All Neighborhoods-</option>
+      
+        
+          
+            <option value="837639" >CENTRAL</option>
+          
+          <option value="837502" >&nbsp;&nbsp;Gold Coast/Mag Mile/Streeterville</option>
+        
+          
+          <option value="837503" >&nbsp;&nbsp;Loop</option>
+        
+          
+          <option value="837504" >&nbsp;&nbsp;Museum Campus</option>
+        
+          
+          <option value="837505" >&nbsp;&nbsp;Near North</option>
+        
+          
+          <option value="837506" >&nbsp;&nbsp;Near South Side</option>
+        
+          
+          <option value="837507" >&nbsp;&nbsp;Printers Row</option>
+        
+          
+          <option value="837508" >&nbsp;&nbsp;River North</option>
+        
+          
+          <option value="837509" >&nbsp;&nbsp;South Loop</option>
+        
+          
+          <option value="838941" >&nbsp;&nbsp;Other Central</option>
+        
+          
+          <option value="38243" >&nbsp;&nbsp;*REGION UNDEFINED</option>
+        
+          
+            <option value="837640" >NORTH</option>
+          
+          <option value="837511" >&nbsp;&nbsp;Albany Park</option>
+        
+          
+          <option value="837512" >&nbsp;&nbsp;Andersonville</option>
+        
+          
+          <option value="837513" >&nbsp;&nbsp;DePaul</option>
+        
+          
+          <option value="837514" >&nbsp;&nbsp;Edgewater</option>
+        
+          
+          <option value="837515" >&nbsp;&nbsp;Lakeview</option>
+        
+          
+          <option value="837516" >&nbsp;&nbsp;Lincoln Park</option>
+        
+          
+          <option value="837517" >&nbsp;&nbsp;Lincoln Square</option>
+        
+          
+          <option value="837518" >&nbsp;&nbsp;North Center</option>
+        
+          
+          <option value="837519" >&nbsp;&nbsp;Old Town</option>
+        
+          
+          <option value="837520" >&nbsp;&nbsp;Ravenswood</option>
+        
+          
+          <option value="837521" >&nbsp;&nbsp;Rogers Park/West Rogers Park</option>
+        
+          
+          <option value="837522" >&nbsp;&nbsp;Roscoe Village</option>
+        
+          
+          <option value="837523" >&nbsp;&nbsp;Uptown</option>
+        
+          
+          <option value="837524" >&nbsp;&nbsp;West Ridge</option>
+        
+          
+          <option value="837525" >&nbsp;&nbsp;Wrigleyville</option>
+        
+          
+          <option value="838942" >&nbsp;&nbsp;Other North</option>
+        
+          
+            <option value="837628" >NORTHWEST</option>
+          
+          <option value="837527" >&nbsp;&nbsp;Avondale</option>
+        
+          
+          <option value="837528" >&nbsp;&nbsp;Belmont Cragin</option>
+        
+          
+          <option value="837529" >&nbsp;&nbsp;Irving Park</option>
+        
+          
+          <option value="837530" >&nbsp;&nbsp;Jefferson Park</option>
+        
+          
+          <option value="837531" >&nbsp;&nbsp;Logan Square</option>
+        
+          
+          <option value="837532" >&nbsp;&nbsp;Portage Park</option>
+        
+          
+          <option value="838943" >&nbsp;&nbsp;Other Northwest</option>
+        
+          
+            <option value="837641" >WEST</option>
+          
+          <option value="837534" >&nbsp;&nbsp;Austin</option>
+        
+          
+          <option value="837536" >&nbsp;&nbsp;Garfield Park</option>
+        
+          
+          <option value="837537" >&nbsp;&nbsp;Greektown</option>
+        
+          
+          <option value="837538" >&nbsp;&nbsp;Humboldt Park</option>
+        
+          
+          <option value="837539" >&nbsp;&nbsp;Lawndale</option>
+        
+          
+          <option value="837540" >&nbsp;&nbsp;University Village/Little Italy</option>
+        
+          
+          <option value="837541" >&nbsp;&nbsp;Near West Side</option>
+        
+          
+          <option value="837543" >&nbsp;&nbsp;River West</option>
+        
+          
+          <option value="837544" >&nbsp;&nbsp;Ukrainian Village/East Village</option>
+        
+          
+          <option value="837545" >&nbsp;&nbsp;United Center</option>
+        
+          
+          <option value="837546" >&nbsp;&nbsp;West Loop/Fulton Market</option>
+        
+          
+          <option value="837547" >&nbsp;&nbsp;Wicker Park/Bucktown</option>
+        
+          
+          <option value="838998" >&nbsp;&nbsp;West Town/Noble Square</option>
+        
+          
+          <option value="838944" >&nbsp;&nbsp;Other West</option>
+        
+          
+            <option value="837630" >SOUTH SIDE</option>
+          
+          <option value="837542" >&nbsp;&nbsp;Pilsen/Little Village</option>
+        
+          
+          <option value="837549" >&nbsp;&nbsp;Beverly</option>
+        
+          
+          <option value="837550" >&nbsp;&nbsp;Bridgeport</option>
+        
+          
+          <option value="837551" >&nbsp;&nbsp;Bronzeville</option>
+        
+          
+          <option value="5841600" >&nbsp;&nbsp;Bronzeville/ Kenwood/ Washington Park</option>
+        
+          
+          <option value="837552" >&nbsp;&nbsp;Chatham</option>
+        
+          
+          <option value="837553" >&nbsp;&nbsp;Chinatown</option>
+        
+          
+          <option value="837554" >&nbsp;&nbsp;Englewood</option>
+        
+          
+          <option value="837555" >&nbsp;&nbsp;Hyde Park</option>
+        
+          
+          <option value="837556" >&nbsp;&nbsp;Oakland/ Kenwood</option>
+        
+          
+          <option value="837557" >&nbsp;&nbsp;Pullman</option>
+        
+          
+          <option value="837558" >&nbsp;&nbsp;South Shore</option>
+        
+          
+          <option value="837559" >&nbsp;&nbsp;Washington Park</option>
+        
+          
+          <option value="837560" >&nbsp;&nbsp;Woodlawn</option>
+        
+          
+          <option value="838945" >&nbsp;&nbsp;Other South</option>
+        
+          
+            <option value="837642" >SOUTHWEST</option>
+          
+          <option value="837562" >&nbsp;&nbsp;Brighton Park</option>
+        
+          
+          <option value="837563" >&nbsp;&nbsp;Ford City</option>
+        
+          
+          <option value="837564" >&nbsp;&nbsp;Marquette Park</option>
+        
+          
+          <option value="837565" >&nbsp;&nbsp;McKinley Park</option>
+        
+          
+          <option value="837566" >&nbsp;&nbsp;West Lawn</option>
+        
+          
+          <option value="838946" >&nbsp;&nbsp;Other Southwest</option>
+        
+          
+            <option value="837643" >SUBURBS NORTH</option>
+          
+          <option value="837568" >&nbsp;&nbsp;Evanston</option>
+        
+          
+          <option value="837569" >&nbsp;&nbsp;Lincolnwood</option>
+        
+          
+          <option value="837570" >&nbsp;&nbsp;Skokie</option>
+        
+          
+          <option value="838951" >&nbsp;&nbsp;Other Suburbs North</option>
+        
+          
+            <option value="837644" >SUBURBS NORTHWEST</option>
+          
+          <option value="837653" >&nbsp;&nbsp;Suburbs Northwest</option>
+        
+          
+          <option value="838950" >&nbsp;&nbsp;Other Suburbs Northwest</option>
+        
+          
+            <option value="837645" >SUBURBS WEST</option>
+          
+          <option value="838949" >&nbsp;&nbsp;Other Suburbs West</option>
+        
+          
+          <option value="837573" >&nbsp;&nbsp;Berwyn</option>
+        
+          
+          <option value="837574" >&nbsp;&nbsp;Cicero</option>
+        
+          
+          <option value="837575" >&nbsp;&nbsp;Forest Park</option>
+        
+          
+          <option value="837576" >&nbsp;&nbsp;Oak Park/River Forest</option>
+        
+          
+            <option value="837646" >SUBURBS SOUTH</option>
+          
+          <option value="837654" >&nbsp;&nbsp;Suburbs South</option>
+        
+          
+            <option value="837647" >SUBURBS SOUTHWEST</option>
+          
+          <option value="837655" >&nbsp;&nbsp;Suburbs Southwest</option>
+        
+          
+            <option value="838938" >OUT OF STATE</option>
+          
+          <option value="838939" >&nbsp;&nbsp;Indiana</option>
+        
+          
+          <option value="838940" >&nbsp;&nbsp;Wisconsin</option>
+        
+          
+            <option value="842902" >OTHER ILLINOIS</option>
+          
+          <option value="842903" >&nbsp;&nbsp;Other Illinois</option>
+        
+      
+    </select>
+          <input type="text" size="18" name="keywords" title="Enter keywords" class="text clearFocus" value="Search events&hellip;" />
+          <input type="submit" class="submit" value="Go" />
+        </form>
+      </div><!-- close .tabBody -->
+    </div>
+
+    <ul class="componentFooter toggleable" style="display:none;">
+      <li class="first"><a href="/chicago/Agenda">Full Agenda &raquo;</a></li>
+      <li><a href="/chicago/Soundboard">Soundboard &raquo;</a></li>
+      <li class="last"><a href="http://www.chicagoreader.com/chicago/EventSearch?feature=Recommended">Also Recommended &raquo;</a></li>
+    </ul>
+
+
+    
+
+    
+
+    <script type="text/javascript">
+    <!--
+      Event.observe(document, "dom:loaded", function () {
+          dnSetupTabGroup(
+              $$("#TabbedEventSearch div.tabs>div"),
+              $$("#TabbedEventSearch div.tabBody"),
+              "tabCurrent", "tabBack", 0
+          );
+
+          // Deactivate links.
+          $$("#TabbedEventSearch div.tabs>div a").each(function (a) {
+              a.onclick = function () { return false; };
+          });
+      });
+    //-->
+    </script>
+
+    <script type="text/javascript">
+      if (jQuery) {
+        jQuery(document).ready(function ($) {
+          
+            
+            $("#TabbedEventSearch .toggle").click(function(event) {
+              $("#TabbedEventSearch .toggleable").toggle();
+            });
+          
+
+          
+          $("#TabbedEventSearch .clearFocus").one("focus", function () {
+            $(this).val("");
+            $(this).removeClass("clearFocus");
+          });
+          $("#TabbedEventSearch form").submit(function () {
+            $("#TabbedEventSearch .clearFocus").each(function () {
+              $(this).val("");
+              $(this).removeClass("clearFocus");
+            });
+          });
+        });
+      }
+    </script>
+  </div><!-- close #TabbedEventSearch -->
+<div id="HalfPageRectangle" class="AdSidebar ContentDefault MediumRectangle Ad">
+  
+  <!-- /622/chicago.creativeloafing/edit -->
+          <div id="div-gpt-ad-chicago_creativeloafing_edit-2" style="" data-slot="/622/chicago.creativeloafing/edit" data-output="asynchronous" data-width="300" data-height="600">
+            <script type='text/javascript'>
+                googletag.cmd.push(function() {
+                googletag.display('div-gpt-ad-chicago_creativeloafing_edit-2');
+                });
+            </script>
+          </div>
+</div>
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="PopularStories" class="AdSidebar ContentDefault tabbedHeader ">
+  <h2 id="PopularStoriesHeader" class="componentHeader">Popular Stories</h2>
+
+  <div class="tabs">
+    <div class="tabCurrent tab t1 first"><a href="#">Read</a></div>
+    <div class="tabBack tab t2"><a href="#">Shared</a></div>
+    <div class="tabBack tab t3 last"><a href="#">Comments</a></div>
+  </div>
+
+  <div class="tabBodies componentBody">
+    
+
+    <div class="tabBody">
+      <ul>
+        
+          <li class="story first">
+            <div class="category">
+    <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=866366">Savage Love</a>
+  </div>
+
+  <h3 class="headline">
+    <span class="longOnly"></span>
+    <a href="http://www.chicagoreader.com/chicago/small-penis-humiliation-fetish-play-penile-injury/Content?oid=22429140">Guy with small penis seeks small penis humiliation</a>
+    
+  </h3>
+
+  
+    <div class="description">
+      How does he broach the subject with his fiancee? Plus: two musts for men to avoid
+    </div>
+  
+
+  <div class="tagline">
+    
+      <span class="byline">By Dan Savage</span>
+      |
+    
+    <span class="dateline">06.09.16</span>
+  </div>
+          </li>
+        
+          <li class="story">
+            <div class="category">
+    <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=846999">Politics</a>
+  </div>
+
+  <h3 class="headline">
+    <span class="longOnly"></span>
+    <a href="http://www.chicagoreader.com/chicago/chicago-privatization-public-transportation-cta-el/Content?oid=1955350">Privatize Public Transit?</a>
+    
+      <span class="commentCount">
+        <a href="http://www.chicagoreader.com/chicago/chicago-privatization-public-transportation-cta-el/Content?oid=1955350#readerComments">19</a>
+      </span>
+    
+  </h3>
+
+  
+    <div class="description">
+      Chicago's tried it before. Here's how that went.
+    </div>
+  
+
+  <div class="tagline">
+    
+      <span class="byline">By Robert Loerzel</span>
+      |
+    
+    <span class="dateline">06.10.10</span>
+  </div>
+          </li>
+        
+          <li class="story">
+            <div class="category">
+    <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=866366">Savage Love</a>
+  </div>
+
+  <h3 class="headline">
+    <span class="longOnly"></span>
+    <a href="http://www.chicagoreader.com/chicago/can-you-come-out-your-butt/Content?oid=7567224">"Can you come out your butt?"</a>
+    
+      <span class="commentCount">
+        <a href="http://www.chicagoreader.com/chicago/can-you-come-out-your-butt/Content?oid=7567224#readerComments">3</a>
+      </span>
+    
+  </h3>
+
+  
+    <div class="description">
+      And other questions from tomorrow's leaders
+    </div>
+  
+
+  <div class="tagline">
+    
+      <span class="byline">By Dan Savage</span>
+      |
+    
+    <span class="dateline">10.03.12</span>
+  </div>
+          </li>
+        
+          <li class="story last">
+            <div class="category">
+    <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=863470">Feature</a>
+  </div>
+
+  <h3 class="headline">
+    <span class="longOnly"><div class="FeaturesIcons ArticleIcons">
+<a href="/chicago/ArticleArchives?contentFeature=1258403" class="FeaturesIcons_audio" title="Audio"><span>Audio</span></a>
+</div></span>
+    <a href="http://www.chicagoreader.com/chicago/besieged/Content?oid=6141461">Besieged</a>
+    
+      <span class="commentCount">
+        <a href="http://www.chicagoreader.com/chicago/besieged/Content?oid=6141461#readerComments">45</a>
+      </span>
+    
+  </h3>
+
+  
+    <div class="description">
+      West Humboldt is one of America's biggest open-air drug markets. What does that mean for its residents?
+    </div>
+  
+
+  <div class="tagline">
+    
+      <span class="byline">By Mick Dumke</span>
+      |
+    
+    <span class="dateline">04.25.12</span>
+  </div>
+          </li>
+        
+      </ul>
+    </div>
+
+
+    
+
+    <div class="tabBody" style="display:none">
+      <ul>
+        
+          <li class="story first">
+            <div class="category">
+    <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=870396">Essay</a>
+  </div>
+
+  <h3 class="headline">
+    <span class="longOnly"></span>
+    <a href="http://www.chicagoreader.com/chicago/how-does-caffeine-affect-nervous-system-health-research/Content?oid=875717">Health: Does Coffee Make You Sleepy?</a>
+    
+      <span class="commentCount">
+        <a href="http://www.chicagoreader.com/chicago/how-does-caffeine-affect-nervous-system-health-research/Content?oid=875717#readerComments">31</a>
+      </span>
+    
+  </h3>
+
+  
+    <div class="description">
+      Researchers now understand how caffeine works on the nervous system. For some, it may cause the opposite of its intended effect.
+    </div>
+  
+
+  <div class="tagline">
+    
+      <span class="byline">By Roger Downey</span>
+      |
+    
+    <span class="dateline">05.24.90</span>
+  </div>
+          </li>
+        
+          <li class="story">
+            <div class="category">
+    <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=3691073">Ben Joravsky on Politics</a>
+  </div>
+
+  <h3 class="headline">
+    <span class="longOnly"></span>
+    <a href="http://www.chicagoreader.com/chicago/teachers-fired-vienna-beef-gets-tif-subsidy/Content?oid=10294370">As schools starve, Mayor Emanuel finds $5 million for hot dogs</a>
+    
+      <span class="commentCount">
+        <a href="http://www.chicagoreader.com/chicago/teachers-fired-vienna-beef-gets-tif-subsidy/Content?oid=10294370#readerComments">52</a>
+      </span>
+    
+  </h3>
+
+  
+    <div class="description">
+      Teachers get pink slipsand Vienna Beef gets a subsidy.
+    </div>
+  
+
+  <div class="tagline">
+    
+      <span class="byline">By Ben Joravsky</span>
+      |
+    
+    <span class="dateline">07.09.13</span>
+  </div>
+          </li>
+        
+          <li class="story">
+            <div class="category">
+    <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=3691073">Ben Joravsky on Politics</a>
+  </div>
+
+  <h3 class="headline">
+    <span class="longOnly"></span>
+    <a href="http://www.chicagoreader.com/chicago/city-council-aldermen-daley-spent-pension-money/Content?oid=13115134">When Chicago spent its pension money on the mayor's pet projects</a>
+    
+      <span class="commentCount">
+        <a href="http://www.chicagoreader.com/chicago/city-council-aldermen-daley-spent-pension-money/Content?oid=13115134#readerComments">25</a>
+      </span>
+    
+  </h3>
+
+  
+    <div class="description">
+      A decade ago, city leaders acted like we didn't have a care in the world.
+    </div>
+  
+
+  <div class="tagline">
+    
+      <span class="byline">By Ben Joravsky</span>
+      |
+    
+    <span class="dateline">04.15.14</span>
+  </div>
+          </li>
+        
+          <li class="story last">
+            <div class="category">
+    <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=3691074">Michael Miner on Media</a>
+  </div>
+
+  <h3 class="headline">
+    <span class="longOnly"></span>
+    <a href="http://www.chicagoreader.com/chicago/cso-horn-section-leader-dale-clevenger-criticism-from-press/Content?oid=8165439">A legendary CSO horn player struggles against time</a>
+    
+      <span class="commentCount">
+        <a href="http://www.chicagoreader.com/chicago/cso-horn-section-leader-dale-clevenger-criticism-from-press/Content?oid=8165439#readerComments">31</a>
+      </span>
+    
+  </h3>
+
+  
+    <div class="description">
+      Dale Clevenger is in his twilight yearsand critics can't help but notice
+    </div>
+  
+
+  <div class="tagline">
+    
+      <span class="byline">By Michael Miner</span>
+      |
+    
+    <span class="dateline">12.11.12</span>
+  </div>
+          </li>
+        
+      </ul>
+    </div>
+
+
+    
+
+    <div class="tabBody" style="display:none">
+      <ul>
+        
+          <li class="story first">
+            <div class="category">
+    <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=846999">Politics</a>
+  </div>
+
+  <h3 class="headline">
+    <span class="longOnly"></span>
+    <a href="http://www.chicagoreader.com/chicago/roberto-maldonado-the-real-estate-king-of-the-chicago-city-council/Content?oid=1180874">The Real Estate King of the Chicago City Council</a>
+    
+      <span class="commentCount">
+        <a href="http://www.chicagoreader.com/chicago/roberto-maldonado-the-real-estate-king-of-the-chicago-city-council/Content?oid=1180874#readerComments">49</a>
+      </span>
+    
+  </h3>
+
+  
+    <div class="description">
+      Brand-new 26th Ward alderman Roberto Maldonado owns more properties than any other council rep&mdash;including ten in his own ward. That's a lot of potential conflicts of interest.
+    </div>
+  
+
+  <div class="tagline">
+    
+      <span class="byline">By Ben Joravsky and Mick Dumke</span>
+      |
+    
+    <span class="dateline">08.19.09</span>
+  </div>
+          </li>
+        
+          <li class="story">
+            <div class="category">
+    <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=3691073">Ben Joravsky on Politics</a>
+  </div>
+
+  <h3 class="headline">
+    <span class="longOnly"></span>
+    <a href="http://www.chicagoreader.com/chicago/emanuel-pfleger-lucas-museum-irizarry-friends-parks/Content?oid=22125460">Oh, the irony: Mayor Rahms allies call Lucas Museum opponents elitists</a>
+    
+      <span class="commentCount">
+        <a href="http://www.chicagoreader.com/chicago/emanuel-pfleger-lucas-museum-irizarry-friends-parks/Content?oid=22125460#readerComments">49</a>
+      </span>
+    
+  </h3>
+
+  
+    <div class="description">
+      The coded language at the heart of the lakefront fight.
+    </div>
+  
+
+  <div class="tagline">
+    
+      <span class="byline">By Ben Joravsky</span>
+      |
+    
+    <span class="dateline">05.18.16</span>
+  </div>
+          </li>
+        
+          <li class="story">
+            <div class="category">
+    <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=3691073">Ben Joravsky on Politics</a>
+  </div>
+
+  <h3 class="headline">
+    <span class="longOnly"></span>
+    <a href="http://www.chicagoreader.com/chicago/mayor-rahm-opposes-elected-school-board-referendum/Content?oid=15315525">Rahm decrees: No elected school board vote for you!</a>
+    
+      <span class="commentCount">
+        <a href="http://www.chicagoreader.com/chicago/mayor-rahm-opposes-elected-school-board-referendum/Content?oid=15315525#readerComments">31</a>
+      </span>
+    
+  </h3>
+
+  
+    <div class="description">
+      The mayor plays politics with the schools by vowing to keep politics out of the schools.
+    </div>
+  
+
+  <div class="tagline">
+    
+      <span class="byline">By Ben Joravsky</span>
+      |
+    
+    <span class="dateline">10.14.14</span>
+  </div>
+          </li>
+        
+          <li class="story last">
+            <div class="category">
+    <a href="http://www.chicagoreader.com/chicago/ArticleArchives?category=20511690">Transportation</a>
+  </div>
+
+  <h3 class="headline">
+    <span class="longOnly"></span>
+    <a href="http://www.chicagoreader.com/chicago/transit-oriented-development-cta-displacement-logan-square/Content?oid=21780147">Activists worry CTA-friendly housing will accelerate Logan Square gentrification</a>
+    
+      <span class="commentCount">
+        <a href="http://www.chicagoreader.com/chicago/transit-oriented-development-cta-displacement-logan-square/Content?oid=21780147#readerComments">27</a>
+      </span>
+    
+  </h3>
+
+  
+    <div class="description">
+      But advocates say it's a good way to increase density and keep rental prices down.
+    </div>
+  
+
+  <div class="tagline">
+    
+      <span class="byline">By John Greenfield</span>
+      |
+    
+    <span class="dateline">04.18.16</span>
+  </div>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+<script type="text/javascript"><!--
+  Event.observe(document, "dom:loaded", function () {
+      dnSetupTabGroup(
+          $$("#PopularStories div.tabs>div"),
+          $$("#PopularStories div.tabBody"),
+          "tabCurrent", "tabBack"
+      );
+
+      // Deactivate links.
+      $$("#PopularStories div.tabs>div a").each(function (a) {
+          a.onclick = function () { return false; };
+      });
+  });
+//--></script>
+<div id="Skyscraper" class="AdSidebar ContentDefault WideSkyscraper Ad">
+  
+  <!--  skysrcaper rev 20100106 -->
+  <!-- /622/chicago.creativeloafing/edit -->
+          <div id="div-gpt-ad-chicago_creativeloafing_edit-3" style="" data-slot="/622/chicago.creativeloafing/edit" data-output="asynchronous" data-width="160" data-height="600">
+            <script type='text/javascript'>
+                googletag.cmd.push(function() {
+                googletag.display('div-gpt-ad-chicago_creativeloafing_edit-3');
+                });
+            </script>
+          </div>
+  <!-- /skyscraper -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="FollowUs" class="AdSidebar ContentDefault ">
+  <h2 id="FollowUsHeader" class="componentHeader">Follow Us</h2>
+
+  
+  
+      <ul class="headerLinks">
+    
+    
+      <li id="icon-Twitter" class=" twitterIcon first"><a href="http://twitter.com/Chicago_Reader" target="_self">Twitter</a></li>
+    
+  
+    
+      <li id="icon-Facebook" class=" facebookIcon"><a href="http://facebook.com/chicagoreader" target="_self">Facebook</a></li>
+    
+  
+    
+      <li id="icon-RSS" class=" rssIcon last"><a href="/chicago/Syndication/Page" target="_self">RSS</a></li>
+    
+  
+      </ul>
+    
+
+
+<!-- Start of newsletter signup -->
+<script language="javascript">
+<!--
+    if (jQuery) {
+      jQuery(document).ready(function ($) {
+        $("#FollowUs .clearFocus").one("focus", function () {
+          $(this).val("");
+          $(this).removeClass("clearFocus");
+        });
+        $("#FollowUs form").submit(function () {
+          $("#FollowUs .clearFocus").each(function () {
+            $(this).val("");
+            $(this).removeClass("clearFocus");
+          });
+        });
+      });
+    }
+
+function validate_signup(frm) {
+	var emailAddress = frm.Email.value;
+	var errorString = '';
+	if (emailAddress == '' || emailAddress.indexOf('@') == -1) {
+		errorString = 'Please enter your email address';
+	}
+
+    
+var els = frm.getElementsByTagName('input');
+for (var i = 0; i < els.length; i++)
+{
+    if (els[i].className == 'text' || els[i].className == 'date' || els[i].className == 'number')
+    {
+        if (els[i].value == '')
+            errorString = 'Please complete all required fields.';
+    }
+    else if (els[i].className == 'radio')
+    {
+        var toCheck = document.getElementsByName(els[i].name);
+        var radioChecked = false;
+        for (var j = 0; j < toCheck.length; j++)
+        {
+            if (toCheck[j].name == els[i].name && toCheck[j].checked)
+                radioChecked = true;
+        }
+        if (!radioChecked)
+            errorString = 'Please complete all required fields.';
+    }
+}
+
+
+
+	var isError = false;
+    if (errorString.length > 0)
+        isError = true;
+
+    if (isError)
+        alert(errorString);
+	return !isError;
+}
+
+
+//-->
+</script>
+
+<form name="signup" id="dmsignup" action="http://dmtrk.com/signup.ashx" method="post" onsubmit="return validate_signup(this)">
+<div class="newsletters">
+<!-- UserID - required field, do not remove -->
+<input type="hidden" name="userid" value="118395">
+<!-- ReturnURL - when the user hits submit, they'll get sent here -->
+<input type="hidden" name="ReturnURL" value="http://posting.chicagoreader.com/chicago/ReaderNewslettersThankYou/Page">
+<!-- Email - the user's email address -->
+<h3 class="lists"><a href="/chicago/SubscribeEmailNewslettersLists/Page">Sign up for newsletters &raquo;</a></h3>
+<div class="address"><input type="text" name="Email" class="clearFocus" value="Enter your email address&hellip;"></div>
+<div class="listname"><input type="checkbox" name="addressbook_173245">&nbsp;Early Warnings</div>
+<div class="listname"><input type="checkbox" name="addressbook_171537">&nbsp;Food &amp; Drink</div>
+<div class="listname"><input type="checkbox" name="addressbook_172928">&nbsp;Reader Recommends</div>
+<div class="listname"><input type="checkbox" name="addressbook_183438">&nbsp;Reader Events and Offers</div>
+</div>
+
+<input type="Submit" name="Submit" value="Subscribe"><span id="showResult" style="color: red; "></span>
+<script language="javascript">
+<!--
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+var resultValue = getParameterByName('result');
+
+if ( resultValue == 'success') {
+ var resultValueShow = '&nbsp;Subscribed!'; 
+ document.getElementById("showResult").innerHTML = resultValueShow;
+} else if ( resultValue == 'error') {
+ var resultValueShow = '&nbsp;--Error--';
+ document.getElementById("showResult").innerHTML = resultValueShow;
+}
+//-->
+</script>
+
+</form>
+<!-- End of newsletter signup -->
+
+
+</div><div id="DailyCuriosityRefer">
+
+<a href="/chicago/DailyCuriosity/Page?curiosity-day=2016-06-11"><img  src="http://curiosity-data.s3.amazonaws.com/images/memes/image/0ec75263-7d2c-4f64-f1d5-db23145cb2e4.png" alt="This Huge Indoor Vertical Farm Represents The Future Of Farming" /></a>
+
+</div>
+
+  <div id="RectangleSecond" class="AdSidebar ContentDefault MediumRectangle Ad">
+    <!--  rectangle second rev 2014-12-04 -->
+    
+    <!-- /622/chicago.creativeloafing/rect2 -->
+          <div id="div-gpt-ad-chicago_creativeloafing_rect2-5" style="" data-slot="/622/chicago.creativeloafing/rect2" data-output="asynchronous" data-width="300" data-height="250">
+            <script type='text/javascript'>
+                googletag.cmd.push(function() {
+                googletag.display('div-gpt-ad-chicago_creativeloafing_rect2-5');
+                });
+            </script>
+          </div>
+    <!-- /rectangle second -->
+  </div>
+
+
+
+    </div><!-- end gridAdSidebar -->
+
+    <!-- Footer -->
+    <div id="gridFooter">
+      
+
+  <div id="LeaderboardSecond" class="GlobalFooter ContentDefault Leaderboard Ad">
+    <!--  leaderboard second - 20160126 -->
+    
+    <!-- /622/chicago.creativeloafing/lead2 -->
+          <div id="div-gpt-ad-chicago_creativeloafing_lead2-11" style="" data-slot="/622/chicago.creativeloafing/lead2" data-output="asynchronous" data-width="728" data-height="90">
+            <script type='text/javascript'>
+                googletag.cmd.push(function() {
+                googletag.display('div-gpt-ad-chicago_creativeloafing_lead2-11');
+                });
+            </script>
+          </div>
+    <!-- /leaderboard second -->
+  </div>
+
+
+
+
+<div id="FooterNavigation" class="GlobalFooter ContentDefault ">
+  <ul><li class="first"><a href="/chicago/TermsOfUse/Page" target="_self">Terms of Use</a></li><li class=""><a href="/chicago/PrivacyPolicy/Page" target="_self">Privacy Policy</a></li><li class=""><a href="/chicago/SubmissionGuidelines/Page" target="_self">Submission Guidelines</a></li><li class=""><a href="/chicago/about-chicago-reader/Page?oid=1215880" target="_self">About The <i>Reader</i></a></li><li class=""><a href="/chicago/reader-staff/Page?oid=1167186" target="_self">Staff</a></li><li class=""><a href="/chicago/ReaderJobs/Page" target="_self"><i>Reader</i> Careers</a></li><li class=""><a href="/chicago/ReaderContacttheReader/Page" target="_self">Contact Us</a></li><li class=""><a href="/chicago/ReaderFreelanceinformation/Page" target="_self">Freelancing Info</a></li><li class=""><a href="/chicago/display-information/Page?oid=1221727" target="_self">Advertising</a></li><li class=""><a href="/chicago/reader-subscriptions-back-issues/Page?oid=1219489" target="_self">Back Issues</a></li><li class="last"><a href="http://www.readerreprints.com/" target="_self">Reprints</a></li></ul>
+</div>
+<div id="FooterCopyright" class="GlobalFooter ContentDefault ">
+      Copyright &copy; 2016 Sun-Times Media, LLC.<br />
+      Powered by <a target="_blank" href="http://foundation.gyrobase.com/">Foundation</a>
+</div>
+
+
+<!--  remnant ad fix, 2010-02-17 -->
+    <style type="text/css" media="screen">
+     body { overflow: scroll; }
+    </style>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+<!-- Google Analytics -->    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-652476-1', 'auto', {name: 'Reader'});
+ga('Reader.require', 'displayfeatures');
+
+ga('Reader.set', 'dimension1', 'edit');
+ga('Reader.set', 'dimension2', 'News & Politics');
+ga('Reader.set', 'dimension3', 'Feature');
+ga('Reader.set', 'dimension4', 'undefined');
+ga('Reader.set', 'dimension5', 'Ben Joravsky');
+ga('Reader.set', 'dimension6', 'content');
+ga('Reader.set', 'dimension7', 'Content Default');
+
+ ga('Reader.set', 'dimension8', '3397');
+
+ ga('Reader.set', 'dimension9', '2007-02-22');
+
+ga('Reader.send', 'pageview'); 
+
+
+ga('create', 'UA-53290409-1', 'auto', {name: 'networkGlobal'}); 
+ga('networkGlobal.require', 'displayfeatures');
+ga('networkGlobal.send', 'pageview');
+</script>
+<!--/Google Analytics -->
+
+
+<!-- chartbeat -->
+<script type='text/javascript'>
+    var _sf_async_config={};
+ /** CONFIGURATION START **/
+    _sf_async_config.uid = 38241;
+    _sf_async_config.domain = 'chicagoreader.com';
+    _sf_async_config.useCanonical = true;
+    _sf_async_config.sections = 'edit (dfp),News & Politics';
+    _sf_async_config.authors = 'Ben Joravsky'; 
+ /** CONFIGURATION END **/
+    (function(){
+      function loadChartbeat() {
+        window._sf_endpt=(new Date()).getTime();
+        var e = document.createElement('script');
+        e.setAttribute('language', 'javascript');
+        e.setAttribute('type', 'text/javascript');
+        e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+        document.body.appendChild(e);
+      }
+      var oldonload = window.onload;
+      window.onload = (typeof window.onload != 'function') ?
+         loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+</script>
+<!--/chartbeat -->
+
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-nbVcwx1YE9bmV"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-nbVcwx1YE9bmV.gif" border="0" height="1" width="1" alt="Quantcast"/>
+
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+
+<!-- dotmailer -->
+<script src="https://t.trackedlink.net/_dmpt.js" type="text/javascript"></script>
+<script type="text/javascript">
+_dmSetDomain("chicagoreader.com");
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Taboola -->
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({flush: true});
+</script>
+
+<!-- AddThis 20151229 -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55e9dd86a53061b1" async="async"></script>
+    </div><!-- end gridFooter -->
+
+  </div><!-- end gridMain -->
+</div><!-- end gridClamp -->
+
+<!-- Closer -->
+<div id="gridCloser">
+  
+</div><!-- end gridCloser -->
+    </body>
+</html>
+  
+

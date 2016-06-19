@@ -8,11 +8,14 @@ except ImportError:
 from bs4 import BeautifulSoup
 import json
 import MySQLdb
+import sys  
+reload(sys)  
+sys.setdefaultencoding('utf8')
 
 db = MySQLdb.connect("localhost","root","1105026","ThesisDatabase")
 cursor = db.cursor()
 keyWordSeparator = "+-+-"
-fileNamingStartIndex = 661
+fileNamingStartIndex = 1
 
 def deleteTable():
     stmt = "SHOW TABLES LIKE 'NewsTable'"
@@ -97,12 +100,32 @@ def insertInDatabase(newsId,url,title,keyWordString,entireText,fileIndex):
  
         
  
+def writeSampleHTML(entireText,fileNamingStartIndex):
+
+	htmlFileName = "htmlFiles/html"+ str(fileNamingStartIndex)
+	
+
+
+	htmlFile = open(htmlFileName, "wb")
+
+
+	entireText = entireText.encode('ascii', 'ignore')
+
+	htmlFile.write(entireText)
+
+	htmlFile.close()
+
 
 
 #removes all the tags of the news through html and just returns the main content and more things
 def parseHTMLofTheNews(url):
-    try:
+	
+		
+
+	try:
 		html =urlopen(url).read() 
+		writeSampleHTML(html)
+		
 		soup = BeautifulSoup(html)
 		# kill all script and style elements
 		for script in soup(["script", "style"]):
@@ -120,9 +143,12 @@ def parseHTMLofTheNews(url):
 		text = '\n'.join(chunk for chunk in chunks if chunk)
     except:
        return "-1"
+       
 
    
-    return text  
+    return text 
+   
+	
   
 def readDatabase():
     
@@ -155,8 +181,9 @@ def readDatabase():
 def main():
     
 
-      #json =urlopen("https://gateway-a.watsonplatform.net/calls/data/GetNews? apikey="your won key"&outputMode=json&start=now-1d&end=now&maxResults=1&return=enriched.url.text,enriched.url")
-      returnedJson =urlopen("https://gateway-a.watsonplatform.net/calls/data/GetNews?apikey='your own key'&outputMode=json&start=now-100d&end=now&maxResults=500&return=enriched.url.url,enriched.url.keywords,enriched.url.title").read()
+      #json =urlopen("https://gateway-a.watsonplatform.net/calls/data/GetNews? apikey="your won key"&outputMode=json&start=now-1d&end=now&maxResults=15&return=enriched.url.text,enriched.url")
+      returnedJson =urlopen("https://gateway-a.watsonplatform.net/calls/data/GetNews?apikey=c4c9edc33ff0c219f9eba3dea28eb8f557cbe4ef&outputMode=json&start=now-10d&end=now&maxResults=15&return=enriched.url.url,enriched.url.keywords,enriched.url.title").read()
+      
       print(returnedJson)
       parsed_json = json.loads(returnedJson)
       #fo = open("json.txt", "wb")
@@ -181,6 +208,8 @@ def main():
           #print title
           #print keyWordString
           entireText = parseHTMLofTheNews(url)
+          
+          
       
           if(entireText == "-1"):
               continue
@@ -188,6 +217,7 @@ def main():
           fileIndex = 0
           print "Inserting news with id: "+newsId
           insertInDatabase(newsId,url,title,keyWordString,entireText,fileNamingStartIndex + i)
+          
          
    
     

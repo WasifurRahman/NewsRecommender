@@ -1,0 +1,741 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head id="Head1"><title>
+	ArcGIS Improves Vermont's Flood Resiliency | ArcNews
+</title>
+
+	<!-- web controls -->	
+	<link  rel="canonical" href="http://www.esri.com/esri-news/arcnews/spring16articles/arcgis-improves-vermonts-flood-resiliency" />
+<meta name="Keywords" content="Vermont Rivers Program, Arc Hydro tools, Vermont River Corridor layer, Vermont Department of Environmental Conservation, ArcGIS Spatial Analyst, ArcGIS 3D Analyst" />
+<meta name="Description" content="To enhance planning for floods, the Vermont Rivers Program used ArcGIS to develop a consistent river corridor map for the whole state." /><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="robots" content="index, follow" />
+<meta name="esri-templateName" content="Sites/Common/Pages/ArcNews Article Page" />
+<meta name="search-domain" content="www.esri.com" />
+<meta name="search-collection" content="marketing" />
+<meta name="search-category" content="news/arcnews/" />
+
+    <!-- DL:Favorite Bookmark Icon-->
+    <link rel="shortcut icon" type="image/ico" href="/favicon.ico" /><link href="/apple-touch-icon.png" rel="apple-touch-icon" />    
+    <!-- DL:End Favorite Bookmark Icon -->
+    
+<script type="text/javascript" src="//webapps-cdn.esri.com/CDN/esri-core/esri-core-include.js"></script> 
+
+
+<link rel="stylesheet" type="text/css" href="/news/styles/news.css" />
+<link rel="stylesheet" type="text/css" href="/news/styles/sprite-banner.css" />
+<link rel="stylesheet" type="text/css" href="/news/arcnews/styles/arcnews.css" />
+<!-- IE Body Selector --> 
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".sidelineMain, .sideline, .videoSideline").mouseover(function(){
+			$(this).addClass("divHover");
+		});
+		$(".sidelineMain, .sideline, .videoSideline").mouseout(function(){
+			$(this).removeClass("divHover");
+		});
+	});
+</script> 
+<!-- End IE Body Selector -->
+<script type="text/javascript" src="/styles/esricore/scripts/jquery.tabs.min.js"></script>
+<script type="text/javascript" src="/styles/esricore/scripts/jquery.tabs.init.js"></script>
+<!--<script type="text/javascript" src="/news/arcnews/scripts/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="/news/arcnews/scripts/jquery.jcarousel.js"></script>-->
+<script type="text/javascript" src="/styles/esricore/scripts/carousel/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="/styles/esricore/scripts/carousel/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="/styles/search-arcnews.js"></script>
+
+<script type="text/javascript" src="/news/arcnews/scripts/jquery.arcnews-init.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/styles/includes/fat-footer.css" />
+<link rel="stylesheet" type="text/css" href="/styles/includes/main.css" />
+<link rel="stylesheet" type="text/css" href="/news/styles/sprite-banner.css" />
+
+<!-- press releases - Social Media -->
+<link rel="stylesheet" type="text/css" href="/news/styles/news-widgets.css" />
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher:'4a6ef507-8a3e-4274-89cc-6cbdb5d37957'});</script>
+<!-- press releases - Social Media -->
+<link rel="stylesheet" type="text/css" href="/news/styles/arcnews.css" />
+<link rel="stylesheet" type="text/css" href="/styles/includes/shareThis.css" />
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+
+
+
+
+	<script type="text/javascript" src="/styles/esricore/scripts/ixite/global.js"></script>
+
+	<!-- PRODUCTS RESPONSIVE --><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><link rel="stylesheet" type="text/css" href="/components/responsive/css/products_responsive.css" /><script type="text/javascript" src="/components/responsive/js/jquery.responsive.js"></script><script type="text/javascript">$(document).ready(function() {$('#header').globalEsriMenu();$('#products-menu').mobileSubnav({'buildNav' : 'true','subSearchID' : 'products-menu','subMenuToggle' : 'productsMobileMenu'});});</script> <!-- End of PRODUCTS RESPONSIVE -->
+
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+<link rel="stylesheet" href="/components/responsive/css/centurion-grid-ie.min.css" />
+<![endif]-->
+
+
+
+<script> 
+
+var EsriAnalytics = (function () {
+    
+    var api = {};
+
+    api.analyticsInit = function () {
+        if (window.location.hostname) {
+            window.digitalData = {
+                timestamp: new Date(),
+                pageBottomCalled: false
+            };
+            window.addEventListener("message", receiveMessage, false);
+            api.collectData();
+        }
+        $(window).on('focusin', function () {
+            clearJobQueue();
+        });
+    };
+
+    api.recordMetrics = function (m) {
+        if (digitalData) {
+            for (var p in m) {
+                digitalData[p] = m[p];
+            }
+        }
+        //DEBUG CODE
+        // if (typeof ANALYTICS_DEBUG !== 'undefined' && ANALYTICS_DEBUG && p.indexOf('scroll') === -1) {
+        //     logMetric(p, m, ">");
+        // }
+    };
+
+    /*
+     * Page-load metrics
+     */
+
+    api.collectData = function () {
+        collectPageInfo();
+        collectSessionData();
+        collectScrollPosition();
+        collectEsriMetaData();
+        collectCampaignData();
+    };
+
+    function collectPageInfo() {
+        var pathArray = window.location.pathname.split('/'),
+            host_name = (window.location.hostname.indexOf(window.location.protocol) !== -1)
+                ? window.location.hostname.substr(window.location.protocol.length)
+                : window.location.hostname;
+
+        api.recordMetrics({
+            pageInfo: {
+                siteSection1: host_name,
+                siteSection2: pathArray.length > 1 ? pathArray[1] : '',
+                siteSection3: pathArray.length > 2 ? pathArray[2] : '',
+                siteSection4: pathArray.length > 3 ? pathArray[3] : '',
+                url: window.location.href,
+                pageName: getPageName()
+            }
+        });
+    }
+
+    function collectSessionData() {
+        //Detect Browser Language
+        api.recordMetrics({
+            language: {
+                current: navigator.language,
+                acceptedLanguages: navigator.languages
+            },
+            referrer: document.referrer
+        });
+    }
+
+    function collectScrollPosition() {
+        if (document.body.scrollHeight >= window.innerHeight) {
+            digitalData.scroll_y = 0;
+            $(window).scroll(function () {
+                var scroll_y = Math.floor(window.scrollY / (document.body.scrollHeight - window.innerHeight) * 100);
+                if (scroll_y > digitalData.scroll_y) {
+                    api.recordMetrics({'scroll_y': scroll_y});
+                }
+            });
+        } else {
+            digitalData.scroll_y = 100;
+        }
+    }
+
+    function collectEsriMetaData() {
+        var vals = {},
+            metas = document.getElementsByTagName('meta');
+
+        for (var i = 0; i < metas.length; i++) {
+            var metaName = metas[i].getAttribute("name");
+            if (stringStartsWith(metaName, 'esri-')) {
+                vals[metaName.substring(5)] = metas[i].getAttribute("content");
+            }
+        }
+        api.recordMetrics({meta: vals});
+    }
+
+    function collectCampaignData() {
+        //Record campaign values
+        var el = $('[data-campaign-id]'),
+            page_campaign = el.length ? el[0].data('campaign-id') : '';
+        api.recordMetrics({'campaign': page_campaign});
+    }
+
+    var stringStartsWith = function (string, prefix) {
+        if (string) {
+            return string.slice(0, prefix.length) == prefix;
+        }
+    };
+
+    var getPageName = function () {
+
+        var page_name = '';
+
+        if (window.location.href.substr(0, 7) === "http://") {
+            page_name = window.location.href.substr(7);
+        } else if (window.location.href.substr(0, 8) === "https://") {
+            page_name = window.location.href.substr(8);
+        } else if (window.location.href.substr(0, 2) === "//") {
+            page_name = window.location.href.substr(2);
+        } else {
+            page_name = (window.location.href.indexOf('//'))
+        }
+
+        var page_name_array = page_name.split('/').filter(function (page_name_part) {
+            if (page_name_part) {
+                return page_name_part;
+            }
+        });
+
+        return page_name_array.slice(0, 4).join(': ');
+    };
+    /*
+     * Metric-tracking job & queuing functions
+     */
+
+    api.dataQueue = {};
+    api.jobQueue = {};
+
+    var receiveMessage = function (event) {
+        var origin = event.origin || event.originalEvent.origin; // For Chrome, the origin property is in the event.originalEvent object.
+        // if (origin === message_origin) {
+            var message = (typeof event.data === 'object') ? event.data : JSON.parse(event.data);
+            if (typeof message === 'object' && message.message_type === 'pFM') {
+                api.managePformMetrics(message);
+            }
+        // }
+    };
+
+    api.managePformMetrics = function (payload) {
+        if(!digitalData){return;}
+        var data = JSON.parse(payload.data);
+        switch (payload.rule) {
+            case 'pFormStart':
+                api.dataQueue['pFormMetrics'] = data;
+                queueJob('pFormStart');
+                runQueuedJob('pFormStart');
+                break;
+            case 'pFormData':
+                switch (payload.action) {
+                    case 'init':
+                        if (!digitalData.pageBottomCalled) {
+                            if(!digitalData.hasOwnProperty('pFormMetrics')){
+                                digitalData.pFormMetrics = {};
+                            }
+                            digitalData.pFormMetrics.timeStamp = data.timeStamp;
+                            digitalData.pFormMetrics.sessionId = data.sessionId;
+                            digitalData.pFormMetrics.formId = data.formId;
+                            digitalData.pFormMetrics.inputCount = data.inputCount;
+                            digitalData.pFormMetrics.inputsCompleted = 0;
+                            digitalData.pFormMetrics.lastInputId = '';
+                            digitalData.pFormMetrics.lastInputIndex = 0;
+                            digitalData.pFormMetrics.lastInputName = '';
+                            digitalData.pFormMetrics.lastInputType = '';
+                            digitalData.pFormMetrics.errorMessages = data.errorMessages;
+                        } else {
+                            api.dataQueue['pFormMetrics'] = data;
+                            queueJob('pFormLoad');
+                            runQueuedJob('pFormLoad');
+                        }
+                        break;
+                    case 'error': EsriAnalytics.dataQueue.hasOwnProperty('pFormMetrics')
+                        var session_data = EsriAnalytics.dataQueue.hasOwnProperty('pFormMetrics')
+                            ? EsriAnalytics.dataQueue.pFormMetrics
+                            : digitalData.pFormMetrics;
+
+                        data.lastInputId = session_data.lastInputId;
+                        data.lastInputIndex = session_data.lastInputIndex;
+                        data.lastInputName = session_data.lastInputName;
+                        data.lastInputType = session_data.lastInputType;
+                        data.timeStamp = session_data.timeStamp;
+                        data.sessionId = session_data.sessionId;
+                        api.dataQueue['pFormMetrics'] = data;
+                        queueJob('pFormError');
+                        runQueuedJob('pFormError');
+                        break;
+                    case 'queue':
+                        api.dataQueue['pFormMetrics'] = data;
+                        queueJob('pFormData');
+                        break;
+                    case 'run':
+                        api.dataQueue['pFormMetrics'] = data;
+                        queueJob('pFormData');
+                        runQueuedJob('pFormData');
+                        break;
+                }
+                break;
+            case 'pFormEnd':
+                if(api.dataQueue['pFormMetrics']) {
+                    api.dataQueue['pFormMetrics'].formCompleted = true;
+                }
+                queueJob('pFormEnd');
+                runQueuedJob('pFormEnd');
+                break;
+        }
+    };
+
+    var jobFunctions = {
+        pFormLoad: function () {
+            if (typeof digitalData !== 'undefined') {
+                digitalData.pFormMetrics = api.dataQueue['pFormMetrics'];
+                _satellite.track('IFORMLOAD');
+            }
+        },
+        pFormStart: function () {
+            if (typeof digitalData !== 'undefined') {
+                digitalData.pFormMetrics = api.dataQueue['pFormMetrics'];
+                _satellite.track('IFORMSTART');
+            }
+        },
+        pFormData: function () {
+            if (typeof digitalData !== 'undefined') {
+                digitalData.pFormMetrics = api.dataQueue['pFormMetrics'];
+                _satellite.track('IFORMDATA');
+            }
+        },
+        pFormEnd: function () {
+            if (typeof digitalData !== 'undefined') {
+                digitalData.pFormMetrics = api.dataQueue['pFormMetrics'];
+                _satellite.track('IFORMEND');
+            }
+        },
+        pFormError: function(){
+            if (typeof digitalData !== 'undefined') {
+                digitalData.pFormMetrics = api.dataQueue['pFormMetrics'];
+                _satellite.track('IFORMERROR');
+            }
+        }
+    };
+
+    var queueJob = function (job) {
+        api.jobQueue[job] = {"func": job};
+    };
+
+    var removeJob = function (job) {
+        if (api.jobQueue.hasOwnProperty(job)) {
+            delete api.jobQueue[job];
+        }
+    };
+
+    var runQueuedJob = function (job) {
+        if (api.jobQueue.hasOwnProperty(job)) {
+            jobFunctions[job]();
+            removeJob(job);
+        }
+    };
+
+    var clearJobQueue = function () {
+        var queue = api.jobQueue;
+        for (var job in queue) {
+            if(queue.hasOwnProperty(job)){
+                runQueuedJob(job);
+            }
+        }
+    };
+
+    return api;
+})();
+</script>
+
+<script src="//assets.adobedtm.com/2e9cd01e19dc5ac4867e752f17a2f1ea1923e5af/satelliteLib-0ed1001fd441a838aefe8e755be42aaafddcc46b.js"></script>
+
+ <script src="//webapps-cdn.esri.com/CDN/esri-core/js/pardot/pardot_include_domains.js"></script>
+ <script src="//webapps-cdn.esri.com/CDN/esri-core/js/pardot/pardot_include.js"></script></head>
+<body >
+    <form method="post" action="/esri-news/arcnews/spring16articles/arcgis-improves-vermonts-flood-resiliency" id="Form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUIODEyMzcxMTMPFgIeE1ZhbGlkYXRlUmVxdWVzdE1vZGUCARYEZg9kFggCBg8WAh4EVGV4dAVBPGxpbmsgcmVsPSJzaG9ydGN1dCBpY29uIiB0eXBlPSJpbWFnZS9pY28iIGhyZWY9Ii9mYXZpY29uLmljbyIgLz5kAgcPFgIfAQU8PGxpbmsgaHJlZj0iL2FwcGxlLXRvdWNoLWljb24ucG5nIiByZWw9ImFwcGxlLXRvdWNoLWljb24iIC8+ZAIPDxYCHgdWaXNpYmxlaGQCEA8WAh8BBa9TPHNjcmlwdD4gDQoNCnZhciBFc3JpQW5hbHl0aWNzID0gKGZ1bmN0aW9uICgpIHsNCiAgICANCiAgICB2YXIgYXBpID0ge307DQoNCiAgICBhcGkuYW5hbHl0aWNzSW5pdCA9IGZ1bmN0aW9uICgpIHsNCiAgICAgICAgaWYgKHdpbmRvdy5sb2NhdGlvbi5ob3N0bmFtZSkgew0KICAgICAgICAgICAgd2luZG93LmRpZ2l0YWxEYXRhID0gew0KICAgICAgICAgICAgICAgIHRpbWVzdGFtcDogbmV3IERhdGUoKSwNCiAgICAgICAgICAgICAgICBwYWdlQm90dG9tQ2FsbGVkOiBmYWxzZQ0KICAgICAgICAgICAgfTsNCiAgICAgICAgICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJtZXNzYWdlIiwgcmVjZWl2ZU1lc3NhZ2UsIGZhbHNlKTsNCiAgICAgICAgICAgIGFwaS5jb2xsZWN0RGF0YSgpOw0KICAgICAgICB9DQogICAgICAgICQod2luZG93KS5vbignZm9jdXNpbicsIGZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgIGNsZWFySm9iUXVldWUoKTsNCiAgICAgICAgfSk7DQogICAgfTsNCg0KICAgIGFwaS5yZWNvcmRNZXRyaWNzID0gZnVuY3Rpb24gKG0pIHsNCiAgICAgICAgaWYgKGRpZ2l0YWxEYXRhKSB7DQogICAgICAgICAgICBmb3IgKHZhciBwIGluIG0pIHsNCiAgICAgICAgICAgICAgICBkaWdpdGFsRGF0YVtwXSA9IG1bcF07DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgLy9ERUJVRyBDT0RFDQogICAgICAgIC8vIGlmICh0eXBlb2YgQU5BTFlUSUNTX0RFQlVHICE9PSAndW5kZWZpbmVkJyAmJiBBTkFMWVRJQ1NfREVCVUcgJiYgcC5pbmRleE9mKCdzY3JvbGwnKSA9PT0gLTEpIHsNCiAgICAgICAgLy8gICAgIGxvZ01ldHJpYyhwLCBtLCAiPiIpOw0KICAgICAgICAvLyB9DQogICAgfTsNCg0KICAgIC8qDQogICAgICogUGFnZS1sb2FkIG1ldHJpY3MNCiAgICAgKi8NCg0KICAgIGFwaS5jb2xsZWN0RGF0YSA9IGZ1bmN0aW9uICgpIHsNCiAgICAgICAgY29sbGVjdFBhZ2VJbmZvKCk7DQogICAgICAgIGNvbGxlY3RTZXNzaW9uRGF0YSgpOw0KICAgICAgICBjb2xsZWN0U2Nyb2xsUG9zaXRpb24oKTsNCiAgICAgICAgY29sbGVjdEVzcmlNZXRhRGF0YSgpOw0KICAgICAgICBjb2xsZWN0Q2FtcGFpZ25EYXRhKCk7DQogICAgfTsNCg0KICAgIGZ1bmN0aW9uIGNvbGxlY3RQYWdlSW5mbygpIHsNCiAgICAgICAgdmFyIHBhdGhBcnJheSA9IHdpbmRvdy5sb2NhdGlvbi5wYXRobmFtZS5zcGxpdCgnLycpLA0KICAgICAgICAgICAgaG9zdF9uYW1lID0gKHdpbmRvdy5sb2NhdGlvbi5ob3N0bmFtZS5pbmRleE9mKHdpbmRvdy5sb2NhdGlvbi5wcm90b2NvbCkgIT09IC0xKQ0KICAgICAgICAgICAgICAgID8gd2luZG93LmxvY2F0aW9uLmhvc3RuYW1lLnN1YnN0cih3aW5kb3cubG9jYXRpb24ucHJvdG9jb2wubGVuZ3RoKQ0KICAgICAgICAgICAgICAgIDogd2luZG93LmxvY2F0aW9uLmhvc3RuYW1lOw0KDQogICAgICAgIGFwaS5yZWNvcmRNZXRyaWNzKHsNCiAgICAgICAgICAgIHBhZ2VJbmZvOiB7DQogICAgICAgICAgICAgICAgc2l0ZVNlY3Rpb24xOiBob3N0X25hbWUsDQogICAgICAgICAgICAgICAgc2l0ZVNlY3Rpb24yOiBwYXRoQXJyYXkubGVuZ3RoID4gMSA/IHBhdGhBcnJheVsxXSA6ICcnLA0KICAgICAgICAgICAgICAgIHNpdGVTZWN0aW9uMzogcGF0aEFycmF5Lmxlbmd0aCA+IDIgPyBwYXRoQXJyYXlbMl0gOiAnJywNCiAgICAgICAgICAgICAgICBzaXRlU2VjdGlvbjQ6IHBhdGhBcnJheS5sZW5ndGggPiAzID8gcGF0aEFycmF5WzNdIDogJycsDQogICAgICAgICAgICAgICAgdXJsOiB3aW5kb3cubG9jYXRpb24uaHJlZiwNCiAgICAgICAgICAgICAgICBwYWdlTmFtZTogZ2V0UGFnZU5hbWUoKQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9KTsNCiAgICB9DQoNCiAgICBmdW5jdGlvbiBjb2xsZWN0U2Vzc2lvbkRhdGEoKSB7DQogICAgICAgIC8vRGV0ZWN0IEJyb3dzZXIgTGFuZ3VhZ2UNCiAgICAgICAgYXBpLnJlY29yZE1ldHJpY3Moew0KICAgICAgICAgICAgbGFuZ3VhZ2U6IHsNCiAgICAgICAgICAgICAgICBjdXJyZW50OiBuYXZpZ2F0b3IubGFuZ3VhZ2UsDQogICAgICAgICAgICAgICAgYWNjZXB0ZWRMYW5ndWFnZXM6IG5hdmlnYXRvci5sYW5ndWFnZXMNCiAgICAgICAgICAgIH0sDQogICAgICAgICAgICByZWZlcnJlcjogZG9jdW1lbnQucmVmZXJyZXINCiAgICAgICAgfSk7DQogICAgfQ0KDQogICAgZnVuY3Rpb24gY29sbGVjdFNjcm9sbFBvc2l0aW9uKCkgew0KICAgICAgICBpZiAoZG9jdW1lbnQuYm9keS5zY3JvbGxIZWlnaHQgPj0gd2luZG93LmlubmVySGVpZ2h0KSB7DQogICAgICAgICAgICBkaWdpdGFsRGF0YS5zY3JvbGxfeSA9IDA7DQogICAgICAgICAgICAkKHdpbmRvdykuc2Nyb2xsKGZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgICAgICB2YXIgc2Nyb2xsX3kgPSBNYXRoLmZsb29yKHdpbmRvdy5zY3JvbGxZIC8gKGRvY3VtZW50LmJvZHkuc2Nyb2xsSGVpZ2h0IC0gd2luZG93LmlubmVySGVpZ2h0KSAqIDEwMCk7DQogICAgICAgICAgICAgICAgaWYgKHNjcm9sbF95ID4gZGlnaXRhbERhdGEuc2Nyb2xsX3kpIHsNCiAgICAgICAgICAgICAgICAgICAgYXBpLnJlY29yZE1ldHJpY3MoeydzY3JvbGxfeSc6IHNjcm9sbF95fSk7DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfSk7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICBkaWdpdGFsRGF0YS5zY3JvbGxfeSA9IDEwMDsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIGZ1bmN0aW9uIGNvbGxlY3RFc3JpTWV0YURhdGEoKSB7DQogICAgICAgIHZhciB2YWxzID0ge30sDQogICAgICAgICAgICBtZXRhcyA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdtZXRhJyk7DQoNCiAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBtZXRhcy5sZW5ndGg7IGkrKykgew0KICAgICAgICAgICAgdmFyIG1ldGFOYW1lID0gbWV0YXNbaV0uZ2V0QXR0cmlidXRlKCJuYW1lIik7DQogICAgICAgICAgICBpZiAoc3RyaW5nU3RhcnRzV2l0aChtZXRhTmFtZSwgJ2VzcmktJykpIHsNCiAgICAgICAgICAgICAgICB2YWxzW21ldGFOYW1lLnN1YnN0cmluZyg1KV0gPSBtZXRhc1tpXS5nZXRBdHRyaWJ1dGUoImNvbnRlbnQiKTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgICAgICBhcGkucmVjb3JkTWV0cmljcyh7bWV0YTogdmFsc30pOw0KICAgIH0NCg0KICAgIGZ1bmN0aW9uIGNvbGxlY3RDYW1wYWlnbkRhdGEoKSB7DQogICAgICAgIC8vUmVjb3JkIGNhbXBhaWduIHZhbHVlcw0KICAgICAgICB2YXIgZWwgPSAkKCdbZGF0YS1jYW1wYWlnbi1pZF0nKSwNCiAgICAgICAgICAgIHBhZ2VfY2FtcGFpZ24gPSBlbC5sZW5ndGggPyBlbFswXS5kYXRhKCdjYW1wYWlnbi1pZCcpIDogJyc7DQogICAgICAgIGFwaS5yZWNvcmRNZXRyaWNzKHsnY2FtcGFpZ24nOiBwYWdlX2NhbXBhaWdufSk7DQogICAgfQ0KDQogICAgdmFyIHN0cmluZ1N0YXJ0c1dpdGggPSBmdW5jdGlvbiAoc3RyaW5nLCBwcmVmaXgpIHsNCiAgICAgICAgaWYgKHN0cmluZykgew0KICAgICAgICAgICAgcmV0dXJuIHN0cmluZy5zbGljZSgwLCBwcmVmaXgubGVuZ3RoKSA9PSBwcmVmaXg7DQogICAgICAgIH0NCiAgICB9Ow0KDQogICAgdmFyIGdldFBhZ2VOYW1lID0gZnVuY3Rpb24gKCkgew0KDQogICAgICAgIHZhciBwYWdlX25hbWUgPSAnJzsNCg0KICAgICAgICBpZiAod2luZG93LmxvY2F0aW9uLmhyZWYuc3Vic3RyKDAsIDcpID09PSAiaHR0cDovLyIpIHsNCiAgICAgICAgICAgIHBhZ2VfbmFtZSA9IHdpbmRvdy5sb2NhdGlvbi5ocmVmLnN1YnN0cig3KTsNCiAgICAgICAgfSBlbHNlIGlmICh3aW5kb3cubG9jYXRpb24uaHJlZi5zdWJzdHIoMCwgOCkgPT09ICJodHRwczovLyIpIHsNCiAgICAgICAgICAgIHBhZ2VfbmFtZSA9IHdpbmRvdy5sb2NhdGlvbi5ocmVmLnN1YnN0cig4KTsNCiAgICAgICAgfSBlbHNlIGlmICh3aW5kb3cubG9jYXRpb24uaHJlZi5zdWJzdHIoMCwgMikgPT09ICIvLyIpIHsNCiAgICAgICAgICAgIHBhZ2VfbmFtZSA9IHdpbmRvdy5sb2NhdGlvbi5ocmVmLnN1YnN0cigyKTsNCiAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgIHBhZ2VfbmFtZSA9ICh3aW5kb3cubG9jYXRpb24uaHJlZi5pbmRleE9mKCcvLycpKQ0KICAgICAgICB9DQoNCiAgICAgICAgdmFyIHBhZ2VfbmFtZV9hcnJheSA9IHBhZ2VfbmFtZS5zcGxpdCgnLycpLmZpbHRlcihmdW5jdGlvbiAocGFnZV9uYW1lX3BhcnQpIHsNCiAgICAgICAgICAgIGlmIChwYWdlX25hbWVfcGFydCkgew0KICAgICAgICAgICAgICAgIHJldHVybiBwYWdlX25hbWVfcGFydDsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfSk7DQoNCiAgICAgICAgcmV0dXJuIHBhZ2VfbmFtZV9hcnJheS5zbGljZSgwLCA0KS5qb2luKCc6ICcpOw0KICAgIH07DQogICAgLyoNCiAgICAgKiBNZXRyaWMtdHJhY2tpbmcgam9iICYgcXVldWluZyBmdW5jdGlvbnMNCiAgICAgKi8NCg0KICAgIGFwaS5kYXRhUXVldWUgPSB7fTsNCiAgICBhcGkuam9iUXVldWUgPSB7fTsNCg0KICAgIHZhciByZWNlaXZlTWVzc2FnZSA9IGZ1bmN0aW9uIChldmVudCkgew0KICAgICAgICB2YXIgb3JpZ2luID0gZXZlbnQub3JpZ2luIHx8IGV2ZW50Lm9yaWdpbmFsRXZlbnQub3JpZ2luOyAvLyBGb3IgQ2hyb21lLCB0aGUgb3JpZ2luIHByb3BlcnR5IGlzIGluIHRoZSBldmVudC5vcmlnaW5hbEV2ZW50IG9iamVjdC4NCiAgICAgICAgLy8gaWYgKG9yaWdpbiA9PT0gbWVzc2FnZV9vcmlnaW4pIHsNCiAgICAgICAgICAgIHZhciBtZXNzYWdlID0gKHR5cGVvZiBldmVudC5kYXRhID09PSAnb2JqZWN0JykgPyBldmVudC5kYXRhIDogSlNPTi5wYXJzZShldmVudC5kYXRhKTsNCiAgICAgICAgICAgIGlmICh0eXBlb2YgbWVzc2FnZSA9PT0gJ29iamVjdCcgJiYgbWVzc2FnZS5tZXNzYWdlX3R5cGUgPT09ICdwRk0nKSB7DQogICAgICAgICAgICAgICAgYXBpLm1hbmFnZVBmb3JtTWV0cmljcyhtZXNzYWdlKTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgLy8gfQ0KICAgIH07DQoNCiAgICBhcGkubWFuYWdlUGZvcm1NZXRyaWNzID0gZnVuY3Rpb24gKHBheWxvYWQpIHsNCiAgICAgICAgaWYoIWRpZ2l0YWxEYXRhKXtyZXR1cm47fQ0KICAgICAgICB2YXIgZGF0YSA9IEpTT04ucGFyc2UocGF5bG9hZC5kYXRhKTsNCiAgICAgICAgc3dpdGNoIChwYXlsb2FkLnJ1bGUpIHsNCiAgICAgICAgICAgIGNhc2UgJ3BGb3JtU3RhcnQnOg0KICAgICAgICAgICAgICAgIGFwaS5kYXRhUXVldWVbJ3BGb3JtTWV0cmljcyddID0gZGF0YTsNCiAgICAgICAgICAgICAgICBxdWV1ZUpvYigncEZvcm1TdGFydCcpOw0KICAgICAgICAgICAgICAgIHJ1blF1ZXVlZEpvYigncEZvcm1TdGFydCcpOw0KICAgICAgICAgICAgICAgIGJyZWFrOw0KICAgICAgICAgICAgY2FzZSAncEZvcm1EYXRhJzoNCiAgICAgICAgICAgICAgICBzd2l0Y2ggKHBheWxvYWQuYWN0aW9uKSB7DQogICAgICAgICAgICAgICAgICAgIGNhc2UgJ2luaXQnOg0KICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCFkaWdpdGFsRGF0YS5wYWdlQm90dG9tQ2FsbGVkKSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYoIWRpZ2l0YWxEYXRhLmhhc093blByb3BlcnR5KCdwRm9ybU1ldHJpY3MnKSl7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpZ2l0YWxEYXRhLnBGb3JtTWV0cmljcyA9IHt9Ow0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaWdpdGFsRGF0YS5wRm9ybU1ldHJpY3MudGltZVN0YW1wID0gZGF0YS50aW1lU3RhbXA7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlnaXRhbERhdGEucEZvcm1NZXRyaWNzLnNlc3Npb25JZCA9IGRhdGEuc2Vzc2lvbklkOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpZ2l0YWxEYXRhLnBGb3JtTWV0cmljcy5mb3JtSWQgPSBkYXRhLmZvcm1JZDsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaWdpdGFsRGF0YS5wRm9ybU1ldHJpY3MuaW5wdXRDb3VudCA9IGRhdGEuaW5wdXRDb3VudDsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaWdpdGFsRGF0YS5wRm9ybU1ldHJpY3MuaW5wdXRzQ29tcGxldGVkID0gMDsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaWdpdGFsRGF0YS5wRm9ybU1ldHJpY3MubGFzdElucHV0SWQgPSAnJzsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaWdpdGFsRGF0YS5wRm9ybU1ldHJpY3MubGFzdElucHV0SW5kZXggPSAwOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpZ2l0YWxEYXRhLnBGb3JtTWV0cmljcy5sYXN0SW5wdXROYW1lID0gJyc7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlnaXRhbERhdGEucEZvcm1NZXRyaWNzLmxhc3RJbnB1dFR5cGUgPSAnJzsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaWdpdGFsRGF0YS5wRm9ybU1ldHJpY3MuZXJyb3JNZXNzYWdlcyA9IGRhdGEuZXJyb3JNZXNzYWdlczsNCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgYXBpLmRhdGFRdWV1ZVsncEZvcm1NZXRyaWNzJ10gPSBkYXRhOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHF1ZXVlSm9iKCdwRm9ybUxvYWQnKTsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBydW5RdWV1ZWRKb2IoJ3BGb3JtTG9hZCcpOw0KICAgICAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWs7DQogICAgICAgICAgICAgICAgICAgIGNhc2UgJ2Vycm9yJzogRXNyaUFuYWx5dGljcy5kYXRhUXVldWUuaGFzT3duUHJvcGVydHkoJ3BGb3JtTWV0cmljcycpDQogICAgICAgICAgICAgICAgICAgICAgICB2YXIgc2Vzc2lvbl9kYXRhID0gRXNyaUFuYWx5dGljcy5kYXRhUXVldWUuaGFzT3duUHJvcGVydHkoJ3BGb3JtTWV0cmljcycpDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPyBFc3JpQW5hbHl0aWNzLmRhdGFRdWV1ZS5wRm9ybU1ldHJpY3MNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA6IGRpZ2l0YWxEYXRhLnBGb3JtTWV0cmljczsNCg0KICAgICAgICAgICAgICAgICAgICAgICAgZGF0YS5sYXN0SW5wdXRJZCA9IHNlc3Npb25fZGF0YS5sYXN0SW5wdXRJZDsNCiAgICAgICAgICAgICAgICAgICAgICAgIGRhdGEubGFzdElucHV0SW5kZXggPSBzZXNzaW9uX2RhdGEubGFzdElucHV0SW5kZXg7DQogICAgICAgICAgICAgICAgICAgICAgICBkYXRhLmxhc3RJbnB1dE5hbWUgPSBzZXNzaW9uX2RhdGEubGFzdElucHV0TmFtZTsNCiAgICAgICAgICAgICAgICAgICAgICAgIGRhdGEubGFzdElucHV0VHlwZSA9IHNlc3Npb25fZGF0YS5sYXN0SW5wdXRUeXBlOw0KICAgICAgICAgICAgICAgICAgICAgICAgZGF0YS50aW1lU3RhbXAgPSBzZXNzaW9uX2RhdGEudGltZVN0YW1wOw0KICAgICAgICAgICAgICAgICAgICAgICAgZGF0YS5zZXNzaW9uSWQgPSBzZXNzaW9uX2RhdGEuc2Vzc2lvbklkOw0KICAgICAgICAgICAgICAgICAgICAgICAgYXBpLmRhdGFRdWV1ZVsncEZvcm1NZXRyaWNzJ10gPSBkYXRhOw0KICAgICAgICAgICAgICAgICAgICAgICAgcXVldWVKb2IoJ3BGb3JtRXJyb3InKTsNCiAgICAgICAgICAgICAgICAgICAgICAgIHJ1blF1ZXVlZEpvYigncEZvcm1FcnJvcicpOw0KICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWs7DQogICAgICAgICAgICAgICAgICAgIGNhc2UgJ3F1ZXVlJzoNCiAgICAgICAgICAgICAgICAgICAgICAgIGFwaS5kYXRhUXVldWVbJ3BGb3JtTWV0cmljcyddID0gZGF0YTsNCiAgICAgICAgICAgICAgICAgICAgICAgIHF1ZXVlSm9iKCdwRm9ybURhdGEnKTsNCiAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrOw0KICAgICAgICAgICAgICAgICAgICBjYXNlICdydW4nOg0KICAgICAgICAgICAgICAgICAgICAgICAgYXBpLmRhdGFRdWV1ZVsncEZvcm1NZXRyaWNzJ10gPSBkYXRhOw0KICAgICAgICAgICAgICAgICAgICAgICAgcXVldWVKb2IoJ3BGb3JtRGF0YScpOw0KICAgICAgICAgICAgICAgICAgICAgICAgcnVuUXVldWVkSm9iKCdwRm9ybURhdGEnKTsNCiAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrOw0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBicmVhazsNCiAgICAgICAgICAgIGNhc2UgJ3BGb3JtRW5kJzoNCiAgICAgICAgICAgICAgICBpZihhcGkuZGF0YVF1ZXVlWydwRm9ybU1ldHJpY3MnXSkgew0KICAgICAgICAgICAgICAgICAgICBhcGkuZGF0YVF1ZXVlWydwRm9ybU1ldHJpY3MnXS5mb3JtQ29tcGxldGVkID0gdHJ1ZTsNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgcXVldWVKb2IoJ3BGb3JtRW5kJyk7DQogICAgICAgICAgICAgICAgcnVuUXVldWVkSm9iKCdwRm9ybUVuZCcpOw0KICAgICAgICAgICAgICAgIGJyZWFrOw0KICAgICAgICB9DQogICAgfTsNCg0KICAgIHZhciBqb2JGdW5jdGlvbnMgPSB7DQogICAgICAgIHBGb3JtTG9hZDogZnVuY3Rpb24gKCkgew0KICAgICAgICAgICAgaWYgKHR5cGVvZiBkaWdpdGFsRGF0YSAhPT0gJ3VuZGVmaW5lZCcpIHsNCiAgICAgICAgICAgICAgICBkaWdpdGFsRGF0YS5wRm9ybU1ldHJpY3MgPSBhcGkuZGF0YVF1ZXVlWydwRm9ybU1ldHJpY3MnXTsNCiAgICAgICAgICAgICAgICBfc2F0ZWxsaXRlLnRyYWNrKCdJRk9STUxPQUQnKTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfSwNCiAgICAgICAgcEZvcm1TdGFydDogZnVuY3Rpb24gKCkgew0KICAgICAgICAgICAgaWYgKHR5cGVvZiBkaWdpdGFsRGF0YSAhPT0gJ3VuZGVmaW5lZCcpIHsNCiAgICAgICAgICAgICAgICBkaWdpdGFsRGF0YS5wRm9ybU1ldHJpY3MgPSBhcGkuZGF0YVF1ZXVlWydwRm9ybU1ldHJpY3MnXTsNCiAgICAgICAgICAgICAgICBfc2F0ZWxsaXRlLnRyYWNrKCdJRk9STVNUQVJUJyk7DQogICAgICAgICAgICB9DQogICAgICAgIH0sDQogICAgICAgIHBGb3JtRGF0YTogZnVuY3Rpb24gKCkgew0KICAgICAgICAgICAgaWYgKHR5cGVvZiBkaWdpdGFsRGF0YSAhPT0gJ3VuZGVmaW5lZCcpIHsNCiAgICAgICAgICAgICAgICBkaWdpdGFsRGF0YS5wRm9ybU1ldHJpY3MgPSBhcGkuZGF0YVF1ZXVlWydwRm9ybU1ldHJpY3MnXTsNCiAgICAgICAgICAgICAgICBfc2F0ZWxsaXRlLnRyYWNrKCdJRk9STURBVEEnKTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfSwNCiAgICAgICAgcEZvcm1FbmQ6IGZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgIGlmICh0eXBlb2YgZGlnaXRhbERhdGEgIT09ICd1bmRlZmluZWQnKSB7DQogICAgICAgICAgICAgICAgZGlnaXRhbERhdGEucEZvcm1NZXRyaWNzID0gYXBpLmRhdGFRdWV1ZVsncEZvcm1NZXRyaWNzJ107DQogICAgICAgICAgICAgICAgX3NhdGVsbGl0ZS50cmFjaygnSUZPUk1FTkQnKTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfSwNCiAgICAgICAgcEZvcm1FcnJvcjogZnVuY3Rpb24oKXsNCiAgICAgICAgICAgIGlmICh0eXBlb2YgZGlnaXRhbERhdGEgIT09ICd1bmRlZmluZWQnKSB7DQogICAgICAgICAgICAgICAgZGlnaXRhbERhdGEucEZvcm1NZXRyaWNzID0gYXBpLmRhdGFRdWV1ZVsncEZvcm1NZXRyaWNzJ107DQogICAgICAgICAgICAgICAgX3NhdGVsbGl0ZS50cmFjaygnSUZPUk1FUlJPUicpOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgfTsNCg0KICAgIHZhciBxdWV1ZUpvYiA9IGZ1bmN0aW9uIChqb2IpIHsNCiAgICAgICAgYXBpLmpvYlF1ZXVlW2pvYl0gPSB7ImZ1bmMiOiBqb2J9Ow0KICAgIH07DQoNCiAgICB2YXIgcmVtb3ZlSm9iID0gZnVuY3Rpb24gKGpvYikgew0KICAgICAgICBpZiAoYXBpLmpvYlF1ZXVlLmhhc093blByb3BlcnR5KGpvYikpIHsNCiAgICAgICAgICAgIGRlbGV0ZSBhcGkuam9iUXVldWVbam9iXTsNCiAgICAgICAgfQ0KICAgIH07DQoNCiAgICB2YXIgcnVuUXVldWVkSm9iID0gZnVuY3Rpb24gKGpvYikgew0KICAgICAgICBpZiAoYXBpLmpvYlF1ZXVlLmhhc093blByb3BlcnR5KGpvYikpIHsNCiAgICAgICAgICAgIGpvYkZ1bmN0aW9uc1tqb2JdKCk7DQogICAgICAgICAgICByZW1vdmVKb2Ioam9iKTsNCiAgICAgICAgfQ0KICAgIH07DQoNCiAgICB2YXIgY2xlYXJKb2JRdWV1ZSA9IGZ1bmN0aW9uICgpIHsNCiAgICAgICAgdmFyIHF1ZXVlID0gYXBpLmpvYlF1ZXVlOw0KICAgICAgICBmb3IgKHZhciBqb2IgaW4gcXVldWUpIHsNCiAgICAgICAgICAgIGlmKHF1ZXVlLmhhc093blByb3BlcnR5KGpvYikpew0KICAgICAgICAgICAgICAgIHJ1blF1ZXVlZEpvYihqb2IpOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgfTsNCg0KICAgIHJldHVybiBhcGk7DQp9KSgpOw0KPC9zY3JpcHQ+DQoNCjxzY3JpcHQgc3JjPSIvL2Fzc2V0cy5hZG9iZWR0bS5jb20vMmU5Y2QwMWUxOWRjNWFjNDg2N2U3NTJmMTdhMmYxZWExOTIzZTVhZi9zYXRlbGxpdGVMaWItMGVkMTAwMWZkNDQxYTgzOGFlZmU4ZTc1NWJlNDJhYWFmZGRjYzQ2Yi5qcyI+PC9zY3JpcHQ+DQoNCiA8c2NyaXB0IHNyYz0iLy93ZWJhcHBzLWNkbi5lc3JpLmNvbS9DRE4vZXNyaS1jb3JlL2pzL3BhcmRvdC9wYXJkb3RfaW5jbHVkZV9kb21haW5zLmpzIj48L3NjcmlwdD4NCiA8c2NyaXB0IHNyYz0iLy93ZWJhcHBzLWNkbi5lc3JpLmNvbS9DRE4vZXNyaS1jb3JlL2pzL3BhcmRvdC9wYXJkb3RfaW5jbHVkZS5qcyI+PC9zY3JpcHQ+ZAIBEGRkFgQCCw8WAh8CaGQCDQ8WAh8BBe8HPCEtLSBTaXRlV2lkZSBHb29nbGUgVGFnIE1hbmFnZXIgLS0+DQo8bm9zY3JpcHQ+PGlmcmFtZSBzcmM9Ii8vd3d3Lmdvb2dsZXRhZ21hbmFnZXIuY29tL25zLmh0bWw/aWQ9R1RNLVdGSjUyWCIgaGVpZ2h0PSIwIiB3aWR0aD0iMCIgc3R5bGU9ImRpc3BsYXk6bm9uZTt2aXNpYmlsaXR5OmhpZGRlbiI+PC9pZnJhbWU+PC9ub3NjcmlwdD4NCjxzY3JpcHQ+KGZ1bmN0aW9uKHcsZCxzLGwsaSl7d1tsXT13W2xdfHxbXTt3W2xdLnB1c2goeydndG0uc3RhcnQnOg0KbmV3IERhdGUoKS5nZXRUaW1lKCksZXZlbnQ6J2d0bS5qcyd9KTt2YXIgZj1kLmdldEVsZW1lbnRzQnlUYWdOYW1lKHMpWzBdLA0Kaj1kLmNyZWF0ZUVsZW1lbnQocyksZGw9bCE9J2RhdGFMYXllcic/JyZsPScrbDonJztqLmFzeW5jPXRydWU7ai5zcmM9DQonLy93d3cuZ29vZ2xldGFnbWFuYWdlci5jb20vZ3RtLmpzP2lkPScraStkbDtmLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKGosZik7DQp9KSh3aW5kb3csZG9jdW1lbnQsJ3NjcmlwdCcsJ2RhdGFMYXllcicsJ0dUTS1XRko1MlggJyk7PC9zY3JpcHQ+DQo8IS0tIEVuZCBTaXRlV2lkZSBHb29nbGUgVGFnIE1hbmFnZXIgLS0+DQoNCg0KPHNjcmlwdD4NCg0KJChkb2N1bWVudCkucmVhZHkoZnVuY3Rpb24gKCkgew0KICAgIGlmICh0eXBlb2YgRXNyaUFuYWx5dGljcyAhPT0gJ3VuZGVmaW5lZCcpIHsNCiAgICAgICAgRXNyaUFuYWx5dGljcy5hbmFseXRpY3NJbml0KCk7DQogICAgfQ0KDQogICAgaWYgKHR5cGVvZiB3aW5kb3cuZGlnaXRhbERhdGEgIT09ICd1bmRlZmluZWQnICYmIHdpbmRvdy5kaWdpdGFsRGF0YSAhPT0gbnVsbCkgew0KDQogICAgICAgIC8vSU5MSU5FIFNDUklQVCAgQkVHSU4NCg0KDQoNCiAgICAgICAgLy9JTkxJTkUgU0NSSVBUICBFTkQNCg0KICAgICAgICAgICAgIF9zYXRlbGxpdGUucGFnZUJvdHRvbSgpOw0KICAgICAgICAgICAgZGlnaXRhbERhdGEucGFnZUJvdHRvbUNhbGxlZCA9IHRydWU7DQogICAgfQ0KfSk7DQo8L3NjcmlwdD5kZE5Ctmd/69oQvdCRQk+qsIvLUPYE" />
+</div>
+
+
+<script src="/ScriptResource.axd?d=5uxUBtO3FhaU2ABg8Su7r5zuovWWCDb4jE0aUegPj2EnPKMUzLjplVP--N2svVv_Psc2HeudpcZoQzKS6qUOAB-rH5Dp4nhsVLztVR_Lp0_6S5qAWXLokxG0cGqW47s4U4SKow2&amp;t=7c776dc1" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4E17F73E" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAPAs29lmhs40rtLTBrY0r2S9Zqg6Ns1i3zQKPzMkM15NYtR76uh6nqz6H1qD7qTD6fSYQzBmEEZ6oPDk88pIPZoHm/g+g==" />
+</div>
+    
+
+
+    <!-- BEGIN NAVIGATION BAR -->
+        
+<script type="text/javascript" src="//webapps-cdn.esri.com/Apps/MegaMenu/_include-html-megamenu.js"></script>
+
+<!--googleoff: all-->
+<div id="header">
+  <div class="container">
+    
+    <div id="header-logo">
+        <a href="/" id="homelink" title="Esri" style="background-image: none;">
+            <img src="//webapps-cdn.esri.com/Apps/MegaMenu/img/logo.jpg" id="imgLogo" />
+        </a>
+    </div>
+  
+
+    <div id="header-nav">
+      <ul id="nav">
+        
+        <!-- <li id="my-esri-nav"><a data-name="my-esri">My Esri</a></li> -->
+      <li id="industries-nav"><a data-name="industries">Industries</a></li><li id="products-nav"><a data-name="products">Products</a></li><li id="support-services-nav"><a data-name="support-services">Support &amp; Services</a></li><li id="about-nav"><a data-name="about">About</a></li><li id="community-nav"><a data-name="community">Community</a></li></ul>
+    </div>
+
+    <div id="header-search">
+       <div id="langauge-dropdown">
+          
+		  
+          
+       </div>
+      <div class="form" id="searchbox">
+        <fieldset>
+           
+          <input type="hidden" name="h" value="10" class="init_css"> 
+          <input type="hidden" name="ho" value="0" class="init_css"> 
+
+            <input name="abovemain_0$megaMenu$mast" type="text" maxlength="255" id="abovemain_0_megaMenu_mast" class="qtext init_css" />
+            <input type="submit" name="abovemain_0$megaMenu$submit" value="" id="abovemain_0_megaMenu_submit" class="sa-mast-btn" />
+          <!-- <span id="search"></span> -->
+          
+        </fieldset>
+      </div>
+    </div>    
+  </div>
+  
+</div>
+<div id="mega-menu" class="clearfix">
+    <div id="abovemain_0_megaMenu_megaMenuContainer" class="container">
+        
+    <ul id="industries" class="menu-slide clearfix"><a class="menu-nav">Industries</a><ul class="grid-20"><a href="/industries/government" class="header-link"><h2>Government</h2></a><span class="menu-sub-nav">Government</span><ul><li id="special" class="special-overview sub-link"><a href="/industries/government/" class="special-overview sub-link">Overview</a></li><li><a href="/industries/federal" class="sub-link">Federal</a></li><li><a href="/industries/stategov" class="sub-link">State</a></li><li><a href="/industries/localgov" class="sub-link">Local</a></li><li><a href="/industries/resilient-communities" class="sub-link">Resilient Communities</a></li><li><a href="/industries/government/smart-communities" class="sub-link">Smart Communities</a></li><li><a href="/industries/facilities" class="sub-link">Facilities</a></li><li><a href="/industries/land-administration" class="sub-link">Land Administration</a></li><li><a href="/industries/public-works" class="sub-link">Public Works</a></li><li><a href="/industries/aec" class="sub-link">Architecture, Engineering, and Construction (AEC)</a></li><li><a href="/industries/economic-dev" class="sub-link">Economic Development</a></li><li><a href="/industries/elections" class="sub-link">Elections and Redistricting</a></li><li><a href="/industries/urban-planning" class="sub-link">Urban and Regional Planning</a></li></ul></ul><ul class="grid-20"><a href="/industries/business" class="header-link"><h2>Business</h2></a><span class="menu-sub-nav">Business</span><ul><li id="special" class="special-overview sub-link"><a href="/industries/business" class="special-overview sub-link">Overview</a></li><li><a href="/industries/insurance" class="sub-link">Insurance</a></li><li><a href="/industries/retail" class="sub-link">Retail</a></li><li><a href="/industries/manufacturing" class="sub-link">Manufacturing</a></li><li><a href="/industries/real-estate" class="sub-link">Real Estate</a></li><li><a href="/industries/banking" class="sub-link">Banking</a></li><li><a href="/industries/retail/marketing" class="sub-link">Marketing</a></li><li><a href="/industries/media-entertainment" class="sub-link">Media and Entertainment</a></li><li><a href="/industries/supply-chain" class="sub-link">Supply Chain</a></li></ul></ul><ul class="grid-20"><a href="/industries/utilities-communication" class="header-link"><h2>Utilities & Communications</h2></a><span class="menu-sub-nav">Utilities &amp; Communications</span><ul><li id="special" class="special-overview sub-link"><a href="/industries/utilities-communication" class="special-overview sub-link">Overview</a></li><li><a href="/industries/electric" class="sub-link">Electric</a></li><li><a href="/industries/gas" class="sub-link">Gas</a></li><li><a href="/industries/pipeline" class="sub-link">Pipeline</a></li><li><a href="/industries/telecom" class="sub-link">Telecommunications</a></li><li><a href="/industries/water" class="sub-link">Water Utilities</a></li></ul></ul><ul class="grid-20"><a href="/industries/natural-resources" class="header-link"><h2>Natural Resources</h2></a><span class="menu-sub-nav">Natural Resources</span><ul><li id="special" class="special-overview sub-link"><a href="/industries/natural-resources" class="special-overview sub-link">Overview</a></li><li><a href="/industries/agriculture" class="sub-link">Agriculture</a></li><li><a href="/industries/climate-weather-atmosphere" class="sub-link">Climate, Weather,  and Atmosphere</a></li><li><a href="/industries/conservation" class="sub-link">Conservation</a></li><li><a href="/industries/environment" class="sub-link">Environmental Management</a></li><li><a href="/industries/forestry" class="sub-link">Forestry</a></li><li><a href="/industries/mining" class="sub-link">Mining</a></li><li><a href="/industries/natural-resources/oceans" class="sub-link">Oceans</a></li><li><a href="/industries/petroleum" class="sub-link">Petroleum</a></li><li><a href="/industries/water-resources" class="sub-link">Water Resources</a></li></ul></ul><ul class="grid-20"><a href="/industries/additional" class="header-link"><h2>Additional Industries</h2></a><span class="menu-sub-nav">Additional Industries</span><ul><li id="special" class="special-overview sub-link"><a href="/industries" class="special-overview sub-link">Overview</a></li><li><a href="/industries/defense" class="sub-link">Defense</a></li><li><a href="/industries/education" class="sub-link">Education</a></li><li><a href="/industries/intelligence" class="sub-link">Intelligence</a></li><li><a href="/industries/health" class="sub-link">Health and Human Services</a></li><li><a href="/industries/mapping-statistics-imagery" class="sub-link">Mapping, Statistics, Imagery</a></li><li><a href="/industries/transport" class="sub-link">Transportation</a></li><li><a href="/industries/public-safety" class="sub-link">Public Safety</a></li><li><a href="/industries/sustainable-development" class="sub-link">Sustainable Development</a></li><li id="see_all" class="callout-link"><a href="/industries" class="callout-link">See All Industries</a></li></ul></ul></ul><ul id="products" class="menu-slide clearfix"><a class="menu-nav">Products</a><ul class="grid-25"><a href="/software/arcgis" class="header-link"><h2>ArcGIS Platform</h2></a><span class="menu-sub-nav">ArcGIS Platform</span><ul><li><a href="/software/arcgis" class="sub-link">Platform Overview</a></li><li><a href="/software/arcgis/capabilities" class="sub-link">Capabilities</a></li><li><a href="/software/arcgis/deployment" class="sub-link">Deployment</a></li><li><a href="/software/arcgis/pricing" class="sub-link">Pricing</a></li><li><a href="/software/arcgis/new" class="sub-link">What&#39;s New</a></li><li><a href="/software/arcgis/free-trial" class="sub-link">Free Trial</a></li></ul></ul><ul class="grid-25"><a href="/products" class="header-link"><h2>Products</h2></a><span class="menu-sub-nav">Products</span><ul><li id="special" class="special-overview sub-link"><a href="/products" class="special-overview sub-link">Overview</a></li><li><a href="/software/arcgis/arcgisonline" class="sub-link">ArcGIS Online</a></li><li><a href="/software/arcgis/arcgis-for-desktop" class="sub-link">ArcGIS for Desktop</a></li><li><a href="/software/arcgis/arcgisserver" class="sub-link">ArcGIS for Server</a></li><li id="see_all" class="sub-link"><a href="/products#alpha-list" class="sub-link">See all products</a></li></ul></ul><ul class="grid-25"><a href="/products/technology-topics    " class="header-link"><h2>Capabilities</h2></a><span class="menu-sub-nav">Capabilities</span><ul><li id="special" class="special-overview sub-link"><a href="/products/technology-topics" class="special-overview sub-link">Overview</a></li><li><a href="/products/arcgis-capabilities/spatial-analysis" class="sub-link">Spatial Analysis</a></li><li><a href="/products/arcgis-capabilities/mapping" class="sub-link">Mapping and Visualization</a></li><li><a href="/software/apps/" class="sub-link">Apps</a></li><li><a href="/data/find-data" class="sub-link">Content</a></li><li><a href="/products/arcgis-capabilities/imagery" class="sub-link">Imagery and Remote Sensing</a></li><li><a href="/products/arcgis-capabilities/real-time-gis" class="sub-link">Real-Time GIS</a></li><li><a href="/products/technology-topics/community-engagement" class="sub-link">Community Engagement</a></li><li><a href="/products/technology-topics/3d-gis" class="sub-link">3D</a></li><li><a href="/products/arcgis-capabilities/data-management" class="sub-link">Data Management</a></li><li><a href="/products/arcgis-capabilities/gis-and-cad" class="sub-link">CAD</a></li><li><a href="/software/arcgis/capabilities" class="sub-link">See more capabilities</a></li></ul></ul><ul class="grid-25"><a href="/software/open" class="header-link"><h2>Commitment to Open</h2></a><span class="menu-sub-nav">Commitment to Open</span><ul><li><a href="/software/open/open-standards" class="">Open Standards</a></li><li><a href="/software/open/open-data" class="">Open Data Formats</a></li><li><a href="/software/open" class="">Open System</a></li><li><a href="http://esri.github.io/" class="sub-link">GitHub</a></li></ul></ul></ul><ul id="support-services" class="menu-slide clearfix"><a class="menu-nav">Support &amp; Services</a><ul class="grid-25"><a href="/training/main" class="header-link"><h2>Training</h2></a><span class="menu-sub-nav">Training</span><ul><li id="special" class="special-overview sub-link"><a href="/training/main" class="special-overview sub-link">Overview</a></li><li><a href="/training/main/my-training" class="sub-link">My Training</a></li><li><a href="/training/main/training-catalog" class="sub-link">Catalog</a></li><li><a href="/training/main/news" class="sub-link">Training News</a></li><li><a href="/training/main/certification" class="sub-link">Certification</a></li><li><a href="/training/main/common-questions" class="sub-link">Common Questions</a></li><li><a href="http://esripress.esri.com/ " class="sub-link">Esri Press</a></li></ul></ul><ul class="grid-25"><a href="http://support.esri.com/en/" class="header-link"><h2>Support</h2></a><span class="menu-sub-nav">Support</span><ul><li id="special" class="special-overview sub-link"><a href="http://support.esri.com/en/" class="special-overview sub-link">Overview</a></li><li><a href="http://support.esri.com/en/" class="sub-link">Search Support</a></li><li><a href="https://my.esri.com/#/support" class="sub-link">Manage Cases</a></li><li><a href="http://support.esri.com/request-case" class="sub-link">Request Case</a></li><li><a href="http://support.esri.com/start-chat" class="sub-link">Start Chat</a></li><li><a href="http://support.esri.com/other-resources/SupportServices#overview" class="sub-link">Premium Support Services</a></li><li><a href="http://support.esri.com/contact-tech-support" class="sub-link">Contact Tech Support</a></li></ul></ul><ul class="grid-25"><a href="/services" class="header-link"><h2>Services</h2></a><span class="menu-sub-nav">Services</span><ul><li id="special" class="special-overview sub-link"><a href="/services" class="special-overview sub-link">Overview</a></li><li><a href="/services/eeap" class="sub-link">Enterprise Advantage Program</a></li><li><a href="/services/professional-services/rent-a-tech" class="sub-link">Rent-a-Tech</a></li><li><a href="/services/emcs" class="sub-link">Managed Cloud Services</a></li><li><a href="/services/professional-services/" class="">Professional Services</a></li><li><a href="/services/disaster-response" class="sub-link">Disaster Response Program</a></li><li><a href="/services/professional-services/request-services" class="sub-link">Request Services</a></li></ul></ul></ul><ul id="about" class="menu-slide clearfix"><a class="menu-nav">About</a><ul class="grid-25"><a href="/about-esri" class="header-link"><h2>About Esri</h2></a><span class="menu-sub-nav">About Esri</span><ul><li id="special" class="special-overview sub-link"><a href="/about-esri" class="special-overview sub-link">Overview</a></li><li><a href="/about-esri#what-we-do" class="sub-link">What We Do</a></li><li><a href="/about-esri#why-we-do-it" class="sub-link">Why We Do It</a></li><li><a href="/about-esri#who-we-are" class="sub-link">Who We Are</a></li><li><a href="http://video.esri.com" class="sub-link">Videos (E380)</a></li><li><a href="http://store.esri.com/esri/" class="sub-link">Store</a></li><li><a href="/partners" class="sub-link">Partners</a></li><li><a href="/about-esri/contact#outsideUS" class="sub-link">Esri Offices Worldwide</a></li><li><a href="/about-esri/code-of-conduct" class="sub-link">Corporate Responsibility</a></li><li><a href="/about-esri/contact" class="sub-link">Contact Us</a></li></ul></ul><ul class="grid-25"><a href="/esri-news" class="header-link"><h2>News</h2></a><span class="menu-sub-nav">News</span><ul><li id="special" class="special-overview sub-link"><a href="/esri-news" class="special-overview sub-link">Overview</a></li><li><a href="/esri-news/releases" class="sub-link">Releases</a></li><li><a href="/esri-news/in-the-news" class="sub-link">In the News</a></li><li><a href="/esri-news/maps" class="sub-link">Maps</a></li><li><a href="/esri-news/publications" class="sub-link">Publications</a></li><li><a href="http://blogs.esri.com/esri/" class="sub-link">Blogs</a></li><li><a href="/esri-news/media-relations" class="sub-link">Media Relations</a></li></ul></ul><ul class="grid-25"><a href="/careers/main" class="header-link"><h2>Careers</h2></a><span class="menu-sub-nav">Careers</span><ul><li id="special" class="special-overview sub-link"><a href="/careers/main" class="special-overview sub-link">Overview</a></li><li><a href="/careers/main/job-search" class="sub-link">Search Jobs</a></li><li><a href="/careers/main/events" class="sub-link">Recruiting Events</a></li><li><a href="/careers/main/student-jobs" class="sub-link">Students &amp; Grads</a></li><li><a href="https://external-esri.icims.com" class="sub-link">Log in</a></li></ul></ul><ul class="grid-25"><a href="/events" class="header-link"><h2>Events</h2></a><span class="menu-sub-nav">Events</span><ul><li id="special" class="special-overview sub-link"><a href="/events" class="special-overview sub-link">Overview</a></li><li><a href="/events/user-conference" class="sub-link">Esri User Conference</a></li><li><a href="/events/geoconx" class="sub-link">Esri GeoConX</a></li><li><a href="/events/partner-conference" class="sub-link">Esri Partner Conference</a></li><li><a href="/events/devsummit" class="sub-link">Esri Developer Summit</a></li><li><a href="/events/federal" class="sub-link">Esri Federal GIS Conference</a></li><li><a href="/events/health" class="sub-link">Esri Health GIS Conference</a></li><li><a href="/events/geodev-meetups" class="sub-link">GeoDev Meetups</a></li><li id="see_all" class="callout-link"><a href="/events" class="callout-link">See All Events</a></li></ul></ul></ul><ul id="community" class="menu-slide clearfix"><a class="menu-nav">Community</a><ul class="grid-20"><a href="https://geonet.esri.com" class="header-link"><h2>GeoNet</h2></a><span class="menu-sub-nav">GeoNet</span><ul><li><a href="https://geonet.esri.com/content" class="sub-link">Content</a></li><li><a href="https://geonet.esri.com/people" class="sub-link">People</a></li><li><a href="https://geonet.esri.com/places" class="sub-link">Places</a></li><li><a href="https://geonet.esri.com/apps/esri-location" class="sub-link">Map</a></li><li><a href="https://geonet.esri.com/community/help-and-feedback" class="sub-link">GeoNet Help</a></li></ul></ul><ul class="grid-25"><a href="https://geonet.esri.com/places" class="header-link"><h2>Industry Spaces</h2></a><span class="menu-sub-nav">Industry Spaces</span><ul><li><a href="https://geonet.esri.com/community/business-and-commercial" class="sub-link">Business</a></li><li><a href="https://geonet.esri.com/community/defense-and-intelligence" class="sub-link">Defense and Intelligence</a></li><li><a href="https://geonet.esri.com/community/education" class="sub-link">Education and Training</a></li><li><a href="https://geonet.esri.com/community/government" class="sub-link">Government</a></li><li><a href="https://geonet.esri.com/community/health-and-human-services" class="sub-link">Health and Human Services</a></li><li><a href="https://geonet.esri.com/community/natural-resources" class="sub-link">Natural Resources</a></li><li><a href="https://geonet.esri.com/community/transportation" class="sub-link">Transportation</a></li><li><a href="https://geonet.esri.com/community/public-safety" class="sub-link">Public Safety</a></li><li><a href="https://geonet.esri.com/community/utilities-and-communications" class="sub-link">Utilities and Communications</a></li></ul></ul><ul class="grid-25"><a href="https://geonet.esri.com/places" class="header-link"><h2>Featured Spaces</h2></a><span class="menu-sub-nav">Featured Spaces</span><ul><li><a href="https://geonet.esri.com/community/user-conference" class="sub-link">User Conference</a></li><li><a href="https://geonet.esri.com/community/developers" class="sub-link">Developers</a></li><li><a href="https://geonet.esri.com/community/gis" class="sub-link">GIS</a></li><li><a href="https://geonet.esri.com/community/resilience" class="sub-link">Resilience</a></li><li><a href="https://geonet.esri.com/community/discussions-lobby" class="sub-link">Discussions Lobby</a></li><li><a href="https://geonet.esri.com/places?filterID=all~objecttype~space" class="callout-link">All GeoNet Spaces</a></li></ul></ul></ul></div>
+</div>
+<!--googleon: all-->
+
+    
+    <!-- END NAVIGATION BAR -->
+
+
+
+    <!-- Panels include-->
+    
+
+<div id="sectionTopper_left" style="background:url(/~/media/Images/Banners/Large/news-lg.jpg) top center;">
+   <div id="topperText">
+        <div id="topper_v_align">
+	<h2 class="topper_v_align">
+		News
+	</h2>
+</div><div id="topSubnav">
+	<a href="/esri-news" class="navItem" id="news">Main</a><a href="/esri-news/releases" class="navItem" id="releases">Releases</a><a href="/esri-news/in-the-news" class="navItem" id="inthenews">In The News</a><a href="/esri-news/maps" class="navItem" id="maps">Maps</a><a href="/esri-news/publications" class="navItem" id="publications">Publications</a><a href="http://blogs.esri.com/esri/" class="navItem" id="blogs">Blogs</a><a href="/esri-news/media-relations" class="navItem" id="media_relations">Media Relations</a>
+</div>
+    </div>
+    
+</div>
+<div id="events-menu">
+	<ul>
+		
+<li><a href="/esri-news/releases">Releases</a></li>
+<li><a href="/esri-news/in-the-news">In The News</a></li>
+<li><a href="/esri-news/maps">Maps</a></li>
+<li><a href="/esri-news/publications">Publications</a></li>
+<li><a href="http://blogs.esri.com/esri/">Blogs</a></li>
+<li><a href="/esri-news/media-relations">Media Relations</a></li>
+	</ul>
+</div>
+
+<div class="container_12">
+	
+
+    <!--ArcNews Header -->
+    <div class="grid_12">
+      <div id="arcnewsHeaderSub" style="height: 60px;" > 
+        <img src="/news/arcnews/arcnews-logo-new.jpg" alt="ArcNews" id="arcnewsLogo" />
+        <h1><span class="issueTitle"><a href="/esri-news/arcnews/spring16articles" id="main_2_content_0_arcNewsLink">Spring 2016</a></span></h1>
+<!--what was removed:
+style="*margin: 15px 0 0 0; _margin: 15px 0 0 0;"-->
+
+      </div>
+    </div>
+    <!-- END ArcNews Header --><div class="grid_9">
+    <h2>ArcGIS Improves Vermont&#39;s Flood Resiliency</h2>
+	<p class="subheading"></p>
+	<p><strong>By Heather Kennedy, Vermont Department of Environmental Conservation</strong></p>
+    
+
+<div class="shareThisList" style="padding-left: 20px;">
+    <div id="twitterIconCompliant" style="position: relative; display: inline-block;">
+        <!-- WP Socializer - ShareThis Script -->
+        <script charset="utf-8" type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+        <script type="text/javascript">
+            stLight.options({ publisher: 'wp.8bd1c286-e098-47f3-a9da-7bb809aab1ee' });
+            var st_type = 'sc';
+        </script>
+        <!-- WP Socializer - End ShareThis Script -->
+        <!-- Start WP Socializer Plugin - Sharethis Button -->
+
+        <a class='st_twitter_hcount margin twitter-share-button' st_title="ArcGIS Improves Vermont&amp;#39;s Flood Resiliency" displayText='share'></a>
+        <a class='st_facebook_hcount margin' st_title="ArcGIS Improves Vermont&amp;#39;s Flood Resiliency" displayText='share'></a>
+
+        
+        <a class='st_sharethis_hcount margin' st_title="ArcGIS Improves Vermont&amp;#39;s Flood Resiliency" displayText='share'></a>
+        
+        <!-- End WP Socializer Plugin - Sharethis Button -->
+        <div class="clear"></div>
+    </div>
+</div>
+
+    <div id="press-image" style="width:320px"> <a href="/~/media/Images/Content/news/arcnews/spring16/p23p3-lg.jpg" class="colorbox-image" title="For 24 hours in August 2011, Tropical Storm Irene dumped buckets of rain on Vermont, causing nearly $800 million in damages. (Photo courtesy of Staci Pomeroy.)"><img src="/~/media/Images/Content/news/arcnews/spring16/p23p3.jpg" alt="For 24 hours in August 2011, Tropical Storm Irene dumped buckets of rain on Vermont, causing nearly $800 million in damages. (Photo courtesy of Staci Pomeroy.)" width="300" height="121"></a>
+      <p class="caption" style="width:300px">For 24 hours in August 2011, Tropical Storm Irene dumped buckets of rain on Vermont, causing nearly $800 million in damages. (Photo courtesy of Staci Pomeroy.)</p>
+    </div>
+
+<p>On August 28, 2011, Tropical Storm Irene lashed the Vermont landscape, dumping more than eight inches of rain in 24 hours in some communities. Spring flooding at Lake Champlain had already broken lake level records that year, and Irene's devastation rivaled that of Vermont's historic 1927 flood, which took out miles of roads and railroad tracks, more than 1,200 bridges, and numerous homes and buildings.</p>
+
+<p>Irene caused an estimated $800 million in damages. While the wreckage of homes, farms, businesses, roads, bridges, and the natural environment was enormous, it was nothing new. Catastrophic floods have occurred many times in Vermont in the last 100 years, requiring repeated flood recovery efforts throughout the state. And the surprising finding from postflood damage surveys is that most of the destruction comes from fluvial erosion, not floodwater inundation.</p>
+
+<p>Since 2004, the Vermont Rivers Program, housed within the state's Agency of Natural Resources' Department of Environmental Conservation, has assessed the geomorphology (the evolution of the physical condition) of more than 8,000 stream miles in the state. The assessments show that Vermont's streams have been greatly altered since the 1800s. People have straightened rivers to protect roads, used dams to divert river water, and armored stream beds with rock and concrete&mdash;all of which change a stream's width, depth, slope, and sinuosity.</p>
+
+<p>The data indicates that almost 75 percent of the rivers assessed are unstable. After three major floods in 2011, the State of Vermont passed legislation mandating that the Agency of Natural Resources conduct sensitivity analyses of vulnerable infrastructure in river corridors, develop new state flood hazard area rules, and implement a flood-resilient communities program.</p>
+
+<div id="press-image" style="width:320px"> <a href="/~/media/Images/Content/news/arcnews/spring16/p22p1-lg.jpg" class="colorbox-image" title="People straighten rivers to protect roads, use dams to divert river water, and armor stream beds with rock and concrete&mdash;all of which change a stream's width, depth, slope, and sinuosity. (Photograph courtesy of Staci Pomeroy.)"><img src="/~/media/Images/Content/news/arcnews/spring16/p22p1.jpg" alt="People straighten rivers to protect roads, use dams to divert river water, and armor stream beds with rock and concrete&mdash;all of which change a stream's width, depth, slope, and sinuosity. (Photograph courtesy of Staci Pomeroy.)" width="300" height="172"></a>
+      <p class="caption" style="width:300px">People straighten rivers to protect roads, use dams to divert river water, and armor stream beds with rock and concrete&mdash;all of which change a stream's width, depth, slope, and sinuosity. (Photograph courtesy of Staci Pomeroy.)</p>
+    </div>
+
+<p>To this end, the Rivers Program undertook the task of augmenting existing field maps with a uniform, statewide GIS model of Vermont's river corridors. The department used several Esri software products and extensions to do this, including ArcGIS for Desktop (Basic and Advanced), the ArcGIS Spatial Analyst and ArcGIS 3D Analyst extensions, and Arc Hydro tools.</p>
+
+<h3>A River Corridor: More than Water</h3>
+<p>No river is static. Rivers migrate across valleys over decades and centuries, changing the land as they meander. A stable river, however, is one in a state of dynamic equilibrium&mdash;that is, it is able to adjust its width, depth, and slope to efficiently store, transport, and discharge water, sediment, and debris without raising or decreasing the height of its riverbed.</p>
+
+<p>Because of this natural movement, the State of Vermont specifies that a river corridor include not only the channel through which the river travels but also the adjacent land required to restore or maintain the river's dynamic equilibrium. Interpreting river corridors this way takes into account the meandering of a river in its least erosive form. River corridors that include intact floodplains and wetlands give rivers room to meander and release energy from a flood flow.</p>
+
+<p>The Vermont Rivers Program delineates river corridors based on both existing and estimated meander belt width. River scientists use a custom ArcGIS extension, called the Stream Geomorphic Assessment tool, to evaluate river geomorphology within a specific project area. The tool partially automates the creation of river corridors in ArcGIS, though scientists still have to manually digitize features such as tributary entry points, breaks in relatively consistent stretches of a stream, and valley walls.</p>
+
+<p>Communities where the Rivers Program had done river corridor delineation studies had access to relevant maps of that area, but often they only showed a small area of interest&mdash;where, for example, the town might be trying to get a development permit.</p>
+
+<div id="press-image" style="width:320px"> <a href="/~/media/Images/Content/news/arcnews/spring16/p23p1-lg.jpg" class="colorbox-image" title="After assessing more than 8,000 stream miles in Vermont, the state's Rivers Program determined that almost 75 percent of the rivers assessed were unstable. (Photograph courtesy of Mike Kline.)"><img src="/~/media/Images/Content/news/arcnews/spring16/p23p1.jpg" alt="After assessing more than 8,000 stream miles in Vermont, the state's Rivers Program determined that almost 75 percent of the rivers assessed were unstable. (Photograph courtesy of Mike Kline.)" width="300" height="231"></a>
+      <p class="caption" style="width:300px">After assessing more than 8,000 stream miles in Vermont, the state's Rivers Program determined that almost 75 percent of the rivers assessed were unstable. (Photograph courtesy of Mike Kline.)</p>
+    </div>
+
+<p>"We had river corridor maps, but they were spotty," said Mike Kline, program manager for the Rivers Program. "Having only ad hoc maps created uncertainty when it came to policy making and development planning."</p>
+
+<p>As of 2011, most communities still did not have access to river corridor maps&mdash;hence the River Program's mapping project.</p>
+
+<h3>Developing the Vermont River Corridor</h3>
+<p>The Rivers Program limited river corridor development to streams that drain water from more than two square miles of land&mdash;or about 5,500 of Vermont's 23,000 stream miles. Smaller streams were simply assigned a conventional 50-foot riparian buffer starting at the top of the stream bank.</p>
+
+<p>For geoprocessing, the Rivers Program used several statewide datasets, including a stream centerline shapefile; a 10-meter digital elevation model; a 10-meter hydro-enforced digital elevation model (which allowed the team to simulate river flow under bridges and through culverts); road and railroad centerlines; and a shapefile of Hydrologic Unit Codes for subbasins (HUC-8) from the US Geological Survey, which identified the drainage basins in the area.</p>
+
+<p>First, members of the team created valley walls. They followed The Nature Conservancy's method for developing an active river area, which includes not only the channels that a river travels through but also the surrounding lands that aid the ecological processes of a river system. Using the Path Distance function on stream centerlines and the Vermont digital elevation model, the team members created a raster of the relative cost to travel on a surface upslope from the stream bed. They used an arbitrary cost limit of 1,000 first, as a test; but after the river scientists evaluated the layer against aerial photos and contour lines of the area, plus evaluations from field sites, the team found that a cost value of 550 worked to delineate valley walls along rivers throughout the state. The team then converted the raster to vector format to create polygons of the valley walls.</p>
+
+<div id="press-image" style="width:320px"> <a href="/~/media/Images/Content/news/arcnews/spring16/p22p2-lg.jpg" class="colorbox-image" title="The project team buffered the rivers' meander centerlines to create river corridors. (Image courtesy of Heather Kennedy.)"><img src="/~/media/Images/Content/news/arcnews/spring16/p22p2.jpg" alt="The project team buffered the rivers' meander centerlines to create river corridors. (Image courtesy of Heather Kennedy.)" width="300" height="243"></a>
+      <p class="caption" style="width:300px">The project team buffered the rivers' meander centerlines to create river corridors. (Image courtesy of Heather Kennedy.)</p>
+    </div>
+
+<p>Next, the team defined catchment areas (where water collects and then flows into a waterway) for the length of each stream. The researchers used Arc Hydro tools on stream centerlines and the hydro-enforced digital elevation model to create accumulation rasters for the streams' basins and catchment areas, as well as to assign the correct drainage area to every segment of each stream.</p>
+
+<p>Although river scientists had already digitized most of the basins' meander centerlines (approximations of the meander patterns of each river), some still needed to be done. To expedite the process, the team took the stream centerlines in ArcGIS for Desktop and used the Simplify Line command to remove extraneous curves from the rivers' shapes.</p>
+
+<p>The meander centerlines serve as the basis for the initial river corridor polygon layer, but they have to be buffered by values calculated from fields in the stream centerline shapefile. To do this, the team needed to assign each meander centerline the attributes&mdash;such as slope and drainage area values&mdash;of the stream segment it represents. But while the meander centerline polylines run near the stream centerlines, they only intersect occasionally. So the group used the Functional Surface toolset in 3D Analyst with the hydro-enforced digital elevation model to assign slope values to the streams. They then assigned slope and drainage area attributes to the stream segments' corresponding catchment polygons. From there, they intersected the catchment areas with the meander centerlines, which divided the meander centerlines into sections that are geomorphically similar (called reach-break lengths) and gave them the slope and drainage area attributes of the stream centerlines.</p>
+
+<p>Finally, team members calculated the bankfull width&mdash;the width of a stream at the point where it spills out of the channel and into the floodplain. They did these calculations for each river segment using Vermont's hydraulic geometry curve formula, which relates a stream's channel dimensions to its average annual discharge, and a slope-based channel multiplier, which indicates how many channels wide the full meander belt needs to be for the stream to attain dynamic equilibrium.</p>
+
+<div id="press-image" style="width:320px"> <a href="/~/media/Images/Content/news/arcnews/spring16/p23p2-lg.jpg" class="colorbox-image" title="In places where there might be some room between the meander centerline buffer and the valley walls, the team bumped buffer polygons over to discourage development in spaces where the river might meander in the future. (Image courtesy of Heather Kennedy.)"><img src="/~/media/Images/Content/news/arcnews/spring16/p23p2.jpg" alt="In places where there might be some room between the meander centerline buffer and the valley walls, the team bumped buffer polygons over to discourage development in spaces where the river might meander in the future. (Image courtesy of Heather Kennedy.)" width="300" height="112"></a>
+      <p class="caption" style="width:300px">In places where there might be some room between the meander centerline buffer and the valley walls, the team bumped buffer polygons over to discourage development in spaces where the river might meander in the future. (Image courtesy of Heather Kennedy.)</p>
+    </div>
+
+<p>The appropriate channel multipliers buffered the meander centerlines, creating buffer polygons around them. This formed the initial river corridor. Where the valley walls pinched the corridor, the team clipped the corridor polygons. But in places where the valley walls pinched one side but left room on the other between the corridor and the valley walls, the team made additional buffers to maintain the corridor polygon width&mdash;thus discouraging development in spaces where the river might meander in the future.</p>
+
+<p>With this, a natural river corridor&mdash;clipped only by valley walls&mdash;was delineated for each basin. Additionally, the team created an administrative river corridor that took into account major roads and railroads that will always be protected before and rebuilt after a flood or catastrophic erosion event.</p>
+
+<h3>Working Together to Avoid Erosion and Flood Hazards</h3>
+<p>The Agency of Natural Resources published the Vermont River Corridor layer on its Natural Resources Atlas website in January 2015. Now communities and their partners&mdash;including watershed groups, conservation districts, and land trusts&mdash;can map the areas that are most vulnerable to erosion and flood hazards.</p>
+
+<p>"By developing and publishing a river corridor map that uniformly covers all streams and rivers, we avoid ad hoc decision making and allow the state and municipalities to move forward with certainty in adopting consistent statewide regulations," said Kline.</p>
+
+<p>The map is now the base GIS layer for regulatory actions under Vermont's Flood Hazard Area and River Corridor Rule, which ensures that construction in flood hazard zones is safe and does not impair a stream's natural flow. Additionally, municipalities that regulate land use in river corridors are eligible for increased state disaster assistance, so many of them are beginning to use the layer for flood resilience planning.</p>
+
+<p>For more information, contact <a href="mailto:heather.kennedy@vermont.gov">Heather Kennedy</a>, GIS data analyst and information coordinator for the Vermont Department of Environmental Conservation's Rivers Program.</p>
+
+</div>
+<!--our events ads for publication pages-->
+<div class="grid_3" style="padding-top: 0.5em;">
+
+<!--/* OpenX JavaScript tag */-->
+
+<!--/* OpenX JavaScript tag */-->
+
+<!-- /*
+ * The tag in this template has been generated for use on a
+ * non-SSL page. If this tag is to be placed on an SSL page, change the
+ * 'http://ox-d.esri.com/...'
+ * to
+ * 'https://ox-d.esri.com/...'
+ */ -->
+
+<!--replaced 2/28/13 per Nicole
+<SCRIPT language='JavaScript1.1' SRC='http://ad.doubleclick.net/adj/N7384.1476839.ESRI.COM/B7335954;sz=160x600;ord=[timestamp]?'>
+</SCRIPT>
+<NOSCRIPT>
+<A HREF='http://ad.doubleclick.net/jump/N7384.1476839.ESRI.COM/B7335954;sz=160x600;ord=[timestamp]?'>
+<IMG SRC='http://ad.doubleclick.net/ad/N7384.1476839.ESRI.COM/B7335954;sz=160x600;ord=[timestamp]?' BORDER=0 WIDTH=160 HEIGHT=600 ALT='Advertisement'></A>
+</NOSCRIPT>-->
+
+<IFRAME SRC="http://ad.doubleclick.net/adi/N7384.1476839.ESRI.COM/B7335954;sz=160x600;ord=[timestamp]?" WIDTH=160 HEIGHT=600 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR='#000000'>
+<SCRIPT language='JavaScript1.1' SRC="http://ad.doubleclick.net/adj/N7384.1476839.ESRI.COM/B7335954;abr=!ie;sz=160x600;ord=[timestamp]?">
+</SCRIPT>
+<NOSCRIPT>
+<A HREF="http://ad.doubleclick.net/jump/N7384.1476839.ESRI.COM/B7335954;abr=!ie4;abr=!ie5;sz=160x600;ord=[timestamp]?">
+<IMG SRC="http://ad.doubleclick.net/ad/N7384.1476839.ESRI.COM/B7335954;abr=!ie4;abr=!ie5;sz=160x600;ord=[timestamp]?" BORDER=0 WIDTH=160 HEIGHT=600 ALT="Advertisement"></A>
+</NOSCRIPT>
+</IFRAME>
+
+</div>
+
+<div class="clear">&nbsp;</div>
+
+</div>
+
+
+    <!-- BEGIN FOOTER -->
+    <div class="clear">
+    </div>
+	
+	
+
+<!--googleoff: all-->
+    <div class="fatFooter">
+        <div class="footerBG1">
+            <div id="fatFooterHead">
+                <div class="asocial">
+	<a href="/" title="Esri Home">Esri Home</a> &#187; <strong><a href="/esri-news" title="News">News</a></strong>
+</div>
+                <div class="socialLinks">
+	<strong>Follow Us</strong><ul>
+		<li><a href="http://www.esri.com/esri-news/arcwatch/subscribe" class="socialEmail" title="Subscribe to ArcWatch"><span>Email</span></a></li><li><a href="http://instagram.com/esrigram" class="socialInstagram" title="Instagram"><span>Instagram</span></a></li><li><a href="http://twitter.com/Esri" class="socialTwitter" title="Twitter"><span>Twitter</span></a></li><li><a href="http://www.facebook.com/esrigis" class="socialFacebook" title="Facebook"><span>Facebook</span></a></li><li><a href="http://www.linkedin.com/company/esri" class="socialLinkedIn" title="LinkedIn"><span>Linked In</span></a></li><li><a href="https://plus.google.com/+esri/posts" class="socialPlus" title="Google +"><span>Pinterest</span></a></li><li><a href="http://pinterest.com/esri/" class="socialPinterest" title="Pinterest"><span>Pinterest</span></a></li><li><a href="http://feeds.esri.com/Esri-News" class="socialRss" title="News Feed"><span>RSS</span></a></li><li class="clear"></li>
+	</ul><div class="clear">
+
+	</div>
+</div>
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <div class="footerBG2">
+            <ul class="fatFooterBody">
+    <li class="fatFooterList"><strong>News</strong>
+    <ul>
+        <li><a href="/esri-news/maps" title="Current Events Maps">Current Events Maps</a> </li>
+        <li><a href="/services/disaster-response/index.html" title="Disaster Response">Disaster Response</a> </li>
+        <li><a href="/esri-news/arcnews" title="ArcNews"><em>ArcNews</em></a> </li>
+        <li><a href="/esri-news/arcuser" title="ArcUser"><em>ArcUser</em></a> </li>
+        <li><a href="/esri-news/arcwatch" title="ArcWatch"><em>ArcWatch</em></a> </li>
+        <li><a href="/publications/apps/subscriptions/index.cfm" title="Subscribe to Publications">Subscribe to Publications</a> </li>
+        <li><a href="/software/arcgis/arcgis10/index.html" title="What's New in ArcGIS 10">What's New in ArcGIS</a> </li>
+    </ul>
+    <!-- 
+ALL LINKS MUST BE BETWEEN 23-27 CHARACTERS IN LENGTH
+--></li>
+    <li class="fatFooterList"><strong>Company Information</strong>
+    <ul>
+        <li><a href="/about-esri/index.html" title="About Esri">About Esri</a> </li>
+        <li><a href="/careers/index.html" title="Esri Careers">Careers</a> </li>
+        <li><a href="http://blogs.esri.com/Info/blogs/esri-insider/default.aspx" title="Esri Insider Blog">Esri Insider Blog</a> </li>
+        <li><a href="/events/user-conference/index.html" title="User Conference">Esri User Conference</a> </li>
+    </ul>
+    <!-- 
+ALL LINKS MUST BE BETWEEN 23-27 CHARACTERS IN LENGTH
+--></li>
+    <li class="fatFooterList"><strong>Understanding GIS</strong>
+    <ul>
+        <li><a href="/what-is-gis/index.html" title="What is GIS">What Is GIS?</a> </li>
+        <li><a href="/mapmuseum/index.html" title="Map Book Gallery">Map Book Gallery</a> </li>
+        <li><a href="http://video.esri.com/" title="Video Library">Video Library</a> </li>
+    </ul>
+    <!-- ALL LINKS MUST BE BETWEEN 23-27 CHARACTERS IN LENGTH --></li>
+    <li class="fatFooterList"><strong>Products</strong>
+    <ul>
+        <li><a href="/software/arcgis/index.html" title="ArcGIS">ArcGIS</a> </li>
+        <li><a href="/data/find-data.html" title="Data">Data</a> </li>
+        <li><a href="/software/free-mapping-software/index.html" title="Free Mapping Software">Free Mapping Software</a> </li>
+        <li><a href="/products/products-alpha.html" title="All Esri Products">All Esri Products</a> </li>
+    </ul>
+    <!-- 
+ALL LINKS MUST BE BETWEEN 23-27 CHARACTERS IN LENGTH
+--></li>
+    <li class="fatFooterList"><strong>Industry Info</strong>
+    <ul>
+        <li><a href="/industries.html" title="Industries">Industries</a> </li>
+        <li><a href="/news/publications/newsletters.html" title="Industry Newsletters">Industry Newsletters</a> </li>
+        <li><a href="/industries/ela/index.html" title="Enterprise License Agreements">Enterprise License Agreements</a> </li>
+    </ul>
+    </li>
+    <li class="clear"></li>
+</ul>
+            <div class="clear">
+            </div>
+        </div>
+    </div>
+
+    <div class="clearing clear">
+    </div>
+    <div class="footerSmall">
+	<a href="http://www.esri.com/about-esri/contact.html" class="">Contact Us</a>&nbsp;|&nbsp;<a href="http://www.esri.com/legal/privacy.html" class="">Privacy</a>&nbsp;|&nbsp;<a href="http://www.esri.com/legal/index.html" class="">Legal</a>&nbsp;|&nbsp;<a href="http://www.esri.com/site-map" class="">Site Map</a>
+</div>
+<!--googleon: all-->
+<!-- Hello World! -->
+
+
+<!-- SiteWide Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WFJ52X" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WFJ52X ');</script>
+<!-- End SiteWide Google Tag Manager -->
+
+
+<script>
+
+$(document).ready(function () {
+    if (typeof EsriAnalytics !== 'undefined') {
+        EsriAnalytics.analyticsInit();
+    }
+
+    if (typeof window.digitalData !== 'undefined' && window.digitalData !== null) {
+
+        //INLINE SCRIPT  BEGIN
+
+
+
+        //INLINE SCRIPT  END
+
+             _satellite.pageBottom();
+            digitalData.pageBottomCalled = true;
+    }
+});
+</script>
+
+    <!-- END FOOTER -->
+    </form>
+</body>
+</html>

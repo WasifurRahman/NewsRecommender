@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html> <head>
+	<title> Chris&#39;s Wiki :: blog/sysadmin/SomedayIMAPOnlyForMe </title>
+	<link href="/~cks/dwiki/dwiki.css" rel="stylesheet" type="text/css"> 
+	<meta name="viewport" content="width=device-width">
+	<link rel="alternate" type="application/atom+xml" href="/~cks/space/blog/?atom">
+	
+</head>
+<body>
+<div id="header">
+	<div class="left"><a href="/~cks/">Chris Siebenmann</a> ::
+<span class="breadcrumbs"><a href="/~cks/space/">CSpace</a> &raquo;
+       <a href="/~cks/space/blog/">blog</a> &raquo;
+       <a href="/~cks/space/blog/sysadmin/">sysadmin</a> &raquo;
+       SomedayIMAPOnlyForMe</span></div>
+	<div class="right">Welcome, guest.</div>
+</div>
+
+<div id="documentbody">
+<div class="wtblog">
+<div class="maintext"> 
+	   <div class="wikitext titlehack"><h2>I accept that someday I'll give up MH and move to IMAP mail clients</h2>
+
+	<div class="posttitle" style="opacity: 0.6;"><small>June 11, 2016</small></div>
+</div>
+<div class="wikitext"><p><a href="/~cks/space/blog/sysadmin/ToolsEmail">My current email tooling</a> is strongly built around
+<a href="https://en.wikipedia.org/wiki/MH_Message_Handling_System">MH</a>,
+using both command line tools and <a href="http://beedub.com/exmh/">exmh</a>.
+MH assumes a traditional Unix mail environment where your inbox can
+be accessed through the filesystem, and more than that it fundamentally
+assumes that it entirely owns your email. As many people who try
+it out find out to their regret, MH's only interaction with the
+regular Unix mail ecosystem is to get your mail out of your Unix
+inbox as fast as possible.</p>
+
+<p>So far I've been able to use and keep on using MH because I've
+worked (<a href="/~cks/space/blog/sysadmin/UniversitySysadminEmailMistake">and had my personal email</a>)
+on Unix systems that handled email in the traditional Unix way,
+with your inbox directly accessible through the filesystem in
+<code>/var/mail</code> and so on. However, these are a vanishing breed, for
+reasonably good reasons, and in the modern world the generic way
+you get at your email is IMAP.  IMAP is not very Unixy, but it's
+what we've got and it's better than being stuck with proprietary
+network mail protocols.</p>
+
+<p>MH and IMAP not so much don't get along as don't interact with each
+other. As far as I know, MH has no protocol support for IMAP, which
+is not surprising; IMAP is designed to keep all of your email on
+the IMAP server, which is completely opposite to how MH operates.
+It might be nice to have an 'IMH' system that was a collection of
+command line programs to manipulate IMAP mail and folders, but no
+such thing exists that I know of and it's unlikely that anyone will
+ever write one.</p>
+
+<p>Some day I will have to use a mail system that can only be accessed
+over IMAP. In theory I could deal with this by using a program to
+pull all of my email out of IMAP and hand it over to MH as local
+mail; there are a number of things that will do variants of this
+job. In practice my feeling is that doing this is swimming upstream
+against a pretty powerful current, and thus generally a mistake.
+Certainly I expect that I won't be energetic and annoyed enough to
+do it. By that point MH will have had an extremely good multi-decade
+run for me, and very few programs last forever. I can change.</p>
+
+<p>(Also, by that point I expect that I will be really tired of how
+MH and exmh don't really deal all that well with HTML email, because
+I expect that HTML email is only going to get more and more common
+from now onwards.)</p>
+
+<p>PS: The clever reader will have guessed that I don't currently have
+a smartphone or other limited secondary device that I want to read
+my email from, because all of those really want you to use IMAP (or
+something even less MH-cooperative, like GMail). <a href="/~cks/space/blog/tech/SmartphoneGPSSpreadForMe">That may change
+someday</a>, at which point I may
+have to re-think all of this.</p>
+
+<h3>Sidebar: I don't see this happening any time soon</h3>
+
+<p>Locally we're still very strongly attached to filesystem accessible
+inboxes and <code>procmail</code> and all of the other artifacts of a traditional
+Unix mail system. There would be quite a lot of upset users if we
+took that away from them, so I don't expect it to happen short of
+something truly drastic happening with our overall mail system.</p>
+
+<p>(Nor is the department likely to give up running its own email
+system any time soon.)</p>
+
+<p>As for my personal email, well, <a href="/~cks/space/blog/sysadmin/UniversitySysadminEmailMistake">that's tangled</a> but certainly my attachment to MH
+complicates my life. There are lots of places that I could get IMAP
+mail, probably even IMAP mail for a custom domain, so if I was happy
+with IMAP alone life would be quite a bit easier. Until I de-tangle
+my personal email it gets a free ride on work email's MH friendliness;
+after I de-tangle it, I will probably still run my own servers for
+it and so I could run MH there if I wanted to.</p>
+
+<p>(At that point I might want to switch to IMAP for various reasons.)</p>
+</div>
+<div class="commenttools">(<a href="/~cks/space/blog/sysadmin/SomedayIMAPOnlyForMe?showcomments#comments">One comment</a>.)</div>
+	<small>Written on <a href="/~cks/space/blog/2016/06/11/">11</a> <a href="/~cks/space/blog/2016/06/">June</a> <a href="/~cks/space/blog/2016/">2016</a>.</small> <br>
+<table border=0 width="100%"> 
+<tr> <td width="50%" style="padding-right: 0.5em"> <table> <tr> <td> &laquo; </td> <td> <a href="/~cks/space/blog/sysadmin/UniversitySysadminEmailMistake">An email mistake I've made as a long-term university sysadmin</a> </td> </tr> </table> </td>
+     <td width="50%" style="padding-left: 0.5em; border-left: 1px dotted;">  </td> </tr>
+</table>
+</div>
+<div class="sidebar">
+	<div class="readme"> <div class="wikitext"><p>These are my <a href="/~cks/space/blog/">WanderingThoughts</a> <br>
+(<a href="/~cks/space/AboutBlog">About the blog</a>)</p>
+
+<p><a href="/~cks/space/blog/__Index">Full index of entries</a> <br>
+<a href="/~cks/space/blog/__RecentComments">Recent comments</a></p>
+
+<p>This is part of <a href="/~cks/space/FrontPage">CSpace</a>, and is written by <a href="/~cks/space/People/ChrisSiebenmann">ChrisSiebenmann</a>. <br>
+Twitter: <a href="https://twitter.com/thatcks/">@thatcks</a></p>
+
+<p align="center">* * *</p>
+
+<p>Categories: <a href="/~cks/space/blog/links/">links</a>, <a href="/~cks/space/blog/linux/">linux</a>, <a href="/~cks/space/blog/programming/">programming</a>, <a href="/~cks/space/blog/python/">python</a>, <a href="/~cks/space/blog/snark/">snark</a>, <a href="/~cks/space/blog/solaris/">solaris</a>, <a href="/~cks/space/blog/spam/">spam</a>, <a href="/~cks/space/blog/sysadmin/">sysadmin</a>, <a href="/~cks/space/blog/tech/">tech</a>, <a href="/~cks/space/blog/unix/">unix</a>, <a href="/~cks/space/blog/web/">web</a></p>
+
+<p>This is a <a href="/~cks/space/dwiki/DWiki">DWiki</a>. <br>
+<a href="/~cks/space/help/GettingAround">GettingAround</a> <br>
+(<a href="/~cks/space/help/Help">Help</a>)</p>
+</div> </div>
+<div class="sidesearch" style="font-size: small"> <form method=get action="/~cks/space/">Search: <input name=search size=15></form> </div>
+</div>
+</div>
+ 
+</div>
+
+<hr> Page tools: <a href="/~cks/space/blog/sysadmin/SomedayIMAPOnlyForMe?source" rel="nofollow">View Source</a>, <a href="/~cks/space/blog/sysadmin/SomedayIMAPOnlyForMe?writecomment" rel="nofollow">Add Comment</a>. 
+<div class="bottombar">
+	<div class="left"><form method=get action="/~cks/space/">Search: <input name=search size=15></form></div>
+	<div class="right"><form method=post action="/~cks/space/.login">
+Login: <input name=login size=10>
+Password: <input type=password name=password size=10>
+<input type=hidden name=view value=login>
+<input type=hidden name=page value="blog/sysadmin/SomedayIMAPOnlyForMe">
+<input type=submit value="Login"></form></div> <div class="clear"></div>
+</div>
+<div id="atomfeeds">Atom Syndication: <a type="application/atom+xml" href="/~cks/space/blog/sysadmin/SomedayIMAPOnlyForMe?atomcomments" rel="nofollow">Recent Comments</a>.</div>
+
+<hr> Last modified: Sat Jun 11 00:21:22 2016 <br>
+<address>This dinky wiki is brought to you by the Insane Hackers
+Guild, Python sub-branch.</address>
+</body>
+</html>
